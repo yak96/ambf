@@ -1,5 +1,7 @@
 # CRACK WITH FACEBOOK • BETA •
 
+# FIX BUG 99%
+
 # install bahan²
 
 $ pkg update && pkg upgrade
