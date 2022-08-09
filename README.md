@@ -22,13 +22,11 @@ $ pip install futures
 ```
 # FAST RUN SCRIPT AMBF
 
+```
 $ git clone https://github.com/HIKMAT-xyz/ambf
-
 $ cd ambf
-
 $ git pull
-
 $ python ambf.py
-
+```
 # PAKE IYA FOLLOW KAGAK.. KONTOL LU
 
