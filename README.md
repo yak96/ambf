@@ -30,3 +30,8 @@ $ python ambf.py
 ```
 # PAKE IYA FOLLOW KAGAK.. KONTOL LU
 
+# SOCIAL MEDIA SAYA:) 
+[![](https://img.shields.io/badge/Github-black?logo=Github&logoColor=black&labelColor=white)](https://github.com/HIKMAT-xyz)[![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/shopa.nenk.io)
+[![](https://img.shields.io/badge/Instagram-red?logo=Instagram&logoColor=red&labelColor=white)](https://www.instagram.com/hikmatxf) [![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=Brightgreen&labelColor=white)](https://wa.me/6282115413282text=Halo+kak+hikmatXD+ganteng)
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=have+fun+for+script+kami....!+)
