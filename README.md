@@ -34,7 +34,7 @@ $ pip install futures
 
 # FAST RUN SCRIPT AMBF
 
-$ git clone https//github.com/HIKMAT-xyz/ambf
+$ git clone https://github.com/HIKMAT-xyz/ambf
 
 $ cd ambf
 
