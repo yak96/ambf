@@ -410,14 +410,59 @@ def menu():
 
 
 def cracked_publickey():
-	cuy = input(f"{garis} apakah anda ingin crack massal ({H}y{P}/{M}t{P}) ? : {H}")
+	print("")
+	x=f"{P2}ketik {H2}y{P2} untuk crack massal public\n{P2}ketik {H2}t{P2} untuk crack public"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	cuy = input(f"{garis} apakah anda ingin crack massal ({H}y{P}/{M}t{P}/{K}g{P}) ? : {H}")
 	if cuy in ["y","Y"]:
 		massal_cracked_public()
 	elif cuy in ["t","T"]:
 		cracked_public()
+	elif cuy in ["g","G"]:
+		cracked_email()
 	else:
 		jalan(f"{garis} isi yang benar ")
 		cracked_publickey() 
+
+def cracked_email():
+	x = 0
+	print("")
+	n=f"{P2}[01] domain @gmail.com\n{P2}[02] domain @yahoo.com\n{P2}[03] domain @hotmail.com\n{P2}[04] domain @outlook.com"
+	vprint(panel(n,style=f"{warna_warni_rich_cerah}"))
+	sae = input(f"{garis} pilih : {H}")
+	if sae in["1"]:
+		email = "@gmail.com"
+		nama = input(f"{garis} input nama : ")
+		jumlah = int(input(f"{garis} input limit : "))
+		for z in range(jumlah):
+			x +=1
+			id.append(email+"<=>"+nama)
+			sys.stdout.write(f"\r{garis} sedang mengumpulkan id {len(id)} ");sys.stdout.flush()
+	elif sae in["2"]:
+		email = "@yahoo.com"
+		nama = input(f"{garis} input nama : ")
+		jumlah = int(input(f"{garis} input limit : "))
+		for z in range(jumlah):
+			x +=1
+			id.append(email+"<=>"+nama)
+			sys.stdout.write(f"\r{garis} sedang mengumpulkan id {len(id)} ");sys.stdout.flush()
+	elif sae in["3"]:
+		email = "@hotmail.com"
+		nama = input(f"{garis} input nama : ")
+		jumlah = int(input(f"{garis} input limit : "))
+		for z in range(jumlah):
+			x +=1
+			id.append(email+"<=>"+nama)
+			sys.stdout.write(f"\r{garis} sedang mengumpulkan id {len(id)} ");sys.stdout.flush()
+	elif sae in["4"]:
+		email = "@outlook.com"
+		nama = input(f"{garis} input nama : ")
+		jumlah = int(input(f"{garis} input limit : "))
+		for z in range(jumlah):
+			x +=1
+			id.append(email+"<=>"+nama)
+			sys.stdout.write(f"\r{garis} sedang mengumpulkan id {len(id)} ");sys.stdout.flush()
+	settingers()
 
 def massal_cracked_public():
 	print("")
