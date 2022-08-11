@@ -35,3 +35,10 @@ $ python ambf.py
 [![](https://img.shields.io/badge/Instagram-red?logo=Instagram&logoColor=red&labelColor=white)](https://www.instagram.com/hikmatxf) [![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=Brightgreen&labelColor=white)](https://wa.me/6282115413282text=Halo+kak+hikmatXD+ganteng)
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=have+fun+for+script+kami....!+)
+
+```
+# JOIN GRUP ADMIN YAKK!!... AKAN TERUS UPDATE DAN NANTI TRUS DIKASIH TAU UPDATE AN NYA:) 
+
+LINK : https://chat.whatsapp.com/DvXb23TbzQ1CfDvXwr2ifj
+
+```
