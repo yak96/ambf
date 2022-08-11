@@ -1345,7 +1345,7 @@ def opsi_detect(uiz,pw):
 		cp+=1
 		
 def cek_apk(ses,kuki):
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":kuki}).text
+	w=ses.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":kuki}).text
 	sop = BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
@@ -1356,7 +1356,7 @@ def cek_apk(ses,kuki):
 		for i in range(len(game)):
 			print("\r"+garis+" %s%s. %s%s"%(P,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),P))
 
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":kuki}).text
+	w=ses.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":kuki}).text
 	sop = BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
